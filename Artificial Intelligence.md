@@ -196,9 +196,27 @@ What is important, these two problems can be developed independently, by differe
 
 High-level ideas behind ALP was informally explained by [Marvin Minsky](https://www.youtube.com/watch?v=nXrTXiJM4Fg). In short, Solomonoff's approach to AGI is a top-down approach, when solid theoretical framework of AI is established first, and then we derive custom AIs with specific properties using approximation techniques. As opposite, classical bottom-up approach is playing around with different substances being inspired either from neuroscience or from cognitive science and waiting for intelligence to emerge in experiments. They can work together very well, as custom AIs are developed in a bottom-up experimental way and then merged into more powerful ensemble in top-down way by Solomonoff's Induction. 
 
+## Observer Problem ##
+
+There are two groups of people. Then fist one in the qualia formula "I see a red light" focuses on the "redness" or, in other words, on a *state of experience*. The second one focuses on the "seeing" or on the *process of experience*. Both stances are, basically, the same, because experience is self-referential and a kind of "dualistic" -- what is a process in one context will be *observed* as a state in another one. The *problem* is that from the subjective perspective of the Observer, it happens simultaneously, that is, apparently, contradicting Physics, prohibiting self-causality and causal cycles. Observer, given his experience is true, may not exist, unless Physics is wrong.
+
+Illusionist's stance for this problem is that experience "isn't true". For example, free will is an illusion caused by Observer's *limited capacities* to observe it's own decision-making process. Stephen Wolfram in his recent [essay](https://writings.stephenwolfram.com/2023/12/observer-theory/) explains it in a popular format, how Physics (as we know it) emerges in the eyes of computationally-limited Observer.
+
+Reasoning process of a computationally-bound Observer can't be neither sound, nor complete, leading to various *cognitive biases* -- deviations from the idealistic (not computationally bound) reasoning process. Deviations may be *random* (with a specific distribution) and or *systematic*. Both types of distortions in a self-referential environment become *specific features* of Observer's self-description. Realistic Observer is defined by his cognitive biases, relative to the idealistic one.
+
+In this sense, human-likeness -- is a specific set of cognitive biases defining (by limitation) what and how we can observe.
+
+## Computational Consciousness ##
+
+TODO: LLMs and Observers, Ethical considerations ...
+
 ## Self-Referential Machine ##
 
-It's just a language to describe certain computational phenomena succinctly, there is nothing special from computational perspective.
+**SR-machine** just a language to describe certain computational phenomena succinctly, there is nothing special from computational perspective.
+
+Note that there may be many types of self-reference. One type is a program that can read it's own [description](https://en.wikipedia.org/wiki/Kleene%27s_recursion_theorem). Here, self-referentiality is meant in a broader sense, as ability of a program to observe and react on its own *progress in computation*. And, in this sense, existing models of computations like Universal Turing Machine or [Stored Program Computer](https://en.wikipedia.org/wiki/Stored-program_computer) are already either immediately self-referential, or can be made from with minimal fixes. What we are interested in is a *high-level* SR-machine, where we can use efficient *abstractions* of both computational states and processes.
+
+TODO: Forward-chaining rule engines (Drools-like) as high-level SR-machines. DSL Engine in Memoria.
 
 ## Psychology Basics ##
 

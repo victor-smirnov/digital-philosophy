@@ -1,17 +1,4 @@
----
-title: "Philosophy of Memoria - Intro"
-description: ""
-lead: ""
-date: 2021-10-28T02:07:12-04:00
-lastmod: 2021-10-28T02:07:12-04:00
-draft: false
-images: []
-menu: 
-  docs:
-    parent: "d-phil"
-weight: 5000
-toc: true
----
+# Philosophy of Memoria - Intro
 
 Digital philosophy (DP) is not that "digital", after all, and not really a philosophy in the traditional meaning of this word. It's Algorithmic Information Theory together with some related disciplines (mostly, Psychology), applied to problems where it's not that easy to derive formal proofs or conduct reproducible experiments -- in the same [realm](/docs/misc/realm) Philosophy of Mind and Epistemology are typically operating in. DP does not currently have any new ideas. Many may claim that they "had been discussing this in Usenet conferences" ant it's most likely true. DP is a _compilation_ of existing ideas, with the central focus on the _Observer Problem_, a much more _practical_ reformulation of the Mind-Body problem from the philosophy of mind. 
 

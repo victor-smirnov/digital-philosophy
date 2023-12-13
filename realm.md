@@ -1,17 +1,4 @@
----
-title: "Mind-Body Problem Explained"
-description: ""
-lead: ""
-date: 2021-10-28T02:07:12-04:00
-lastmod: 2021-10-28T02:07:12-04:00
-draft: false
-images: []
-menu: 
-  docs:
-    parent: "misc"
-weight: 25000
-toc: true
----
+# Mind-Body Problem Explained
 
 Q: What is the central question in the philosophy of mind?
 
