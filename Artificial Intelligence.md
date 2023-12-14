@@ -198,25 +198,61 @@ High-level ideas behind ALP was informally explained by [Marvin Minsky](https://
 
 ## Observer Problem ##
 
-There are two groups of people. Then fist one in the qualia formula "I see a red light" focuses on the "redness" or, in other words, on a *state of experience*. The second one focuses on the "seeing" or on the *process of experience*. Both stances are, basically, the same, because experience is self-referential and a kind of "dualistic" -- what is a process in one context will be *observed* as a state in another one. The *problem* is that from the subjective perspective of the Observer, it happens simultaneously, that is, apparently, contradicting Physics, prohibiting self-causality and causal cycles. Observer, given his experience is true, may not exist, unless Physics is wrong.
+There are two groups of people. Then fist one in the qualia formula "I see a red light" focuses on the "redness" or, in other words, on a *state of experience*. The second one focuses on the "seeing" or on the *process of experience*. Both stances are, basically, the same, because experience is self-referential and a kind of "dualistic" -- what is a process in one context will be *observed* as a state in another one. The *problem* is that from the subjective perspective of the Observer, it happens simultaneously, that is, apparently, contradicting Physics, prohibiting self-causality and causal cycles. Observer, given its/his experience is true, may not exist, unless Physics is wrong.
 
 Illusionist's stance for this problem is that experience "isn't true". For example, free will is an illusion caused by Observer's *limited capacities* to observe it's own decision-making process. Stephen Wolfram in his recent [essay](https://writings.stephenwolfram.com/2023/12/observer-theory/) explains it in a popular format, how Physics (as we know it) emerges in the eyes of computationally-limited Observer.
 
-Reasoning process of a computationally-bound Observer can't be neither sound, nor complete, leading to various *cognitive biases* -- deviations from the idealistic (not computationally bound) reasoning process. Deviations may be *random* (with a specific distribution) and or *systematic*. Both types of distortions in a self-referential environment become *specific features* of Observer's self-description. Realistic Observer is defined by his cognitive biases, relative to the idealistic one.
+Reasoning process of a computationally-bound Observer can't be neither sound, nor complete, leading to various *cognitive biases* -- deviations from the idealistic (not computationally bound) reasoning process. Deviations may be *random* (with a specific distribution) and/or *systematic*. Both types of distortions in a self-referential environment become *specific features* of Observer's self-description, so Observer will be defining itself via those features, seeing them as *fundamental*. Realistic Observer is defined by its cognitive biases, relative to the idealistic one.
 
-In this sense, human-likeness -- is a specific set of cognitive biases defining (by limitation) what and how we can observe.
+In this sense, human-likeness -- is a specific set of cognitive biases defining (by limitation) *what* and *how* we can observe. 
 
-## Computational Consciousness ##
+In general case, computationally-bounded observer is defined by its computational architecture, its long-term memory and its runtime constraints.
 
-TODO: LLMs and Observers, Ethical considerations ...
+Observer is linked with *beingness* -- specific quality of perception. In the prase "I am", "am" -- is beingness of Observer. In this sense, beingness *precedes* redness in *verbal reports* of qualia.
+
+Observer problem is not just an abstract question from Philosophy of Mind. Observer implicitly exists in most of sentences and propositions of *natural language*. Observer is extremely rich in its manifestations (both internal reports and behaviours), which, as it has been stated above (see (de-)composability of phenomenal reports), are hard to formalize.
+
+From an information-theoretic perspective, if we want to include Observer into our cognitive architecture, it has to be an information-rich entity, the more -- the better. Ideally, all information in the system should directly or indirectly contribute to the Observer. It can't be "just a box" on a architecture's diagram or a node in a graph. This will not work.
+
+## Observer's physical substrate ##
+
+As it has been noted above, idealized self-referentiality is not physically possible, at least not with current Physics, because it implies self-causation and causal cycles. But we can achieve *nearly* the same results if we relax these restrictions a little-bit:
+
+1. Time-line is discrete, and experience of the Observer happens in time-aligned *frames*.
+2. At time T1, instead of acting on itself, the entity will be acting on the memorized accumulated *image of itself* from all previous frames, creating a *new image*.
+3. At time T2 this new image becomes experience of the Observer. Go to (2).
+
+Time-delta can be made infinitely-small, so discrete nature of the model is not an issue. Fundamental limitation is that current experience of an Observer is actually a *memory*(*), it *has already happened*. Physical substrate of experience is various *delay lines* -- environments with relatively slower signal propagation speeds. Notable physical system of this type is [Operational amplifier](https://en.wikipedia.org/wiki/Operational_amplifier). Given, all these *structural arguments* we may start considering this integrated circuit (IC) as a primitive Observer, with just a 'few bits of experiences', a very short-term memory and no long-term memory.
+
+Another minimal functional example is a [D-type flip-flop](https://en.wikipedia.org/wiki/Flip-flop_(electronics)#Gated_D_latch). Here we have two competing feedback loops, foming either 0- or 1-attractors. 
+
+This type of IC is interesting as a tool in the context of Philosophy of Mind, to formulate and conduct thought experiments. There a lot (millions) of memory cells of this type in modern computers. If individual memory cell has some primitive form of experience, do experiences of multiple cells add-up to something more? (This is a *hard problem of Panpsychism*).
+
+(*) It's just a coincidence that Memoria Framework is named this way. "Memoria" is a Latin word and is a fourth canon of Rhetoric.
 
 ## Self-Referential Machine ##
 
-**SR-machine** just a language to describe certain computational phenomena succinctly, there is nothing special from computational perspective.
+Note that there may be many types of self-reference. One type is a program that can read it's own [description](https://en.wikipedia.org/wiki/Kleene%27s_recursion_theorem). Here, self-referentiality is meant in a broader sense, as ability of a program to observe and react on its own *progress in computation*. 
 
-Note that there may be many types of self-reference. One type is a program that can read it's own [description](https://en.wikipedia.org/wiki/Kleene%27s_recursion_theorem). Here, self-referentiality is meant in a broader sense, as ability of a program to observe and react on its own *progress in computation*. And, in this sense, existing models of computations like Universal Turing Machine or [Stored Program Computer](https://en.wikipedia.org/wiki/Stored-program_computer) are already either immediately self-referential, or can be made from with minimal fixes. What we are interested in is a *high-level* SR-machine, where we can use efficient *abstractions* of both computational states and processes.
+> *Definition*. In this context, Self-referential machine (**SR-machine**) is a class of computational formalisms (computation + memory architecture) ensuring that sufficiently-good approximations of Observer-like behaviour and self-reporting, defined above, will be discovered faster by an algorithmic induction process than it can be achieved for other classes of formalisms.
 
-TODO: Forward-chaining rule engines (Drools-like) as high-level SR-machines. DSL Engine in Memoria.
+So, there is *nothing special* in a SR-machine *by itself*. It does not have any extra expressive or computational power relative to other types of machines. Specific features, that make it essentially self-referential, may not be necessary immediately visible, for example, with using some "self-rerefential data structures". What matters is actual *efficiency of algorithmic induction* resulting in Observer-like behaviour and *self-reporting*.
+
+There are currently three types of algorithmic induction, that work in practice:
+
+1. *Manual process*, the same one used we are using for writing programs, with human programmer deeply in the loop.
+2. *Program-space exploration*, like Genetic Programming and other Metaoptimization techniques.
+3. *High-dimensional differential methods* for metric spaces like Deep Learning.
+
+So the question is if there is a way to speed-up specific class of algorithmic induction is the direction we need. The entire point of this article is that we can use [introspection](https://medium.com/@victorsmirnov/how-to-compensate-introspection-illusion-62f357e9326c) to get those bits of information. 
+
+To facilitate this process there will be the *ObserverKit* sub-project in the  Memoria Framework. [DSL Engine](https://memoria-framework.dev/docs/overview/vm/) will be containing a [Drools](https://www.drools.org/)-like RETE-based forward-chaining (FC) rule engine. RETE works by finding patterns in events in working memory and it seems to be a perfect fit to unify the process/state duality in a single set of abstractions. 
+
+ObserverKit is meant to be used for studying Observer-related computational phenomena in a manual way or with using simple ML. It's also expected to be completely *safe* (see below). given history of AI and ML, it's highly unlikely that it may demonstrate significant level of human-likeness or achieve human level in autonomy. 
+
+## Computational Consciousness ##
+
+TODO: LLMs and Observers, Ethical & safety considerations ...
 
 ## Psychology Basics ##
 
