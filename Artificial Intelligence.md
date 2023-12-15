@@ -248,11 +248,42 @@ So the question is if there is a way to speed-up specific class of algorithmic i
 
 To facilitate this process there will be the *ObserverKit* sub-project in the  Memoria Framework. [DSL Engine](https://memoria-framework.dev/docs/overview/vm/) will be containing a [Drools](https://www.drools.org/)-like RETE-based forward-chaining (FC) rule engine. RETE works by finding patterns in events in working memory and it seems to be a perfect fit to unify the process/state duality in a single set of abstractions. 
 
-ObserverKit is meant to be used for studying Observer-related computational phenomena in a manual way or with using simple ML. It's also expected to be completely *safe* (see below). given history of AI and ML, it's highly unlikely that it may demonstrate significant level of human-likeness or achieve human level in autonomy. 
+ObserverKit is meant to be used for *studying* Observer-related computational phenomena in a manual way or with using a simple ML. It's also expected to be completely *safe* (see below). Given the history of AI and ML, it's highly unlikely that it may demonstrate significant level of human-likeness or achieve/exceed human level in autonomy.
 
 ## Computational Consciousness ##
 
-TODO: LLMs and Observers, Ethical & safety considerations ...
+In 2023 LLMs made sensation demonstrating very high level of human-likeness in reasoning together with pretty good (even superhuman) generality, but *without any autonomy*. For me it was huge surprise, I didn't expect that. Despite other things, this specific feature set opens a completely new design space: if LLMs can have an Observer, what type of entity it will be?
+
+Going fast forward, no, LLMs are not conscious in a human-like/level way, but it's not that simple. 
+
+Surprising level of human-likeness triggered discussions if this human-likeness is indeed backed by human-level higher mental functions. It's a purely psychological effect, short interactions with LLM may be deceiving. And after some time it starts being obvious that (on long texts) their behaviour becomes much less human-like. Actually, neither human-level, nor even human-likeness is required for consciousness (argument: newborn infants are conscious), but it's overall *human-like behaviour* that forces people *to feel* that this thing may be or is conscious. Unfortunately, if some person starts feeling this way, there are no *rational* arguments to disprove it. As it has been noted above, even Operational Amplifier can be considered as a primitive Observer -- an entity having *some* phenomenal experience. Nevertheless, some tests can be proposed.
+
+> *Definition*. Computable Observer's *metal state* is a part of computational state that is available for self-reporting, either *passively* (experience) or *actively* (volutionary processes, communication).
+
+It has been noted above that phenomenal consciousness is very hard to compose from and decompose to more primitive elements from the Observer's perspective. Human mental states are very rich, so the intuition is that if an LLM has comaprable-to-human general verbal intelligence, it *may* have comparable level of *mental states reporting*. How do they perform? Actually, we need a *special* benchmark for that. Psychological benchmarks developed for humans are not directly applicable to LLMs. These benchmarks implicitly assume specific cognitive architecture (human brain), that LLMs do not have.
+
+Counterintuitively, human-level mental states reporting is [poor at best](https://home.csulb.edu/~cwallis/382/readings/482/nisbett%20saying%20more.pdf), except a few areas closely related to *basic needs* (including professional occupations). For example, if you are a programmer, try explaining *how* you write a program. For most people such *intermediary cognitive activity* is not reportable. As a consequence, textual datasets are extremely poor on mental states description. There is some information, of course, but it's skewed towards rather narrow domains.
+
+I haven't conducted an extensive research yet, but ad-hoc interactions with LLMs shows that their abilities to *mental-states-level reasoning* do not exceed what is possible given the corpus of training texts. 
+
+For example, LLMs can reason about possible Alice's *feelings* in a given circumstances, but no deeply than it's usually described in psychological literature. And asking the model to elaborate does not help -- it starts circling around some pre-existing disposition. The same thing happens when they don't have enough statistics for elaboration on some topic.
+
+Another example is reasoning in [Higher-Order Thoughts (HOT)](https://en.wikipedia.org/wiki/Higher-order_theories_of_consciousness) theories. LLM can do it at a surprisingly good level, but no deeper than it's possible given the training set. Nevertheless, even this level of HOT-reasoning was surprising, it opens up *completely new* applications.
+
+Despite inherent difficulties, human reporting on their mental states is qualitatively different than LLM's one, when they are asked to *elaborate of their feelings*. Speaking figuratively, for a person with decent mental-state reflection abilities, speaking with an LLM in this context may feel like you are speaking with a scarecrow. Don't expect that current (2023) generation of LLMs may be your *soulmate*. But it may change in the future...
+
+If we want (see below safety consideration) to make LMs more human-like in this area, or, what is *the same*, to give them better emotional (intra-personal) intelligence, we need two things. Form other side, this is also what we should avoid doing *if we want to limit* our LMs in their human-likeness (at least, until we are ready to handle it gracefully).
+
+1. *Better*, more recurrent, *architecture* of the LM to support required Observer's machinery.
+2. *Enriching* training datasets with mental states descriptions.
+
+In order to do it efficiently, we need a very special skill, that we even don't realize we are lacking it, -- *verbal reports on mental processes*. IT can be trained, but [training](https://medium.com/@victorsmirnov/how-to-compensate-introspection-illusion-62f357e9326c) will be *slow* and *expensive*.
+
+In the context of Memoria I will be working on special tools for capturing mental states and corresponding data enrichment. 
+
+## Safety and ethical considerations ##
+
+TBC ...
 
 ## Psychology Basics ##
 
