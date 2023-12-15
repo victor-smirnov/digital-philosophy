@@ -277,7 +277,7 @@ If we want (see below safety consideration) to make LMs more human-like in this 
 1. *Better*, more recurrent, *architecture* of the LM to support required Observer's machinery.
 2. *Enriching* training datasets with mental states descriptions.
 
-In order to do it efficiently, we need a very special skill, that we even don't realize we are lacking it, -- *verbal reports on mental processes*. IT can be trained, but [training](https://medium.com/@victorsmirnov/how-to-compensate-introspection-illusion-62f357e9326c) will be *slow* and *expensive*.
+In order to do it efficiently, we need a very special skill, that we even don't realize we are lacking it, -- *verbal reports on mental processes*. IT can be trained, but [training](#process-introspection) will be *slow* and *expensive*.
 
 In the context of Memoria I will be working on special tools for capturing mental states and corresponding data enrichment. 
 
