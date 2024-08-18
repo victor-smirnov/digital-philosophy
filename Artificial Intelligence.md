@@ -289,6 +289,8 @@ In order to do it efficiently, we need a very special skill, that we even don't 
 
 In the context of Memoria I will be working on special tools for capturing mental states and corresponding data enrichment. 
 
+## Intrapersonal Intelligence ##
+
 ## Safety and Ethical Considerations ##
 
 TBC ...
