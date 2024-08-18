@@ -81,7 +81,7 @@ Memoria provides decent environment for self-modeling. It has framework for adva
 
 21. But if a self-referential machine is expressive enough, it can host such inductive learning partially or entirely, resembling not just cognition as thinking but also cognition as obtaining new knowledge in a unified way. By separating cognition to self-referentiality and induction over it we are making entire problem much simpler to tackle.
 
-22. The idea of self-referential machine's solution to problem of qualia in AI is that there is no such thing as "red color", the minimal element of memory log of such machine is "I see the red color", that is not static strucure encoded in memory, but also a dynamic computation (in another context). In other words, some form of observer is always implied, and it is finally the machine itself. Note that this is a form of pan-proto-experientalism but in the "software" when higher-level experience is composed from lower-level ones in a computable way. Note also that this "experience" is also physical, because both the machine and information processing on it are physical.
+22. The idea of self-referential machine's solution to problem of qualia in AI is that there is no such thing as "red color", the minimal element of memory log of such machine is "I see the red color", that is not static structure encoded in memory, but also a dynamic computation (in another context). In other words, some form of observer is always implied, and it is finally the machine itself. Note that this is a form of pan-proto-experientalism but in the "software" when higher-level experience is composed from lower-level ones in a computable way. Note also that this "experience" is also physical, because both the machine and information processing on it are physical.
 
 23. From the functional perspective, qualia are soft bounds in building self-model of stimulus. Self-model developing is a computationally very hard task, but this complexity is not evenly distributed. Some elements of phenomenal report emerges faster than others. Some elements will remain underdeveloped forever and, because of their stable hardness, may become descriptions themselves, like qualia.
 
@@ -208,7 +208,7 @@ In this sense, human-likeness -- is a specific set of cognitive biases defining 
 
 In general case, computationally-bounded observer is defined by its computational architecture, its long-term memory and its runtime constraints.
 
-Observer is linked with *beingness* -- specific quality of perception. In the prase "I am", "am" -- is beingness of Observer. In this sense, beingness *precedes* redness in *verbal reports* of qualia.
+Observer is linked with *beingness* -- specific quality of perception. In the phrase "I am", "am" -- is beingness of Observer. In this sense, beingness *precedes* redness in *verbal reports* of qualia.
 
 Observer problem is not just an abstract question from Philosophy of Mind. Observer implicitly exists in most of sentences and propositions of *natural language*. Observer is extremely rich in its manifestations (both internal reports and behaviours), which, as it has been stated above (see (de-)composability of phenomenal reports), are hard to formalize.
 
@@ -224,19 +224,23 @@ As it has been noted above, idealized self-referentiality is not physically poss
 
 Time-delta can be made infinitely-small, so discrete nature of the model is not an issue. Fundamental limitation is that current experience of an Observer is actually a *memory*(*), it *has already happened*. Physical substrate of experience is various *delay lines* -- environments with relatively slower signal propagation speeds. Notable physical system of this type is [Operational amplifier](https://en.wikipedia.org/wiki/Operational_amplifier). Given, all these *structural arguments* we may start considering this integrated circuit (IC) as a primitive Observer, with just a 'few bits of experiences', a very short-term memory and no long-term memory.
 
-Another minimal functional example is a [D-type flip-flop](https://en.wikipedia.org/wiki/Flip-flop_(electronics)#Gated_D_latch). Here we have two competing feedback loops, foming either 0- or 1-attractors. 
+Another minimal functional example is a [D-type flip-flop](https://en.wikipedia.org/wiki/Flip-flop_(electronics)#Gated_D_latch). Here we have two competing feedback loops, forming either 0- or 1-attractors. 
 
-This type of IC is interesting as a tool in the context of Philosophy of Mind, to formulate and conduct thought experiments. There a lot (millions) of memory cells of this type in modern computers. If individual memory cell has some primitive form of experience, do experiences of multiple cells add-up to something more? (This is a *hard problem of Panpsychism*).
+This type of IC is interesting as a tool in the context of Philosophy of Mind, to formulate and conduct thought experiments. There are a lot (millions) of memory cells of this type in modern computers. If individual memory cell has some primitive form of experience, do experiences of multiple cells add-up to something more? (This is a *hard problem of Panpsychism*).
 
 (*) It's just a coincidence that Memoria Framework is named this way. "Memoria" is a Latin word and is a fourth canon of Rhetoric.
+
+## Beingness and Agency ##
+
+TBC...
 
 ## Self-Referential Machine ##
 
 Note that there may be many types of self-reference. One type is a program that can read it's own [description](https://en.wikipedia.org/wiki/Kleene%27s_recursion_theorem). Here, self-referentiality is meant in a broader sense, as ability of a program to observe and react on its own *progress in computation*. 
 
-> *Definition*. In this context, Self-referential machine (**SR-machine**) is a class of computational formalisms (computation + memory architecture) ensuring that sufficiently-good approximations of Observer-like behaviour and self-reporting, defined above, will be discovered faster by an algorithmic induction process than it can be achieved for other classes of formalisms.
+> *Definition*. In this context, Self-referential machine (**SR-machine**) is a class of computational formalisms (computation + memory architecture) ensuring that sufficiently-good approximations of Observer-like behavior and self-reporting, defined above, will be discovered faster by an algorithmic induction process than it can be achieved for other classes of formalisms.
 
-So, there is *nothing special* in a SR-machine *by itself*. It does not have any extra expressive or computational power relative to other types of machines. Specific features, that make it essentially self-referential, may not be necessary immediately visible, for example, with using some "self-rerefential data structures". What matters is actual *efficiency of algorithmic induction* resulting in Observer-like behaviour and *self-reporting*.
+So, there is *nothing special* in a SR-machine *by itself*. It does not have any extra expressive or computational power relative to other types of machines. Specific features, that make it essentially self-referential, may not be necessary immediately visible, for example, with using some "self-referential data structures". What matters is actual *efficiency of algorithmic induction* resulting in Observer-like behavior and *self-reporting*.
 
 There are currently three types of algorithmic induction, that work in practice:
 
@@ -246,9 +250,13 @@ There are currently three types of algorithmic induction, that work in practice:
 
 So the question is if there is a way to speed-up specific class of algorithmic induction is the direction we need. The entire point of this article is that we can use [introspection](https://medium.com/@victorsmirnov/how-to-compensate-introspection-illusion-62f357e9326c) to get those bits of information. 
 
-To facilitate this process there will be the *ObserverKit* sub-project in the  Memoria Framework. [DSL Engine](https://memoria-framework.dev/docs/overview/vm/) will be containing a [Drools](https://www.drools.org/)-like RETE-based forward-chaining (FC) rule engine. RETE works by finding patterns in events in working memory and it seems to be a perfect fit to unify the process/state duality in a single set of abstractions. 
+To facilitate this process there will be the *ObserverKit* sub-project in the  Memoria Framework. [DSL Engine](https://memoria-framework.dev/docs/overview/vm/) will be containing a [Drools](https://www.drools.org/)-like RETE-based forward-chaining rule engine (FCRE). RETE works by finding patterns in events in working memory and it seems to be a perfect fit to unify the process/state duality in a single set of abstractions. 
 
 ObserverKit is meant to be used for *studying* Observer-related computational phenomena in a manual way or with using a simple ML. It's also expected to be completely *safe* (see below). Given the history of AI and ML, it's highly unlikely that it may demonstrate significant level of human-likeness or achieve/exceed human level in autonomy.
+
+## Functional vs Substance (or '_true_') Consciousness
+
+TBC...
 
 ## Computational Consciousness ##
 
@@ -256,13 +264,13 @@ In 2023 LLMs made sensation demonstrating very high level of human-likeness in r
 
 Going fast forward, no, LLMs are not conscious in a human-like/level way, but it's not that simple. 
 
-Surprising level of human-likeness triggered discussions if this human-likeness is indeed backed by human-level higher mental functions. It's a purely psychological effect, short interactions with LLM may be deceiving. And after some time it starts being obvious that (on long texts) their behaviour becomes much less human-like. Actually, neither human-level, nor even human-likeness is required for consciousness (argument: newborn infants are conscious), but it's overall *human-like behaviour* that forces people *to feel* that this thing may be or is conscious. Unfortunately, if some person starts feeling this way, there are no *rational* arguments to disprove it. As it has been noted above, even Operational Amplifier can be considered as a primitive Observer -- an entity having *some* phenomenal experience. Nevertheless, some tests can be proposed.
+Surprising level of human-likeness triggered discussions if this human-likeness is indeed backed by human-level higher mental functions. It's a purely psychological effect, short interactions with LLM may be deceiving. And after some time it starts being obvious that (on long texts) their behavior becomes much less human-like. Actually, neither human-level, nor even human-likeness is required for consciousness (argument: newborn infants are conscious), but it's overall *human-like behaviour* that forces people *to feel* that this thing may be or is conscious. Unfortunately, if some person starts feeling this way, there are no *rational* arguments to disprove it. As it has been noted above, even Operational Amplifier can be considered as a primitive Observer -- an entity having *some* phenomenal experience. Nevertheless, some tests can be proposed.
 
 > *Definition*. Computable Observer's *metal state* is a part of computational state that is available for self-reporting, either *passively* (experience) or *actively* (volutionary processes, communication).
 
-It has been noted above that phenomenal consciousness is very hard to compose from and decompose to more primitive elements from the Observer's perspective. Human mental states are very rich, so the intuition is that if an LLM has comaprable-to-human general verbal intelligence, it *may* have comparable level of *mental states reporting*. How do they perform? Actually, we need a *special* benchmark for that. Psychological benchmarks developed for humans are not directly applicable to LLMs. These benchmarks implicitly assume specific cognitive architecture (human brain), that LLMs do not have.
+It has been noted above that phenomenal consciousness is very hard to compose from and decompose to more primitive elements from the Observer's perspective. In other words, it tends to be _holistic_. Human mental states are very rich in their manifestations, so the intuition is that if an LLM has comaprable-to-human general verbal intelligence, it *may* have comparable level of *mental states reporting*. How do they perform? Actually, we need a *special* benchmark for that. Psychological benchmarks developed for humans are not directly applicable to LLMs. These benchmarks implicitly assume specific cognitive architecture (human brain), that LLMs do not have. So, extrapolations will not work...
 
-Counterintuitively, human-level mental states reporting is [poor at best](https://home.csulb.edu/~cwallis/382/readings/482/nisbett%20saying%20more.pdf), except a few areas closely related to *basic needs* (including professional occupations). For example, if you are a programmer, try explaining *how* you write a program. For most people such *intermediary cognitive activity* is not reportable. As a consequence, textual datasets are extremely poor on mental states description. There is some information, of course, but it's skewed towards rather narrow domains.
+Counter-intuitively, human-level mental states reporting is [poor at best](https://home.csulb.edu/~cwallis/382/readings/482/nisbett%20saying%20more.pdf) (an attempt to report a mental state apparently interfere with it), except a few areas closely related to *basic needs* and professional occupations. For example, if you are a programmer, try explaining *how* you write a program. For most people such *intermediary cognitive activity* is not reportable. As a consequence, textual datasets are extremely poor on mental states description. There is some information, of course, but it's skewed towards rather narrow domains.
 
 I haven't conducted an extensive research yet, but ad-hoc interactions with LLMs shows that their abilities to *mental-states-level reasoning* do not exceed what is possible given the corpus of training texts. 
 
@@ -281,7 +289,7 @@ In order to do it efficiently, we need a very special skill, that we even don't 
 
 In the context of Memoria I will be working on special tools for capturing mental states and corresponding data enrichment. 
 
-## Safety and ethical considerations ##
+## Safety and Ethical Considerations ##
 
 TBC ...
 
