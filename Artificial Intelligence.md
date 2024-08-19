@@ -190,7 +190,7 @@ In spite of so appealing properties of ALP and derived ensemble methods like Sol
 
 1. **Bootstrap problem** or **initial training sequence problem**. In order ALP-based methods to work efficiently on practical problems we have to supply initial set of models either directly, or in the form of initial training sequence. It's not that easy to determine such set of models for human brain. According to decent results, human brain is described with several tens of megabits of DNA code -- the Kolmogorov complexity of our brain. The models we are looking for are implicitly encoded in this DNA's part. It seems that even if several megabits of this code is sufficient, this task may have unpredictable complexity. 
 
-2. **Incremental learning problem**. Even if we already selected basic machine and identified bootstrapping set of models, we need an approximation of Universal Search to infer new models from data. Though this process is well-defined mathematically, it's not that easy to implement it in practice, because program space is too big for exhaustive search. In order to achieve desired performance we have to restrict this space somehow, either by restricting model class (as in MC-AIXI) or by using various heuristics as in Genetic Programming and Metaoptimization, or by a database of declarative and procedural restrictions applied to the search space. The latter case is the most flexible and the most complex one because such database may be very big in size even for simplest problems. 
+2. **Incremental learning problem**. Even if we have already selected basic machine and identified bootstrapping set of models, we need an approximation of Universal Search to infer new models from data. Though this process is well-defined mathematically, it's not that easy to implement it in practice, because program space is too big for exhaustive search. In order to achieve desired performance we have to restrict this space somehow, either by restricting model class (as in MC-AIXI) or by using various heuristics as in Genetic Programming and Metaoptimization, or by a database of declarative and procedural restrictions applied to the search space. The latter case is the most flexible and the most complex one because such database may be very big in size even for simplest problems. 
 
 What is important, these two problems can be developed independently, by different teams focused on their problems. This the way to go for Memoria. It will be focused on **compressed data structures**, where compression is understood not just in space-saving context, by as an enabler of generic intelligence. Additionally, Universal Search approximations are very important for general intelligence. 
 
@@ -232,13 +232,33 @@ This type of IC is interesting as a tool in the context of Philosophy of Mind, t
 
 ## Beingness and Agency ##
 
+Beingness and agency are closely related, but the latter has many different meaning in different domains. Most of them are reducible to the simple concept of an ability to act _independently_, so actions of an agent are _in some sense_ (ex: from an agent's point of view) are not determined by its environment and decision-making history. Otherwise there will be no independence. 
+
+Another aspect of an agency, also a pretty high-level one, is an ability of an agent to _be responsible_ for its actions made _independently_. The important property of those actions is that the agent must consider those action made by _it_. 
+
+Here come problems. Deterministic actors can't have agency, just because they will not be considering their actions made by them _independently_ or "no fee will". So, no true _responsibility_. Indeterminism via "true randomness" (let's assume that it exists) does not create agency ether, because true randomness is computationally incomprehensible, so computable actor will not be able to consider those actions as its "own" actions -- it _does not own them_. So, it's not a "free will", but "_random will_". And, no true responsibility in this case either.
+
+Fortunately, there is a _partial_ solution to this problem in the plain Determinism, if Indeterminism is purely _subjective_, so it's a property of an agent's _perceiving_ of its reality, not the reality itself. Let me explain it in an example.
+
+Physical agents are limited in their capabilities, there is only a finite amount of computational resources they can dedicate to analysis and decision-making. Limited produces _incomplete_ results and, if this incompleteness is somehow _systematic_ (repeatable in its appearance) it can be used as a _description_ of the process. So if an agent, performing a _self-analysis_ of a situation, can't determine all determinants of decisions made, it may describe these _missing causal links_ as a _subjective freedom_. Like, the _source_ of actions partially was the agent _itself_. 
+
+There are three main issues (loopholes) in such subjective Indeterminism visible in this example and which have to be addressed in real designs. 
+
+**First**, self-attribution of missing causal links is not ensured. An agent may attribute them to any other agent or to some "para-normal" activity, leading to dysfunction of agency. It's currently an open question, how to set up agent's cognitive architecture in the way maximizing probability of correct attribution. 
+
+**Second**, it's unclear what such agent will start doing when it _inevitably_ realizes that its subjective reality is a kind of _illusion_. That may lead to some severe dysfunction of agency, on at least a temporary basis. May be, such agents are intrinsically "mortal" in the sense that their self-perception needs to be periodically "rebooted" by erasing some information to restore proper self-perception. Options may wary. 
+
+**Third**, until an agent realized that his subjective reality isn't a "true reality" (including the second loophole), its reliance on its "subjective truths" will result in making specific errors. 
+
+To address those issues properly, we need to remember that the source of agent's approximate reasoning are physical limits to computations that it can perform. These limits in the physical world are _fundamental_, that means no agent can extend them significantly. What we need is to provide stable mapping of this limitation to proper attributions.
+
 TBC...
 
 ## Self-Referential Machine ##
 
 Note that there may be many types of self-reference. One type is a program that can read it's own [description](https://en.wikipedia.org/wiki/Kleene%27s_recursion_theorem). Here, self-referentiality is meant in a broader sense, as ability of a program to observe and react on its own *progress in computation*. 
 
-> *Definition*. In this context, Self-referential machine (**SR-machine**) is a class of computational formalisms (computation + memory architecture) ensuring that sufficiently-good approximations of Observer-like behavior and self-reporting, defined above, will be discovered faster by an algorithmic induction process than it can be achieved for other classes of formalisms.
+> *Definition*. In this context, Self-referential machine (**SR-machine**) is a class of computational formalisms (computation + memory architecture) ensuring that sufficiently good approximations of Observer-like behavior and self-reporting, defined above, will be discovered faster by an algorithmic induction process than it can be achieved for other classes of formalisms.
 
 So, there is *nothing special* in a SR-machine *by itself*. It does not have any extra expressive or computational power relative to other types of machines. Specific features, that make it essentially self-referential, may not be necessary immediately visible, for example, with using some "self-referential data structures". What matters is actual *efficiency of algorithmic induction* resulting in Observer-like behavior and *self-reporting*.
 
