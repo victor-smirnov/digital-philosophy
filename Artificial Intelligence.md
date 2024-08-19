@@ -264,8 +264,6 @@ It's currently an open question if we can say that Observer == Agency, or that t
 
 In case if better distinction may be required, we can say that an _Agent_ is a _Responsible Observer_, or an agent that can correct its own perceptions and decision-making processes.
 
-TBC...
-
 ## Self-Referential Machine ##
 
 Note that there may be many types of self-reference. One type is a program that can read it's own [description](https://en.wikipedia.org/wiki/Kleene%27s_recursion_theorem). Here, self-referentiality is meant in a broader sense, as ability of a program to observe and react on its own *progress in computation*. 
