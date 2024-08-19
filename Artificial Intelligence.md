@@ -262,6 +262,8 @@ If in the phrase "I am", Observer is "am" and is a _function_ responsible for cr
 
 It's currently an open question if we can say that Observer == Agency, or that the function of Observer implies both independent decision-making and responsibility. In many relatively complex cases (human-level) we may safely assume, that the answer is "yes". 
 
+In case if better distinction may be required, we can say that an _Agent_ is a _Responsible Observer_, or an agent that can correct its own perceptions and decision-making processes.
+
 TBC...
 
 ## Self-Referential Machine ##
