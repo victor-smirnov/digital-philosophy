@@ -252,6 +252,14 @@ There are three main issues (loopholes) in such subjective Indeterminism visible
 
 To address those issues properly, we need to remember that the source of agent's approximate reasoning are physical limits to computations that it can perform. These limits in the physical world are _fundamental_, that means no agent can extend them significantly. What we need is to provide stable mapping of this limitation to proper attributions.
 
+What is very good about such definition of agency is that it is compatible with the _free will_ concept and related social constructions built on top of it (hence, [Compatibilism](https://plato.stanford.edu/entries/compatibilism)). Note that responsibility has _correctional_ functions. In case of making a mistake, responsible agent is _promising_ (either implicitly or explicitly) _to correct_ its decision-making process. Punishment for the sake of suffering only makes sense if suffering has functional meaning. 
+
+But, at the end of the day, such agents will be able to integrate seamlessly into human society and vise versa.
+
+So far, the very basic agency is defined as a ability for an agent to make its _own_, causally-isolated decisions (including some form of taking responsibility, that is basically a kind of feedback loop). _Beingness_ is a very similar to that. The basic function of an Observer (an agent) is to distinguish itself from its environment: "I'm _not_ my environment". That implies _apparent_ causal independence of an Observer from its Environment. The point is that without causal independence, Observer (in its own perception) is just an essential part (causal extension) of its Environment. No agency is possible here.
+
+If in the phrase "I am", Observer is "am" and is a _function_ responsible for creating causally-independent subjective reality, then "I" is an Agency, representing the function of taking responsibility for actions made by Observer.
+
 TBC...
 
 ## Self-Referential Machine ##
