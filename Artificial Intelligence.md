@@ -258,7 +258,9 @@ But, at the end of the day, such agents will be able to integrate seamlessly int
 
 So far, the very basic agency is defined as a ability for an agent to make its _own_, causally-isolated decisions (including some form of taking responsibility, that is basically a kind of feedback loop). _Beingness_ is a very similar to that. The basic function of an Observer (an agent) is to distinguish itself from its environment: "I'm _not_ my environment". That implies _apparent_ causal independence of an Observer from its Environment. The point is that without causal independence, Observer (in its own perception) is just an essential part (causal extension) of its Environment. No agency is possible here.
 
-If in the phrase "I am", Observer is "am" and is a _function_ responsible for creating causally-independent subjective reality, then "I" is an Agency, representing the function of taking responsibility for actions made by Observer.
+If in the phrase "I am", Observer is "am" and is a _function_ responsible for creating causally-independent subjective reality, then "I" is an Agency, representing the function of taking responsibility for actions made by Observer. So, Beingness comes before Agency, the latter builds ip on foundation of the former. Or, this type of Agency (outlined here) requires Beingness.
+
+It's currently an open question if we can say that Observer == Agency, or that the function of Observer implies both independent decision-making and responsibility. In many relatively complex cases (human-level) we may safely assume, that the answer is "yes". 
 
 TBC...
 
