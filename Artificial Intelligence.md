@@ -140,7 +140,7 @@ As an example, when AI is reading certain emotional expressions, it's Narrow AI.
 
 ## Algorithmic Information Theory Basics ##
 
-Expressiveness and Visibility. Algorithms and data structures -- two edge cases of highly compressible strings and low compressible strings. What is in-between, is poorly visible for us. Compressed data structures: data that can answer more questions. Universal sequence prediction through compression. Reducing problems to sequence prediction. Correspondence with human behavior and cognition: artificial curiosity and simplicity principle, intrinsic motivation.  
+Expressiveness and Visibility. Algorithms and data structures -- two edge cases of highly compressible strings and low compressible strings. What is in-between, is poorly visible for us. Compressed data structures: data that can answer more questions. Universal sequence prediction through compression. Reducing problems to sequence prediction. Correspondence with human behavior and cognition: artificial curiosity and simplicity principle, intrinsic motivation.
 
 Incompressibility theorem and its implications for programming and AI: complex things are complex in any notation. For "practical" AGI there are approximation strategies throws ensemble (of narrow AIs) methods, that means that amount of intelligence, or the number of problem classes this AGI can solved efficiently, grows linearly with the size of ensemble. What we need is identify the set of problem classes human brain is able to solve efficiently. That is not an easy thing, but broad set of human cognitive material in form of literature, art, engineering and program sources can be used.
 
@@ -216,13 +216,13 @@ From an information-theoretic perspective, if we want to include Observer into o
 
 ## Observer's physical substrate ##
 
-As it has been noted above, idealized self-referentiality is not physically possible, at least not with current Physics, because it implies self-causation and causal cycles. But we can achieve *nearly* the same results if we relax these restrictions a little-bit:
+As it has been noted above, idealized self-referentiality is not physically possible, at least not with current Physics, because it implies self-causation and causal cycles. But we can achieve *nearly* the same results if we relax these restrictions a little bit:
 
-1. Time-line is discrete, and experience of the Observer happens in time-aligned *frames*.
+1. Time line is discrete, and experience of the Observer happens in time aligned *frames*.
 2. At time T1, instead of acting on itself, the entity will be acting on the memorized accumulated *image of itself* from all previous frames, creating a *new image*.
 3. At time T2 this new image becomes experience of the Observer. Go to (2).
 
-Time-delta can be made infinitely-small, so discrete nature of the model is not an issue. Fundamental limitation is that current experience of an Observer is actually a *memory*(*), it *has already happened*. Physical substrate of experience is various *delay lines* -- environments with relatively slower signal propagation speeds. Notable physical system of this type is [Operational amplifier](https://en.wikipedia.org/wiki/Operational_amplifier). Given, all these *structural arguments* we may start considering this integrated circuit (IC) as a primitive Observer, with just a 'few bits of experiences', a very short-term memory and no long-term memory.
+Time-delta can be made infinitely small, so discrete nature of the model is not an issue. Fundamental limitation is that current experience of an Observer is actually a *memory*(*), it *has already happened*. Physical substrate of experience is various *delay lines* -- environments with relatively slower signal propagation speeds. Notable physical system of this type is [Operational amplifier](https://en.wikipedia.org/wiki/Operational_amplifier). Given, all these *structural arguments* we may start considering this integrated circuit (IC) as a primitive Observer, with just a 'few bits of experiences', a very short-term memory and no long-term memory.
 
 Another minimal functional example is a [D-type flip-flop](https://en.wikipedia.org/wiki/Flip-flop_(electronics)#Gated_D_latch). Here we have two competing feedback loops, forming either 0- or 1-attractors. 
 
@@ -232,7 +232,7 @@ This type of IC is interesting as a tool in the context of Philosophy of Mind, t
 
 ## Beingness and Agency ##
 
-Beingness and agency are closely related, but the latter has many different meaning in different domains. Most of them are reducible to the simple concept of an ability to act _independently_, so actions of an agent are _in some sense_ (ex: from an agent's point of view) are not determined by its environment and decision-making history. Otherwise there will be no independence. 
+Beingness and agency are closely related. The latter has many different meanings in different domains. Most of them are reducible to the simple concept of an ability to act _independently_, so actions of an agent are _in some sense_ (ex: from an agent's point of view) are not fully determined by its environment and decision-making history. Otherwise there will be no independence. 
 
 Another aspect of an agency, also a pretty high-level one, is an ability of an agent to _be responsible_ for its actions made _independently_. The important property of those actions is that the agent must consider those action made by _it_. 
 
@@ -240,7 +240,7 @@ Here come problems. Deterministic actors can't have agency, just because they wi
 
 Fortunately, there is a _partial_ solution to this problem in the plain Determinism, if Indeterminism is purely _subjective_, so it's a property of an agent's _perceiving_ of its reality, not the reality itself. Let me explain it in an example.
 
-Physical agents are limited in their capabilities, there is only a finite amount of computational resources they can dedicate to analysis and decision-making. Limited produces _incomplete_ results and, if this incompleteness is somehow _systematic_ (repeatable in its appearance) it can be used as a _description_ of the process. So if an agent, performing a _self-analysis_ of a situation, can't determine all determinants of decisions made, it may describe these _missing causal links_ as a _subjective freedom_. Like, the _source_ of actions partially was the agent _itself_. 
+Physical agents are limited in their capabilities, there is only a finite amount of computational resources they can dedicate to analysis and decision-making. Limited produces _incomplete_ results and, if this incompleteness is somehow _systematic_ (repeatable in its appearance) it can be used as a _description_ of the process. So if an agent, performing a _self-analysis_ of a situation, can't determine all determinants of decisions made, it may describe these _missing causal links_ as a _subjective freedom_. Like, the _source_ of actions partially was the agent _itself_.
 
 There are three main issues (loopholes) in such subjective Indeterminism visible in this example and which have to be addressed in real designs. 
 
@@ -252,41 +252,51 @@ There are three main issues (loopholes) in such subjective Indeterminism visible
 
 To address those issues properly, we need to remember that the source of agent's approximate reasoning are physical limits to computations that it can perform. These limits in the physical world are _fundamental_, that means no agent can extend them significantly. What we need is to provide stable mapping of this limitation to proper attributions.
 
-What is very good about such definition of agency is that it is compatible with the _free will_ concept and related social constructions built on top of it (hence, [Compatibilism](https://plato.stanford.edu/entries/compatibilism)). Note that responsibility has _correctional_ functions. In case of making a mistake, responsible agent is _promising_ (either implicitly or explicitly) _to correct_ its decision-making process. Punishment for the sake of suffering only makes sense if suffering has functional meaning. 
+What is especially good about such definition of agency is that it is compatible with the concept of _free will_ and related social constructions built on top of it (hence, [Compatibilism](https://plato.stanford.edu/entries/compatibilism)). Note that responsibility has _correctional_ functions. In case of making a mistake, responsible agent is _promising_ (either implicitly or explicitly) _to correct_ its decision-making process. Punishment for the sake of suffering only makes sense if suffering has functional meaning.
 
-But, at the end of the day, such agents will be able to integrate seamlessly into human society and vise versa.
+But at the end of the day, such agents will be able to integrate seamlessly into human society and vise versa.
 
-So far, the very basic agency is defined as a ability for an agent to make its _own_, causally-isolated decisions (including some form of taking responsibility, that is basically a kind of feedback loop). _Beingness_ is a very similar to that. The basic function of an Observer (an agent) is to distinguish itself from its environment: "I'm _not_ my environment". That implies _apparent_ causal independence of an Observer from its Environment. The point is that without causal independence, Observer (in its own perception) is just an essential part (causal extension) of its Environment. No agency is possible here.
+So far, the basic agency is defined as an ability for an agent to make its _own_, causally-isolated decisions (including some form of taking responsibility, that is basically a kind of feedback loop). _Beingness_ is defined in a similar way. Basic function of an Observer (an agent) is to distinguish itself from its environment via _self-causation_: "I'm _not_ my environment". 
 
-If in the phrase "I am", Observer is "am" and is a _function_ responsible for creating causally-independent subjective reality, then "I" is an Agency, representing the function of taking responsibility for actions made by Observer. So, Beingness comes before Agency, the latter builds ip on foundation of the former. Or, this type of Agency (outlined here) requires Beingness.
+If in the phrase "I am", Observer is "am" and is a _function_ responsible for creating self-causated subjective reality, then "I" is an Agency, representing the function of taking responsibility for actions made by Observer. So, Beingness comes before Agency, the latter builds up on foundation of the former. Or, this type of Agency (outlined here) requires Beingness.
 
 It's currently an open question if we can say that Observer == Agency, or that the function of Observer implies both independent decision-making and responsibility. In many relatively complex cases (human-level) we may safely assume, that the answer is "yes". 
 
-In case if better distinction may be required, we can say that an _Agent_ is a _Responsible Observer_, or an agent that can correct its own perceptions and decision-making processes.
+In case if better distinction may be required, we can say that an _Agent_ is a _Responsible Observer_, or an agent that can correct its own perceptions and decision-making processes via sufficiently capable _self-model_ (_Self-referential Agent).
+
+## Functional vs Substance (or '_true_') Consciousness
+
+There are two main views on the problem of consciousness. The **first** one is trying to find the answer to the question of **what** is consciousness and is looking for its **substance**. Basically, in the quale of _redness_ described in the phrase "I see a red light", what is the substance of the _light_ we _see_. Is it _physical_? If the _substance_ is non-physical, then it's a form of _Dualism_. If it's physical, then it's _Physicalism_. If the substance is special and separate from other physical substances (matter, energy, space, time, etc...), then Physicalism is _Non-Reductive_. Example: _Panpsychism_. If the substance of the subjective light is mapped to other physical substances, then such Physicalism is _Reductive_. This schema is a simplification, so in real life the classification is more "hairy" (has many nuances).
+
+The **second** view on the problem of consciousness is trying to answer the question **how** consciousness is unfolded in its interaction with Reality and itself or the **functional role** of consciousness and _mental states_. At this level functions aren't necessary mathematical, they are just relationships observed by the Observer itself and other external observers. _Functionalism_ can be, again, non-reductive or _holistic_ if those functions tend to be considered in isolation from other functions. If functions are considered _reducible_ to other functions, this is a _Reductive Functionalism_ (or just _Functionalism_). If functions are _computable_, this is _Computational Functionalism_ or simply _Computationalism_ -- that is the most popular view on the phenomenon of Consciousness in AI. From the contrary, Neuroscience tends to holistc variants of _Functionalism_ ("complex systems" and variants).
+
+[Reductive] Functionalism enjoys the possibility of reducing one functions to another functions and, finally, the [multiple realizability](https://en.wikipedia.org/wiki/Multiple_realizability) principle. If _observable_ functions are the same (_functional equivalence_), it doesn't matter how they are realized (reduction to substrate). For the most practical cases only observable functions of consciousness (e.g. Agency) matter. For the same reason it doesn't matter which programming language was used to implement a computable function, providing that observable effects of computations implement this abstract function.
+
+Reductive Functionalism is compatible with Physicalism because "what" is reducible to "how" and vice versa. So it's just two different perspectives on the same phenomenon. Nevertheless, as the set of known physical substrates is limited, it's not obvious to some specialists _how_ to reduce their own mental states to a known substrate. So, just to be on a safe side (safe from arguing) we may say that we are not trying to find the very physical substrate of consciousness and only focusing on _causal effects_ of mental states. 
+
+In this light, the Observer problem (see above) is a functional reduction of (observable) mental states to _delay lines_ -- physical substrate of a short-term memory. Observer is partially causally independent form its Environment and is _self-caused_, that is physically impossible. So, instead of acting on itself, Observer is acting on what will the _memory_ of itself in the future, but attributed to that future moment. Many (any?) physical systems with feedback loops over delay lines can be considered and evaluated as a functionally-equivalent nano-/micro-Observer.
+
+Note that Physicalism is not always compatible with Computational Functionalism. You may find authors saying that "true consciousness" (substance consciousness) can't be fully implemented either in a digital computer at all, or in computers with specific (e.g. von-Neumann) architectures. One example of such argument is that "causal flow" in digital computers is very different from the biological systems, so causal flows _correlated with consciousness_ in biological systems is rather hard to reproduce in digital computers.
 
 ## Self-Referential Machine ##
 
 Note that there may be many types of self-reference. One type is a program that can read it's own [description](https://en.wikipedia.org/wiki/Kleene%27s_recursion_theorem). Here, self-referentiality is meant in a broader sense, as ability of a program to observe and react on its own *progress in computation*. 
 
-> *Definition*. In this context, Self-referential machine (**SR-machine**) is a class of computational formalisms (computation + memory architecture) ensuring that sufficiently good approximations of Observer-like behavior and self-reporting, defined above, will be discovered faster by an algorithmic induction process than it can be achieved for other classes of formalisms.
+> *Definition*. In this context, Self-referential machine (**SR-machine**) is a class of computational formalisms (computation + memory architecture) ensuring that sufficiently good approximations of Observer/Agency-like behavior and self-reporting, defined above, will be discovered faster by an algorithmic induction process than it can be achieved for other classes of formalisms.
 
 So, there is *nothing special* in a SR-machine *by itself*. It does not have any extra expressive or computational power relative to other types of machines. Specific features, that make it essentially self-referential, may not be necessary immediately visible, for example, with using some "self-referential data structures". What matters is actual *efficiency of algorithmic induction* resulting in Observer-like behavior and *self-reporting*.
 
 There are currently three types of algorithmic induction, that work in practice:
 
-1. *Manual process*, the same one used we are using for writing programs, with human programmer deeply in the loop.
+1. *Manual process*, the same one we are using for writing programs, with human programmer deeply in the loop.
 2. *Program-space exploration*, like Genetic Programming and other Metaoptimization techniques.
 3. *High-dimensional differential methods* for metric spaces like Deep Learning.
 
-So the question is if there is a way to speed-up specific class of algorithmic induction is the direction we need. The entire point of this article is that we can use [introspection](https://medium.com/@victorsmirnov/how-to-compensate-introspection-illusion-62f357e9326c) to get those bits of information. 
+So the question is if there is a way to speed up specific class of algorithmic induction is the direction we need. The entire point of this article is that we can use [introspection](https://medium.com/@victorsmirnov/how-to-compensate-introspection-illusion-62f357e9326c) to get those bits of information. 
 
-To facilitate this process there will be the *ObserverKit* sub-project in the  Memoria Framework. [DSL Engine](https://memoria-framework.dev/docs/overview/vm/) will be containing a [Drools](https://www.drools.org/)-like RETE-based forward-chaining rule engine (FCRE). RETE works by finding patterns in events in working memory and it seems to be a perfect fit to unify the process/state duality in a single set of abstractions. 
+To facilitate this process there will be the *ObserverKit* (or *AgentKit*, depending on a conjuncture) sub-project in the  Memoria Framework. [DSLEngine](https://memoria-framework.dev/docs/overview/vm/) will be containing a [Drools](https://www.drools.org/)-like RETE-based forward-chaining rule engine (FCRE). RETE works by finding patterns in events in the working memory and it seems to be a perfect fit to unify the process/state duality in a single set of abstractions. 
 
-ObserverKit is meant to be used for *studying* Observer-related computational phenomena in a manual way or with using a simple ML. It's also expected to be completely *safe* (see below). Given the history of AI and ML, it's highly unlikely that it may demonstrate significant level of human-likeness or achieve/exceed human level in autonomy.
-
-## Functional vs Substance (or '_true_') Consciousness
-
-TBC...
+ObserverKit is meant to be used for *studying* Observer-related computational phenomena in a manual way or by using a simple ML (producing easily interpretable results). It's also expected to be completely *safe* (see below). Given the history of AI and ML, it's highly unlikely that it may demonstrate significant level of human-likeness or achieve/exceed human level in autonomy.
 
 ## Computational Consciousness ##
 
@@ -320,6 +330,8 @@ In order to do it efficiently, we need a very special skill, that we even don't 
 In the context of Memoria I will be working on special tools for capturing mental states and corresponding data enrichment. 
 
 ## Intrapersonal Intelligence ##
+
+TBC ...
 
 ## Safety and Ethical Considerations ##
 
