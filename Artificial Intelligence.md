@@ -278,7 +278,9 @@ In this light, the Observer problem (see above) is a functional reduction of (ob
 
 Note that Physicalism is not always compatible with Computational Functionalism. You may find authors saying that "true consciousness" (substance consciousness) can't be fully implemented either in a digital computer at all, or in computers with specific (e.g. von-Neumann) architectures. One example of such argument is that "causal flow" in digital computers is very different from the biological systems, so causal flows _correlated with consciousness_ in biological systems is rather hard to reproduce in digital computers.
 
-## Self-Referential Machine ##
+## Computational Consciousness ##
+
+### Self-Referential Machine ###
 
 Note that there may be many types of self-reference. One type is a program that can read it's own [description](https://en.wikipedia.org/wiki/Kleene%27s_recursion_theorem). Here, self-referentiality is meant in a broader sense, as ability of a program to observe and react on its own *progress in computation*. 
 
@@ -298,7 +300,7 @@ To facilitate this process there will be the *ObserverKit* (or *AgentKit*, depen
 
 ObserverKit is meant to be used for *studying* Observer-related computational phenomena in a manual way or by using a simple ML (producing easily interpretable results). It's also expected to be completely *safe* (see below). Given the history of AI and ML, it's highly unlikely that it may demonstrate significant level of human-likeness or achieve/exceed human level in autonomy.
 
-## Computational Consciousness ##
+### Computational Consciousness of LLMs ###
 
 In 2023 LLMs made sensation demonstrating very high level of human-likeness in reasoning together with pretty good (even superhuman) generality, but *without any autonomy*. For me it was huge surprise, I didn't expect that. Despite other things, this specific feature set opens a completely new design space: if LLMs can have an Observer, what type of entity it will be?
 
