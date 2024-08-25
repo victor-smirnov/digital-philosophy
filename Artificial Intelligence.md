@@ -278,6 +278,34 @@ In this light, the Observer problem (see above) is a functional reduction of (ob
 
 Note that Physicalism is not always compatible with Computational Functionalism. You may find authors saying that "true consciousness" (substance consciousness) can't be fully implemented either in a digital computer at all, or in computers with specific (e.g. von-Neumann) architectures. One example of such argument is that "causal flow" in digital computers is very different from the biological systems, so causal flows _correlated with consciousness_ in biological systems is rather hard to reproduce in digital computers.
 
+## Observer in Ontologies ##
+
+So, functional consciousness (FnC) is the way to go, and it's actually the way how it's measured in medicine: by functions. Normal consciousness (full alertness), stupor, sopor, coma, where generic functions of consciousness are gradually repressed. Even coma, under certain conditions, may be considered a partially conscious state.
+
+Another easily visible function of consciousness is _attention_. Or, not exactly attention (that is also a function of consciousness), but how mental sates _become conscious_. Higher-Order Thoughts ([HOT](https://plato.stanford.edu/entries/consciousness-higher)) family of theories of consciousness, where (simply speaking) mental state becomes conscious if it's "referenced" in a currently conscious mental state and the referenced one becomes attented.
+
+One of the most complicated aspects of FnC is that consciousness is _self-referential_ (another function, again) and this property can be found in many (if not all) functions. For example, the Observer -- is both _who_ is watching and _what_ is being watched. Another example is _attention_. In one context it's a capability of the Observer to select objects. In another context attention may be pointed to _itself_ (to attention, not necessary to the Observer). 
+
+More common phenomena of fitting Observer everywhere is [_antropomorphism_](https://en.wikipedia.org/wiki/Anthropomorphism). The more complex behavior an object may demonstrate, the likely is it being perceived by us as an Observer. That can be both explicit and _implicit_. Below is a brief GPT4-generated list of related phenomena from Epistemology: 
+
+1. **Subjectivism**: This is the epistemological position that knowledge is inherently subjective and that individuals can only know the world from their own perspective. In this view, all knowledge is filtered through personal experiences, making it difficult to objectively understand or describe the world outside of one’s own cognitive framework.
+2. **Solipsism**: This is an extreme form of subjectivism where one believes that only their own mind is sure to exist. All external reality, including other minds and objects, are perceived as extensions or projections of the individual's own mind. While not commonly held, solipsism reflects a view where the external world is interpreted purely in terms of the individual's experiences and behaviors.
+3. **Phenomenalism**: This theory posits that physical objects and events are reducible to sensory experiences. From this perspective, the external world is understood primarily through the individual's perceptual experiences. The implication here is that understanding of external objects is always mediated by personal sensory experiences, which can lead to interpreting external phenomena as specialized cases of one's own experiences.
+4. **Hermeneutic Circle**: In the context of epistemology, the hermeneutic circle refers to the idea that understanding is always a process of interpreting parts of an experience in the context of the whole and vice versa. This can lead to a situation where one's understanding of external objects is always influenced by their own preconceptions and experiences, potentially leading to a recursive interpretation where external behavior is seen as a reflection of one's own.
+
+If someone may think that it's easy to avoid such pitfalls and fallacies, there is the effect of [theory-ladenness](https://en.wikipedia.org/wiki/Theory-ladenness) -- when our perception of reality is shaped by our _theories_ of it. And, at the second step, measurements of reality contribute back to theories that affected those measurements (self-reinforcement loop). Notable example of such self-reinforcement is quantum indeterminism in the [Copenhagen interpretation](https://en.wikipedia.org/wiki/Copenhagen_interpretation) of QM. [Superdeterminism loophole](https://en.wikipedia.org/wiki/Superdeterminism) in Bell's theorem says that Indeterminist and Determinist hypotheses are both consistent with theoretical predictions, but the latter is largely rejected on an irrational grounds ("We don't want to live in a world where scientific discovery isn't possible" (because of Determinism)). 
+
+_Note that as it has been mentioned above, theories of subjectivity outlined here (Observer/Agency) are fully compatible with Superdeterminism. And Indeterminism by itself does not support Agency (it creates "random will" instead of "free will")._
+
+_Subjectivity_ (here, in a form of Observer and its theories of itself and Reality) is what actually distinguishes Epistemology from Ontology. The former deals with live human knowledge as it exists in our minds and, just because of that, there is an _implicit Observer_ in every mental representation of an Object. The latter (Ontology) is a _from of knowledge_ that is fully stripped from Subjectivity. It's not a someone's _point of view_. Observers may exist there, but only as objects/things.
+
+Actually, Ontology may contain a functional Observer, it's not a fundamental limitation. But we need to objectivise the process of observing -- by reducing subjectivity to objectivity. It isn't that simple. Some problems can be _ontologized_ relatively simply. Like, trivially, spatial relation between two objects. But the most are in the class of _hardly formalizable_ ones. Knowledge that relies on _feelings_, _emotions_, _motivation_, _intuition_ and other phenomena of this kind are pretty hard to express/describe/define using common ontological tools like RDF/OWL-based ontologies. It _is_ possible, but corresponding ontologies will be _huge_ in size (number of statements, because of aggressive materialization of self-referentiality). Working with such form of knowledge representation manually (without proper tools) is challenging. This is the main reason why traditional forms of ontologies aren't that popular in modeling higher mental functions: they can't catch and express essential properties of consciousness. Nevertheless, "subjectivization" of ontologies is possible and Memoria Framework will be exploring this area (see below).
+
+
+## Intrapersonal Intelligence ##
+
+TBC...
+
 ## Computational Consciousness ##
 
 ### Self-Referential Machine ###
