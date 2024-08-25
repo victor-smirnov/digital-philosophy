@@ -371,4 +371,3 @@ TBC ...
 
 Strong AI is about us, not about machines that think and feel.
 
-## Evolutionary Strategy for AGI ##
