@@ -302,7 +302,17 @@ _Subjectivity_ (here, in a form of Observer and its theories of itself and Reali
 Actually, Ontology may contain a functional Observer, it's not a fundamental limitation. But we need to objectivise the process of observing -- by reducing subjectivity to objectivity. It isn't that simple. Some problems can be _ontologized_ relatively simply. Like, trivially, spatial relation between two objects. But the most are in the class of _hardly formalizable_ ones. Knowledge that relies on _feelings_, _emotions_, _motivation_, _intuition_ and other phenomena of this kind are pretty hard to express/describe/define using common ontological tools like RDF/OWL-based ontologies. It _is_ possible, but corresponding ontologies will be _huge_ in size (number of statements, because of aggressive materialization of self-referentiality). Working with such form of knowledge representation manually (without proper tools) is challenging. This is the main reason why traditional forms of ontologies aren't that popular in modeling higher mental functions: they can't catch and express essential properties of consciousness. Nevertheless, "subjectivization" of ontologies is possible and Memoria Framework will be exploring this area (see below).
 
 
-## Intrapersonal Intelligence ##
+## Intrapersonal Intelligence and Digital Psychology ##
+
+There are many Psychological theories of Intelligence known, notable ones are Goleman's [Emotional Intelligence](https://en.wikipedia.org/wiki/Emotional_intelligence) (EI) and Gardner's [Multiple Intelligences](https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences) (MI) theories. Among others they (IMHO) are most important in the context of AI.
+
+The former (EI) is exploring the heuristic/guiding/motivational and other cognitive [functions of emotions](https://nobaproject.com/modules/functions-of-emotions) and feelings. It's very important for defining what is an _emotional knowledge_ and how we can describe it. Note that this specific aspect is not yet discussed in this document, but it will be -- in the future versions.
+
+The latter theory (MI) can be seen as an example of a _functional decomposition_ (reduction) of a holistic view on intelligence, and it does not mean that we in AI have to accept this decomposition "as is". But there is one specific sub-type of intelligence that is the most important not just in the context of AI, but for everything else that depends on person's cognitive capacities: _Intrapersonal Intelligence_ (I.I. or, here, IntraI).
+
+IntraI is a direct manifestation of a person's _self-modeling abilities_. Basically, it is an ability to _read_, _understand_, _control_ and _express_ the person's own mind. There may be other basic functions like _imagining_ a virtual mind and _interiorizing_ it.
+
+...
 
 Process introspection [can be improved.](https://medium.com/@victorsmirnov/how-to-compensate-introspection-illusion-62f357e9326c)
 
