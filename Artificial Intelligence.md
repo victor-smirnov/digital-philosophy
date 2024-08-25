@@ -304,6 +304,8 @@ Actually, Ontology may contain a functional Observer, it's not a fundamental lim
 
 ## Intrapersonal Intelligence ##
 
+Process introspection [can be improved.](https://medium.com/@victorsmirnov/how-to-compensate-introspection-illusion-62f357e9326c)
+
 TBC...
 
 ## Computational Consciousness ##
@@ -364,20 +366,6 @@ In the context of Memoria I will be working on special tools for capturing menta
 ## Safety and Ethical Considerations ##
 
 TBC ...
-
-## Psychology Basics ##
-
-Psychological definitions of higher mental functions are not suitable for AI because they intermix subjective and objective planes, that leads to controversies. Better system of definitions is necessary.
-
-## Emotional Intelligence ##
-
-What it is and how it works from AIT's perspective. Rational intelligence as a custom case of emotional one, and not as a separate system. Rationality is illusion.
-
-## Hard Problems of AI ##
-
-## Process Introspection ##
-
-Process introspection [can be improved.](https://medium.com/@victorsmirnov/how-to-compensate-introspection-illusion-62f357e9326c)
 
 ## Strong AI is a Basic Right ##
 
