@@ -330,6 +330,8 @@ ObserverKit is meant to be used for *studying* Observer-related computational ph
 
 ### Computational Consciousness of LLMs ###
 
+**Note that this section is currently being rewritten to take into account my recent thoughts and findings.**
+
 In 2023 LLMs made sensation demonstrating very high level of human-likeness in reasoning together with pretty good (even superhuman) generality, but *without any autonomy*. For me it was huge surprise, I didn't expect that. Despite other things, this specific feature set opens a completely new design space: if LLMs can have an Observer, what type of entity it will be?
 
 Going fast forward, no, LLMs are not conscious in a human-like/level way, but it's not that simple. 
@@ -358,10 +360,6 @@ If we want (see below safety consideration) to make LMs more human-like in this 
 In order to do it efficiently, we need a very special skill, that we even don't realize we are lacking it, -- *verbal reports on mental processes*. IT can be trained, but [training](#process-introspection) will be *slow* and *expensive*.
 
 In the context of Memoria I will be working on special tools for capturing mental states and corresponding data enrichment. 
-
-## Intrapersonal Intelligence ##
-
-TBC ...
 
 ## Safety and Ethical Considerations ##
 
