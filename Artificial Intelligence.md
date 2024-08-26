@@ -301,6 +301,19 @@ _Subjectivity_ (here, in a form of Observer and its theories of itself and Reali
 
 Actually, Ontology may contain a functional Observer, it's not a fundamental limitation. But we need to objectivise the process of observing -- by reducing subjectivity to objectivity. It isn't that simple. Some problems can be _ontologized_ relatively simply. Like, trivially, spatial relation between two objects. But the most are in the class of _hardly formalizable_ ones. Knowledge that relies on _feelings_, _emotions_, _motivation_, _intuition_ and other phenomena of this kind are pretty hard to express/describe/define using common ontological tools like RDF/OWL-based ontologies. It _is_ possible, but corresponding ontologies will be _huge_ in size (number of statements, because of aggressive materialization of self-referentiality). Working with such form of knowledge representation manually (without proper tools) is challenging. This is the main reason why traditional forms of ontologies aren't that popular in modeling higher mental functions: they can't catch and express essential properties of consciousness. Nevertheless, "subjectivization" of ontologies is possible and Memoria Framework will be exploring this area (see below).
 
+## Observer and Self-similarity Decomposition ##
+
+So, in the subjective reality Observer is projected everywhere. In the mathematics we know that there are special ("orthogonal") classes of functions we can use to decompose other functions into and then compose back without losses. The famous [Fourier transform](https://en.wikipedia.org/wiki/Fourier_transform) is a notable example. Another notable example is a [Wavelet transform](https://en.wikipedia.org/wiki/Wavelet_transform).
+
+The main idea of those transformations is to extract certain features from the function. For example, Fourier transform uncovers harmonic structure of a _signal_ and allows to analyze how this signal propagates in different physical environments. Each frequency of acoustic signals has some unique subjective 'sounding'. So, having the _frequency spectrum_ of a signal we may guess how it may sound to a human. 
+
+Classes of functions used in transformations need not to be orthogonal and complete. The latter guarantees that forward and backward transformations give us the original function. But it's not always required: [feature engineering/extraction](https://en.wikipedia.org/wiki/Feature_engineering) is a process of extracting low-dimensional "useful information" from high-dimensional real-life signals.
+
+Observer is a class of functions, so it can be used as a basis for a corresponding functional decomposition. Note that Observer is not a harmonic function, it included memory (delay lines) so even in a minimal form it can be difficult to use it as a basis in functional decompositions. At the high level, self-referential decomposition defines _self-similarity_ or how much _algorithmic information_ Observer and Object share in common. It would be rather hard to compute, but we have at least Normalized Compression Distance (NCD, see above) to quantify similarity between objects in a _generic_ way. 
+
+Self-similarity is a relationship that we can be either computed in-place using techniques like NCD, or we can pre-compute it and store in regular data structures. Or we may use some incremental exact or approximated solution, if possible, where recompute only a few bits of novel information and combine it with larger solution stored in a memory.
+
+TBC ...
 
 ## Intrapersonal Intelligence and Digital Psychology ##
 
@@ -310,7 +323,8 @@ The former (EI) is exploring the heuristic/guiding/motivational and other cognit
 
 The latter theory (MI) can be seen as an example of a _functional decomposition_ (reduction) of a holistic view on intelligence, and it does not mean that we in AI have to accept this decomposition "as is". But there is one specific sub-type of intelligence that is the most important not just in the context of AI, but for everything else that depends on person's cognitive capacities: _Intrapersonal Intelligence_ (I.I. or, here, IntraI).
 
-IntraI is a direct manifestation of a person's _self-modeling abilities_. Basically, it is an ability to _read_, _understand_, _control_ and _express_ the person's own mind. There may be other basic functions like _imagining_ a virtual mind and _interiorizing_ it.
+IntraI is a direct manifestation of a person's _self-modeling abilities_. Basically, it's an ability to _read_, _understand_, _control_ and _express_ the person's own mind. There are other basic functions like _imagining_ a virtual mind and _interiorizing_ it. 
+
 
 ...
 
@@ -381,3 +395,6 @@ TBC ...
 
 Strong AI is about us, not about machines that think and feel.
 
+## Relationships with Transhumanism ##
+
+TBC ...
