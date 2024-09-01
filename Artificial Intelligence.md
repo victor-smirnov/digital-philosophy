@@ -319,18 +319,15 @@ TBC ...
 
 There are many Psychological theories of Intelligence known, notable ones are Goleman's [Emotional Intelligence](https://en.wikipedia.org/wiki/Emotional_intelligence) (EI) and Gardner's [Multiple Intelligences](https://en.wikipedia.org/wiki/Theory_of_multiple_intelligences) (MI) theories. Among others they (IMHO) are most important in the context of AI.
 
-The former (EI) is exploring the heuristic/guiding/motivational and other cognitive [functions of emotions](https://nobaproject.com/modules/functions-of-emotions) and feelings. It's very important for defining what is an _emotional knowledge_ and how we can describe it. Note that this specific aspect is not yet discussed in this document, but it will be -- in the future versions.
+The former (EI) is exploring the heuristic/guiding/motivational and other cognitive [functions of emotions](https://nobaproject.com/modules/functions-of-emotions) and feelings (*). It's very important for defining what is an _emotional knowledge_ and how we can describe it. Note that this specific aspect is not yet discussed in this document, but it will be -- in the future versions.
 
-The latter theory (MI) can be seen as an example of a _functional decomposition_ (reduction) of a holistic view on intelligence, and it does not mean that we in AI have to accept this decomposition "as is". But there is one specific sub-type of intelligence that is the most important not just in the context of AI, but for everything else that depends on person's cognitive capacities: _Intrapersonal Intelligence_ (I.I. or, here, IntraI).
+(*) Note that we (as Observers) _express_ emotions but _experience_ feelings. We do not demonstrate feelings, only their behavioral signs. Not all emotions are ever experienced, and not all feelings are externally expressed as emotions, and not all signals which are functionally emotions are considered emotions. Terminologically, "it's complicated". We can even consider "thoughts" as a custom case of "feelings", under certain conditions. We can even experience emotions via observing their behavioral signs and metacognitive reverberations (our thoughts about thoughts about thoughts about our emotions). 
 
-IntraI is a direct manifestation of a person's _self-modeling abilities_. Basically, it's an ability to _read_, _understand_, _control_ and _express_ the person's own mind. There are other basic functions like _imagining_ a virtual mind and _interiorizing_ it. 
+The latter theory (MI) can be seen as an example of a _functional decomposition_ (reduction) of a holistic view on intelligence, and it does not mean that AI researchers have to accept this decomposition "as is". But there is one specific sub-type of intelligence that is the most important not just in the context of AI, but for everything else that depends on person's cognitive capabilities: _Intrapersonal Intelligence_ (I.I. or, here, IntraI).
 
+IntraI is a direct manifestation of person's _self-modeling abilities_. Basically, it's an ability to _read_, _understand_, _control_ and _express_ the person's own mind. There are other basic functions like _imagining_ a virtual mind and _interiorizing_ it. It was [noted above](#observer-in-ontologies) that Observer is deeply self-referential and self-referentiality becomes a _description_ (data structure). Without consistent self-model, agency is just broken, and agent's reports about its intentions are not reliable.
 
-...
-
-Process introspection [can be improved.](https://medium.com/@victorsmirnov/how-to-compensate-introspection-illusion-62f357e9326c)
-
-TBC...
+We cam improve Intrapersonal Intelligence, but it's not that simple. No self-model can be complete in the sense that Observer has full access to all details of its internal state. Moreover, as it has been noted above, this incompleteness is the _reason why_ Observer exist as a phenomena. But we definitely can improve Observer's access by giving it [_Observer-level theories_ of its inner machinery](https://medium.com/@victorsmirnov/how-to-compensate-introspection-illusion-62f357e9326c). Such theories are called _personal theories of mind_. Plain theories of mind in Psychology mean theories of other people's minds, that is not well-consistent.
 
 ## Computational Consciousness ##
 
