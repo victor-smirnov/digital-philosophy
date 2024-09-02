@@ -367,7 +367,7 @@ HL SRM is similar to LL SRM but the implementation is now human-optimized to all
 
 Again, the main purpose of HLSRM is to _explore_ and research self-referential functions, but now much closer to the real-life problems. In the context of research purposes, HLSRM may be used for implementing complex agents supposing to demonstrate functions of [strong Agency](#agency-types).
 
-### Case 3: Consciousness of LLMs 
+### Case 3: Consciousness of LLMs (Implicit SRM)
 
 Auto-regressive Transformers-based LLMs make an interesting case. Their apparent human-likeness is so good that sparkled [hot discussion](https://cajundiscordian.medium.com/is-lamda-sentient-an-interview-ea64d916d917) about higher mental functions like consciousness. After public release of ChatGPT and other language models general audience had chance to try it all themselves. It turned out that short interactions with LLMs may be _psychologically misleading_, and with time, "human-likeness" of LLMs diappears. LLMs have a lot of issues in various areas, that is additionally stopping many experts from considering them "sentient". For now, the stance that LLMs posses higher mental functions is marginal at best. At least, general audience is deeply skeptical. And there are no strong enough arguments for.
 
