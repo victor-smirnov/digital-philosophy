@@ -4,8 +4,6 @@
 
 Since AI is getting a hot topic and many folks started asking me about participating in AGI startups, I decided to outline my view on the topic using easy language. The following is my (Victor Smirnov) personal view on AI that other committers and contributors may not necessary share or support.
 
-[TOC]
-
 ## Too Long; Don't Read ##
 
 My views on AGI are largely influenced by or mostly consistent with the following theories: 
