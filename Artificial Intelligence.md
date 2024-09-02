@@ -367,38 +367,21 @@ HL SRM is similar to LL SRM but the implementation is now human-optimized to all
 
 Again, the main purpose of HLSRM is to _explore_ and research self-referential functions, but now much closer to the real-life problems. In the context of research purposes, HLSRM may be used for implementing complex agents supposing to demonstrate functions of [strong Agency](#agency-types).
 
-### Case 3: Computational Consciousness of LLMs 
+### Case 3: Consciousness of LLMs 
 
-**Note that this section is currently being rewritten to take into account my recent thoughts and findings.**
+Auto-regressive Transformers-based LLMs make an interesting case. Their apparent human-likeness is so good that sparkled [hot discussion](https://cajundiscordian.medium.com/is-lamda-sentient-an-interview-ea64d916d917) about higher mental functions like consciousness. After public release of ChatGPT and other language models general audience had chance to try it all themselves. It turned out that short interactions with LLMs may be _psychologically misleading_, and with time, "human-likeness" of LLMs diappears. LLMs have a lot of issues in various areas, that is additionally stopping many experts from considering them "sentient". For now, the stance that LLMs posses higher mental functions is marginal at best. At least, general audience is deeply skeptical. And there are no strong enough arguments for.
 
-In 2023 LLMs made sensation demonstrating very high level of human-likeness in reasoning together with pretty good (even superhuman) generality, but *without any autonomy*. For me it was huge surprise, I didn't expect that. Despite other things, this specific feature set opens a completely new design space: if LLMs can have an Observer, what type of entity it will be?
+Nevertheless, general perception of LLMs is biased towards their issues, because it's reflecting the way how ML works. In ML, if model generalizes well, than it's OK, let's move forward. If it doesn't, then we need to check why and update the training dataset and the model. So the focus is on errors. The question why model works, if it works, is rarely being asked (interpretaility).
 
-Going fast forward, no, LLMs are not conscious in a human-like/level way, but it's not that simple. 
+The same thing is happening with LLMs. Developers are eager to improve scores in benchmarks and all attention is to errors: is it still hallucinating, how it's in reasoning tasks and so on. But if you ask _how_ it follows instructions when it works fine, the last answer (after you are sent to redo your transformer architectures learning curriculum) will be "it's a stochastic parrot". Well, it's not that simple... 
 
-Surprising level of human-likeness triggered discussions if this human-likeness is indeed backed by human-level higher mental functions. It's a purely psychological effect, short interactions with LLM may be deceiving. And after some time it starts being obvious that (on long texts) their behavior becomes much less human-like. Actually, neither human-level, nor even human-likeness is required for consciousness (argument: newborn infants are conscious), but it's overall *human-like behaviour* that forces people *to feel* that this thing may be or is conscious. Unfortunately, if some person starts feeling this way, there are no *rational* arguments to disprove it. As it has been noted above, even Operational Amplifier can be considered as a primitive Observer -- an entity having *some* phenomenal experience. Nevertheless, some tests can be proposed.
+Two systems are functionally (approximately) equivalent if the implement (approximately) the same set of functions. For computable functions we don't even bother about their implementation because all programming languages are approximately the same in terms of performance and memory usage and _fully_ functionally equivalent. Under Computational Functionalism the same logic applies to humans vs LLMs.
 
-> *Definition*. Computable Observer's *metal state* is a part of computational state that is available for self-reporting, either *passively* (experience) or *actively* (volutionary processes, communication).
+Let's introduce some complex task: analyzing what some person may experience reading Kipling's "If-" poetry using the tool of [Higher-Order Thougts (HOT)]((https://en.wikipedia.org/wiki/Higher-order_theories_of_consciousness)) theories of consciousness: [link to the GPT-4 generated chat](https://chatgpt.com/c/9ecbd322-cf76-460a-b4d9-f1e034e5d909). 
 
-It has been noted above that phenomenal consciousness is very hard to compose from and decompose to more primitive elements from the Observer's perspective. In other words, it tends to be _holistic_. Human mental states are very rich in their manifestations, so the intuition is that if an LLM has comaprable-to-human general verbal intelligence, it *may* have comparable level of *mental states reporting*. How do they perform? Actually, we need a *special* benchmark for that. Psychological benchmarks developed for humans are not directly applicable to LLMs. These benchmarks implicitly assume specific cognitive architecture (human brain), that LLMs do not have. So, extrapolations will not work...
+We can see here that GPT-4 can reason about complex mental states in both forward and backward modes. What's interesting is that LLMs (at least publicly available "tuned" ones) do not have access to their own inner mental states, they do not have their own _introspection_. Nevertheless, they _act_, like they do have such access to _human mental states_ associated with the process of the given text _reading_.
 
-Counter-intuitively, human-level mental states reporting is [poor at best](https://home.csulb.edu/~cwallis/382/readings/482/nisbett%20saying%20more.pdf) (an attempt to report a mental state apparently interfere with it), except a few areas closely related to *basic needs* and professional occupations. For example, if you are a programmer, try explaining *how* you write a program. For most people such *intermediary cognitive activity* is not reportable. As a consequence, textual datasets are extremely poor on mental states description. There is some information, of course, but it's skewed towards rather narrow domains.
-
-I haven't conducted an extensive research yet, but ad-hoc interactions with LLMs shows that their abilities to *mental-states-level reasoning* do not exceed what is possible given the corpus of training texts. 
-
-For example, LLMs can reason about possible Alice's *feelings* in a given circumstances, but no deeply than it's usually described in psychological literature. And asking the model to elaborate does not help -- it starts circling around some pre-existing disposition. The same thing happens when they don't have enough statistics for elaboration on some topic.
-
-Another example is reasoning in [Higher-Order Thoughts (HOT)](https://en.wikipedia.org/wiki/Higher-order_theories_of_consciousness) theories. LLM can do it at a surprisingly good level, but no deeper than it's possible given the training set. Nevertheless, even this level of HOT-reasoning was surprising, it opens up *completely new* applications.
-
-Despite inherent difficulties, human reporting on their mental states is qualitatively different than LLM's one, when they are asked to *elaborate of their feelings*. Speaking figuratively, for a person with decent mental-state reflection abilities, speaking with an LLM in this context may feel like you are speaking with a scarecrow. Don't expect that current (2023) generation of LLMs may be your *soulmate*. But it may change in the future...
-
-If we want (see below safety consideration) to make LMs more human-like in this area, or, what is *the same*, to give them better emotional (intra-personal) intelligence, we need two things. Form other side, this is also what we should avoid doing *if we want to limit* our LMs in their human-likeness (at least, until we are ready to handle it gracefully).
-
-1. *Better*, more recurrent, *architecture* of the LM to support required Observer's machinery.
-2. *Enriching* training datasets with mental states descriptions.
-
-In order to do it efficiently, we need a very special skill, that we even don't realize we are lacking it, -- *verbal reports on mental processes*. IT can be trained, but [training](#process-introspection) will be *slow* and *expensive*.
-
-In the context of Memoria I will be working on special tools for capturing mental states and corresponding data enrichment. 
+TBC ...
 
 ## Safety and Ethical Considerations ##
 
