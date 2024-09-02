@@ -264,6 +264,11 @@ It's currently an open question if we can say that Observer == Agency, or that t
 
 In case if better distinction may be required, we can say that an _Agent_ is a _Responsible Observer_, or an agent that can correct its own perceptions and decision-making processes via sufficiently capable _self-model_ (_Self-referential Agent_).
 
+Note that form the purely practical perspective we can introduce two types of Agency:
+<a name="agency-types"></a>
+1. **Strong Agency** (or just **Agency**) is when an Agent has to make "free decisions" and "be responsible for them", so it need to demonstrate those essential function. Human-level strong Agency is required for an Agent to become an essential part of human society.
+2. **Weak Agency** is when function of an agent does not require making "free decisions". For example, when an agent executes a deterministic algorithm like sorting. Strong agency _subsumes_ (is a superset of) weak Agency.
+
 ## Functional vs Substance (or '_true_') Consciousness
 
 There are two main views on the problem of consciousness. The **first** one is trying to find the answer to the question of **what** is consciousness and is looking for its **substance**. Basically, in the quale of _redness_ described in the phrase "I see a red light", what is the substance of the _light_ we _see_. Is it _physical_? If the _substance_ is non-physical, then it's a form of _Dualism_. If it's physical, then it's _Physicalism_. If the substance is special and separate from other physical substances (matter, energy, space, time, etc...), then Physicalism is _Non-Reductive_. Example: _Panpsychism_. If the substance of the subjective light is mapped to other physical substances, then such Physicalism is _Reductive_. This schema is a simplification, so in real life the classification is more "hairy" (has many nuances).
@@ -335,7 +340,7 @@ So, now the topic that used to be the most controversial. But it's not that bad.
 
 Functional consciousness bites the problem form another side: how consciousness appears in relations between Observer, its environment, itself alone, itself in the environment, other observers, reflections of the Observer in other observers and so on. The space of possible relations is enormous. Computational Functionalism is aiming to model those functional relationships via algorithms and data structures.
 
-Note that Computational Functionalism produces, by design, a _Weak_ for of consciousness (by Searle's criteria): it flies like a duck, quacks like a duck, swims like a duck, the it's a duck. Certain [Physicalists stances](https://link.springer.com/article/10.1007/s11098-024-02182-y) on on the problem may assume that the same functional consciousness can be considered 'true consciousness' if implemented in a right basis. Like, brain --yes, von-Neumann architecture (computers with separate compute and memory) -- no, in-memory computing (tight coupling of memory and compute) -- yes again.
+Note that Computational Functionalism produces, by design, a _Weak_ for of consciousness (by Searle's criteria): it flies like a duck, quacks like a duck, swims like a duck, the it's a duck. Certain [Physicalists stances](https://link.springer.com/article/10.1007/s11098-024-02182-y) on the problem may assume that the same functional consciousness can be considered 'true consciousness' if implemented in a right basis. Like, in a brain-like structures -- yes, in von-Neumann architecture (computers with separate compute and memory) -- no, in in-memory computing device (tight coupling of memory and compute) -- yes, again.
 
 The drawback of a functional account to consciousness is that audience will divide in unequal parts between pro-strong and pro-weak parties on a mostly-irrational basis. Because there is no formal test for substance consciousness, there is no formal way to change minds of both parties. These considerations (social perception and impact) must be taken into account when we are working with functional consciousness.
 
@@ -343,31 +348,25 @@ Working with functional consciousness is simpler than one may think. We need a l
 
 Once we have a representative corpus of phenomenal reports we need to make a _generative model_ of it, or (that is the same) to _compress_ it. Techniques like auto-regressiveness or MC-AIXI-CTW can be used to make those models interactive (if they are purely predictive).
 
-There are three basic cases here: two _explicit_ modeling techniques and one _implicit_.
+The artifact we are looking for needs to implement _Observer_ and _Agency_ basic functions, and will be called a _Self-Referential Machine_ or _SR-Machine_ or SRM. The name is non-standard but sef-referentiality is widely considered to be the basic functional substrate of consciousness, so let it be. There are three basic cases of SRM: two _explicit_ ones and one _implicit_ one.
 
-### Self-Referential Machine ###
+### Case 1: Low-level SR-Machine (LLSRM)
 
-**Note that this section is currently being rewritten to take into account my recent thoughts and findings.**
+In this work it's proposed to implement Observer by 'breaking' self-causality via memory. Observer does not act on itself _now_ but on its _future_ version, storing this version in memory and reusing it later, but Observer does not know it. The same is for Agency, implemented via reflection on the memory state history in the way that for certain decisions the agent (Observer + Agency) must come to the conclusion that _it is_ the source of decisions (simulation self-causality in decision-making). 
 
-Note that there may be many types of self-reference. One type is a program that can read it's own [description](https://en.wikipedia.org/wiki/Kleene%27s_recursion_theorem). Here, self-referentiality is meant in a broader sense, as ability of a program to observe and react on its own *progress in computation*. 
+The whole point of an SRM is to find/prove that Observer/Agency can be _composable_ via self-referentiality: more complex self-referential function can be achieved by composition of more simple and primitive self-referential function by composing external behavior (including its traces in memory) and history of internal states in memory. 
 
-> *Definition*. In this context, Self-referential machine (**SR-machine**) is a class of computational formalisms (computation + memory architecture) ensuring that sufficiently good approximations of Observer/Agency-like behavior and self-reporting, defined above, will be discovered faster by an algorithmic induction process than it can be achieved for other classes of formalisms.
+LLSRM can be programmed manually, but better it can be _induced_ (ML-ed) using inductive programming techniques like genetic programming (GP). Another option is to make LLSRM differentiable and use gradient-based methods like ANNs. The second way is tricky for such level of complexity, but nevertheless, doable.
 
-So, there is *nothing special* in a SR-machine *by itself*. It does not have any extra expressive or computational power relative to other types of machines. Specific features, that make it essentially self-referential, may not be necessary immediately visible, for example, with using some "self-referential data structures". What matters is actual *efficiency of algorithmic induction* resulting in Observer-like behavior and *self-reporting*.
+There is no expectations that such _minimalistic_ LLSRM combined with GP can achieve human level complexity of functional consciousness. The main purpose is to explore and research phenomena while it's small -- is a toy-like setting. It's also may be considered safe (see below) from many unwanted social effects, because it's really hard if ever possible to achieve sufficiently complex behavior this way.
 
-There are currently three types of algorithmic induction, that work in practice:
+### Case 2: High-level SR-Machine (HLSRM)
 
-1. *Manual process*, the same one we are using for writing programs, with human programmer deeply in the loop.
-2. *Program-space exploration*, like Genetic Programming and other Metaoptimization techniques.
-3. *High-dimensional differential methods* for metric spaces like Deep Learning.
+HL SRM is similar to LL SRM but the implementation is now human-optimized to allow rich _manual_ programming. It may/will be based on [DSLEngine](https://memoria-framework.dev/docs/overview/vm/) and its forward/backward chaining rule engine (FCRE/BCRE). FCRE is based on the RETE algorithm and is a general purpose _event-driven_ programming system functionally similar to [Drools](https://www.drools.org/). It's pretty easy to express even very complex self-referential scenarios with FCRE. And BCRE extends it's abilities to work with large data sets.
 
-So the question is if there is a way to speed up specific class of algorithmic induction is the direction we need. The entire point of this article is that we can use [introspection](https://medium.com/@victorsmirnov/how-to-compensate-introspection-illusion-62f357e9326c) to get those bits of information. 
+Again, the main purpose of HLSRM is to _explore_ and research self-referential functions, but now much closer to the real-life problems. In the context of research purposes, HLSRM may be used for implementing complex agents supposing to demonstrate functions of [strong Agency](#agency-types).
 
-To facilitate this process there will be the *ObserverKit* (or *AgentKit*, depending on a conjuncture) sub-project in the  Memoria Framework. [DSLEngine](https://memoria-framework.dev/docs/overview/vm/) will be containing a [Drools](https://www.drools.org/)-like RETE-based forward-chaining rule engine (FCRE). RETE works by finding patterns in events in the working memory and it seems to be a perfect fit to unify the process/state duality in a single set of abstractions. 
-
-ObserverKit is meant to be used for *studying* Observer-related computational phenomena in a manual way or by using a simple ML (producing easily interpretable results). It's also expected to be completely *safe* (see below). Given the history of AI and ML, it's highly unlikely that it may demonstrate significant level of human-likeness or achieve/exceed human level in autonomy.
-
-### Computational Consciousness of LLMs ###
+### Case 3: Computational Consciousness of LLMs 
 
 **Note that this section is currently being rewritten to take into account my recent thoughts and findings.**
 
