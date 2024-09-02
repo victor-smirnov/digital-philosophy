@@ -1,4 +1,4 @@
-# Memoria and Artificial Intelligence #
+# Computational Functional Consciousness (with Memoria Framework) #
 
 **Note that this page is work in progress, as well as other parts of Memoria. So be patient. Thanks!** 
 
