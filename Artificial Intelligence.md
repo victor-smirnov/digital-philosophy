@@ -377,7 +377,7 @@ The same thing is happening with LLMs. Developers are eager to improve scores in
 
 Two systems are functionally (approximately) equivalent if the implement (approximately) the same set of functions. For computable functions we don't even bother about their implementation because all programming languages are approximately the same in terms of performance and memory usage and _fully_ functionally equivalent. Under Computational Functionalism the same logic applies to humans vs LLMs.
 
-Let's introduce some complex task: analyzing what some person may experience reading Kipling's "If-" poetry using the tool of [Higher-Order Thougts (HOT)]((https://en.wikipedia.org/wiki/Higher-order_theories_of_consciousness)) theories of consciousness: [link to the GPT-4 generated chat](https://chatgpt.com/c/9ecbd322-cf76-460a-b4d9-f1e034e5d909). 
+Let's introduce some complex task: analyzing what some person may experience reading Kipling's "If-" poetry using the tool of [Higher-Order Thougts (HOT)](https://en.wikipedia.org/wiki/Higher-order_theories_of_consciousness) theories of consciousness: [link to the GPT-4 generated chat](https://chatgpt.com/c/9ecbd322-cf76-460a-b4d9-f1e034e5d909). 
 
 We can see here that GPT-4 can reason about complex mental states in both forward and backward modes. What's interesting is that LLMs (at least publicly available "tuned" ones) do not have access to their own inner mental states, they do not have their own _introspection_. Nevertheless, they _act_, like they do have such access to _human mental states_ associated with the process of the given text _reading_.
 
