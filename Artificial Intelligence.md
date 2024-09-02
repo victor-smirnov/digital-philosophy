@@ -265,9 +265,10 @@ It's currently an open question if we can say that Observer == Agency, or that t
 In case if better distinction may be required, we can say that an _Agent_ is a _Responsible Observer_, or an agent that can correct its own perceptions and decision-making processes via sufficiently capable _self-model_ (_Self-referential Agent_).
 
 Note that form the purely practical perspective we can introduce two types of Agency:
-<a name="agency-types"></a>
+<a name="agency-types">
 1. **Strong Agency** (or just **Agency**) is when an Agent has to make "free decisions" and "be responsible for them", so it need to demonstrate those essential function. Human-level strong Agency is required for an Agent to become an essential part of human society.
 2. **Weak Agency** is when function of an agent does not require making "free decisions". For example, when an agent executes a deterministic algorithm like sorting. Strong agency _subsumes_ (is a superset of) weak Agency.
+</a>
 
 ## Functional vs Substance (or '_true_') Consciousness
 
