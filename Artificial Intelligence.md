@@ -331,7 +331,23 @@ We cam improve Intrapersonal Intelligence, but it's not that simple. No self-mod
 
 ## Computational Consciousness ##
 
+So, now the topic that used to be the most controversial. But it's not that bad. Substance consciousness is controversial because it's hard to find physical _substance_ for consciousness: either in a form of some "psychic" substance (Panpsychism) or "causal patterns of interaction". There are some candidates, but the level is so low that no practical problem can be addressed. 
+
+Functional consciousness bites the problem form another side: how consciousness appears in relations between Observer, its environment, itself alone, itself in the environment, other observers, reflections of the Observer in other observers and so on. The space of possible relations is enormous. Computational Functionalism is aiming to model those functional relationships via algorithms and data structures.
+
+Note that Computational Functionalism produces, by design, a _Weak_ for of consciousness (by Searle's criteria): it flies like a duck, quacks like a duck, swims like a duck, the it's a duck. Certain [Physicalists stances](https://link.springer.com/article/10.1007/s11098-024-02182-y) on on the problem may assume that the same functional consciousness can be considered 'true consciousness' if implemented in a right basis. Like, brain --yes, von-Neumann architecture (computers with separate compute and memory) -- no, in-memory computing (tight coupling of memory and compute) -- yes again.
+
+The drawback of a functional account to consciousness is that audience will divide in unequal parts between pro-strong and pro-weak parties on a mostly-irrational basis. Because there is no formal test for substance consciousness, there is no formal way to change minds of both parties. These considerations (social perception and impact) must be taken into account when we are working with functional consciousness.
+
+Working with functional consciousness is simpler than one may think. We need a lot of _phenomenal reports_ describing consciousness-related experience. Each individual has only limited access to their mental states, moreover reports of different people may/will be very different. It's not that easy to unify/average/smooth reports of different people, but it's doable. Check Dennett's [Heterophenomenology](https://en.wikipedia.org/wiki/Heterophenomenology) method.
+
+Once we have a representative corpus of phenomenal reports we need to make a _generative model_ of it, or (that is the same) to _compress_ it. Techniques like auto-regressiveness or MC-AIXI-CTW can be used to make those models interactive (if they are purely predictive).
+
+There are three basic cases here: two _explicit_ modeling techniques and one _implicit_.
+
 ### Self-Referential Machine ###
+
+**Note that this section is currently being rewritten to take into account my recent thoughts and findings.**
 
 Note that there may be many types of self-reference. One type is a program that can read it's own [description](https://en.wikipedia.org/wiki/Kleene%27s_recursion_theorem). Here, self-referentiality is meant in a broader sense, as ability of a program to observe and react on its own *progress in computation*. 
 
@@ -385,6 +401,10 @@ In order to do it efficiently, we need a very special skill, that we even don't 
 In the context of Memoria I will be working on special tools for capturing mental states and corresponding data enrichment. 
 
 ## Safety and Ethical Considerations ##
+
+TBC ...
+
+## Liberal Cognitivism ##
 
 TBC ...
 
