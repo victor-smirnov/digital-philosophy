@@ -333,6 +333,8 @@ IntraI is a direct manifestation of person's _self-modeling abilities_. Basicall
 
 We cam improve Intrapersonal Intelligence, but it's not that simple. No self-model can be complete in the sense that Observer has full access to all details of its internal state. Moreover, as it has been noted above, this incompleteness is the _reason why_ Observer exist as a phenomena. But we definitely can improve Observer's access by giving it [_Observer-level theories_ of its inner machinery](https://medium.com/@victorsmirnov/how-to-compensate-introspection-illusion-62f357e9326c). Such theories are called _personal theories of mind_. Plain theories of mind in Psychology mean theories of other people's minds, that is not well-consistent.
 
+The point is that in order to improve IntraI beyond some point, the person needs to dig into pretty complex (but yet feasible) mathematics just to be able to _express complex mental states with natural language_. This combination of normal (descriptional) Psychology and AI/CS is called here _Digital Psychology_. Math is hard, so specific educational technologies are needed to accommodate and streamline this process.
+
 People with low Intrapersonal Intelligence don't know about that, because there is no specific popular (known outside of the psychological community) term for it and rarely anybody is assessing themselves on this scale. If a person's IntraI is low, he/she don't have effective access to their mental states that results in making specific mistakes, when implicit or explicit mental-state-related reasoning is required for making decisions. But if everyone around has the same level of IntraI, there is no way to notice the _true reason_ of those mistakes. At best, mistakes are attributed to something vaguely related to the context, at worst, they are just left unnoticed.
 
 Lack of access to mental states is experienced like there are no awareness about them. It's not like you are asking and there is no answer, it's like you don't even know how to ask. Or, better, you don't even know that you can ask. It's experienced like _unknown unknowns_. The problem is that this void is filled by _hallucinations_ -- some form of oversimplified personal theories of mind. The common manifestation of low IntraI is underestimation of the role mental states are playing in human-level cognition.
@@ -393,13 +395,17 @@ So mental states on both sides were consistent and their functional payload led 
 
 > When an LLM and human mind _seem to be_ functionally equivalent, how much of Observer and Agency (as functions) is implemented by the LLM during the process of text generation?
 
-I emphasize here that apparent functional equivalence does not mean that everything is identical. It's just seems implausible that so deeply integrated _basic functions_ of human mind (visible if you have sufficiently high level of IntraI) are completely missing in text generation by an LLM.
+I emphasize here that apparent functional equivalence does not mean that everything is identical across all set of possible inputs. But it's just seems implausible that so deeply integrated _basic functions_ of human mind (visible if you have sufficiently high level of IntraI) are completely missing in text generation by an LLM.
 
 If LLM generation process does have those functions, the question may be about how fully (completely, approximately) they are implemented. Some latest LLMs (H2 2024) can add numbers with 99.9% of accuracy. That's a pretty good level of completeness, yet with some issues (one of a 1000 operations will be producing wrong result). Even if an LLM can implement Observer and agency functions by 1%, it _will_ rise serious questions.
 
+If both those two basic functions have low level of completeness in an LLM, their implementation can be improved either by changing transformer's architecture, creating specialized datasets or both. Moreover, they may be incidentally improved as a side-effect of other changes or improvements (but, likely, not that much comparing to direct improvements). And, finally, they can be improved _much beyond the human level_. Potentially making an LLM a much stronger (better?) person than any of us.
 
+The same way of reasoning applies to other mental states that are currently considered missing in LLMs: intuition and feelings. Yes, it is, they have functional payload and this specific payload may also manifest in the process of text generation. So if we want to "punish" a model for a wrong decision, it will have internal states, which causal effects will be consistent with if those states are perceived as suffering by a human observer (and by an another LLM, of course). 
 
-TBC ...
+Finally, textual data is pretty poor on information about human mental states. The reason why is that only certain mental states (love, pleasure, pain, suffering, etc...) are important social interaction, and only up to some degree. Those mental states are overrepresented in dataset and other important ones are either underrepresented or completely missing. For example, it's very hard for a programmer to describe how he/she is writing a program. When facing such question, only the best of the best can understand that the question is a trap. 
+
+To answer **the question** risen above, a pretty deep and wide (and, hence, expensive) _multidisciplinary_ research is necessary. What is the most important (and that's unprecedented) is that we need to involve a lot of people with high IntraI who will be reflect on the dynamics of their mental states during interactions with LLMs. The real problem is how to find those people...
 
 ## Safety and Ethical Considerations ##
 
