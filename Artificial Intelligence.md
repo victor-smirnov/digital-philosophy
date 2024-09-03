@@ -385,7 +385,19 @@ We can see here that GPT-4 can reason about complex mental states in both forwar
 
 Another task is to explain [Meaning and Understanding like I'm eight](https://chatgpt.com/share/0c3a45ae-3508-45ee-ae15-9adaf9aa2862). It may seem much simpler, but it's just because most people have some intuitive understanding of those concepts and a difference between them. Even if you are eight years old. The whole generated dialog looks and _feels_ very consistent, the end result isn't perfect (I expected greater accent on _understanding_ in the final story) but it's more than OK in terms of fitting into my _initial_ expectations. Not just the model (GPT-4o) understands my initial intention, but I can understand each logical step in the dialog and each sentence.
 
-One may say that it's a "stochastic parrot", the model just combines fragments of texts it has seen and infer best fragments ("generalization") that it hasn't. That's true. The problem is that such explanation will look exhausting only for people with _low_ Intrapersonal Intelligence. Who just don't see inner dynamics of their mental states. 
+One may say that it's a "stochastic parrot", the model just combines fragments of texts it has seen and infer best fragments ("generalization") that it hasn't. That's true. The problem is that such explanation will look exhausting only for people with _low_ Intrapersonal Intelligence. Who just don't see the inner dynamics of their mental states. If they did, that would be too good for just a "parrot".
+
+There is no doubt that processes in human brain ("thinking") and in transformer ("generation") are _very different_. But nevertheless, if transformers somehow think and have mental states, the observed _causal effects_ of their mental states are very consistent with human mental states experienced by a reader after reading LLM-generated texts. And it works in the opposite direction as well. How? Why?
+
+So mental states on both sides were consistent and their functional payload led to expected and correct end result. That means both systems in this dialog were apparently _functionally equivalent_. And it's not a cherry-picking, there are many similar dialogs like these ones out there. Now, **the question** is:
+
+> When an LLM and human mind _seem to be_ functionally equivalent, how much of Observer and Agency (as functions) is implemented by the LLM during the process of text generation?
+
+I emphasize here that apparent functional equivalence does not mean that everything is identical. It's just seems implausible that so deeply integrated _basic functions_ of human mind (visible if you have sufficiently high level of IntraI) are completely missing in text generation by an LLM.
+
+If LLM generation process does have those functions, the question may be about how fully (completely, approximately) they are implemented. Some latest LLMs (H2 2024) can add numbers with 99.9% of accuracy. That's a pretty good level of completeness, yet with some issues (one of a 1000 operations will be producing wrong result). Even if an LLM can implement Observer and agency functions by 1%, it _will_ rise serious questions.
+
+
 
 TBC ...
 
