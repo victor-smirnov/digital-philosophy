@@ -333,6 +333,10 @@ IntraI is a direct manifestation of person's _self-modeling abilities_. Basicall
 
 We cam improve Intrapersonal Intelligence, but it's not that simple. No self-model can be complete in the sense that Observer has full access to all details of its internal state. Moreover, as it has been noted above, this incompleteness is the _reason why_ Observer exist as a phenomena. But we definitely can improve Observer's access by giving it [_Observer-level theories_ of its inner machinery](https://medium.com/@victorsmirnov/how-to-compensate-introspection-illusion-62f357e9326c). Such theories are called _personal theories of mind_. Plain theories of mind in Psychology mean theories of other people's minds, that is not well-consistent.
 
+People with low Intrapersonal Intelligence don't know about that, because there is no specific popular (known outside of the psychological community) term for it and rarely anybody is assessing themselves on this scale. If a person's IntraI is low, he/she don't have effective access to their mental states that results in making specific mistakes, when implicit or explicit mental-state-related reasoning is required for making decisions. But if everyone around has the same level of IntraI, there is no way to notice the _true reason_ of those mistakes. At best, mistakes are attributed to something vaguely related to the context, at worst, they are just left unnoticed.
+
+Lack of access to mental states is experienced like there are no awareness about them. It's not like you are asking and there is no answer, it's like you don't even know how to ask. Or, better, you don't even know that you can ask. It's experienced like _unknown unknowns_. The problem is that this void is filled by _hallucinations_ -- some form of oversimplified personal theories of mind. The common manifestation of low IntraI is underestimation of the role mental states are playing in human-level cognition.
+
 ## Computational Consciousness ##
 
 So, now the topic that used to be the most controversial. But it's not that bad. Substance consciousness is controversial because it's hard to find physical _substance_ for consciousness: either in a form of some "psychic" substance (Panpsychism) or "causal patterns of interaction". There are some candidates, but the level is so low that no practical problem can be addressed. 
@@ -377,7 +381,11 @@ Two systems are functionally (approximately) equivalent if the implement (approx
 
 Let's introduce some complex task: analyzing what some person may experience reading Kipling's "If-" poetry using the tool of [Higher-Order Thougts (HOT)](https://en.wikipedia.org/wiki/Higher-order_theories_of_consciousness) theories of consciousness: [link to the GPT-4 generated chat](https://chatgpt.com/c/9ecbd322-cf76-460a-b4d9-f1e034e5d909). 
 
-We can see here that GPT-4 can reason about complex mental states in both forward and backward modes. What's interesting is that LLMs (at least publicly available "tuned" ones) do not have access to their own inner mental states, they do not have their own _introspection_. Nevertheless, they _act_, like they do have such access to _human mental states_ associated with the process of the given text _reading_.
+We can see here that GPT-4 can reason about complex mental states in both forward and backward modes. What's interesting is that LLMs (at least publicly available "tuned" ones) do not have access to their own inner mental states, they do not have their own _introspection_. Nevertheless, they _act_ like they do have such access to _human mental states_ associated with the process of the given text _reading_.
+
+Another task is to explain [Meaning and Understanding like I'm eight](https://chatgpt.com/share/0c3a45ae-3508-45ee-ae15-9adaf9aa2862). It may seem much simpler, but it's just because most people have some intuitive understanding of those concepts and a difference between them. Even if you are eight years old. The whole generated dialog looks and _feels_ very consistent, the end result isn't perfect (I expected greater accent on _understanding_ in the final story) but it's more than OK in terms of fitting into my _initial_ expectations. Not just the model (GPT-4o) understands my initial intention, but I can understand each logical step in the dialog and each sentence.
+
+One may say that it's a "stochastic parrot", the model just combines fragments of texts it has seen and infer best fragments ("generalization") that it hasn't. That's true. The problem is that such explanation will look exhausting only for people with _low_ Intrapersonal Intelligence. Who just don't see inner dynamics of their mental states. 
 
 TBC ...
 
