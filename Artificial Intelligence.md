@@ -38,7 +38,7 @@ Hard problem of consciousness then can be reformulated the following way: **can 
 Memoria provides decent environment for self-modeling. It has framework for advanced data structures like self-indexes, that can turn self-models into advanced databases, and allows deploying such structures at scale in distributed and decentralized manner. Memoria has vertically integrated AIO subsystem from raw block devices to networking and C++-based heterogeneous computations unifing CPUs, GPUs and ASICs. It's primary goal to make approximations of Universal Induction practical, which is necessary to evolve self-models. (But see [this section](#case-3-consciousness-of-llms-implicit-srm))
 
 
-## A Sketch of Main Ideas ##
+## The Sketch of Main Ideas ##
 
 1. There are theoretical schemes for AGI, but they are not finitely computable. Any finitely computable AGI will not be complete or, in other words, truly generic. These schemes can be approximated, if we are agree to sacrifice some generality to achieve desirable performance in certain domains. Note that by AGI it's currently mean "Human-Level-generic AI" that is neither historically correct, nor allows us to define what is AGI precisely.
 
@@ -60,7 +60,7 @@ Memoria provides decent environment for self-modeling. It has framework for adva
 
 10. From emotion to feeling. Self-referential machines have a "dualistic" property of representing computations as data and vise versa. They can build self-model allowing them to act on the stored log of their own previous states in the way increasing global and local utility functions. Entire universal Turing machine can be implemented this way, performing self-referential operations on self-referential data structures. See [Observer and Agency](#observer-problem).
 
-11. Particularly, this type of machines can catch certain fundamental computational phenomena <a name="higher-order">(here: _higher-order computational phenomena_)</a> and use them as descriptions. For example, inherent incompleteness of self-referentiality (infeasibility to build a complete self-model) results in simplified self-models systematically lacking some causality links. Everything systematic (even if this systematicy is stochastic) can be turned into description. 
+11. Particularly, this type of machines can catch certain fundamental computational phenomena <a name="higher-order"></a>(here: _higher-order computational phenomena_) and use them as descriptions. For example, inherent incompleteness of self-referentiality (infeasibility to build a complete self-model) results in simplified self-models systematically lacking some causality links. Everything systematic (even if this systematicy is stochastic) can be turned into description. 
 
 12. For example, if we can somehow arrange this lack of causal structure in self-descriptions in a multi-scale way, we can turn corresponding records in memory logs into multiscale data structures, analogous to [compressed multidimensional quad tree](https://memoria-framework.dev/docs/data-zoo/associative-memory-2/), instantly enabling many sophisticated algorithms on top of such data structures. 
 
