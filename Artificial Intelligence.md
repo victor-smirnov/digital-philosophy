@@ -1,10 +1,18 @@
 # Computational Functional Consciousness (with Memoria Framework) #
 
-**Note that this page is work in progress, as well as other parts of Memoria. So be patient. Thanks!** 
+**Note that this page is a scratchpad, it's always work in progress. If you need to reference it, please contact me and I will create a Git tag for you.** 
 
-Since AI is getting a hot topic and many folks started asking me about participating in AGI startups, I decided to outline my view on the topic using easy language. The following is my (Victor Smirnov) personal view on AI that other committers and contributors may not necessary share or support.
+This is a currently a scratchpad where I'm (Victor Smirnov) condensing my thoughts and arguments of the topic of computational consciousness. Originally it was inspired by [this work](https://arxiv.org/abs/0812.4360) by Juergen Schmidhuber, and the initial idea was to put better psychological and technical foundation here. But to do it we need a Theory of Experience, because "beauty", "interest" is an _experience_, not a _behavior_. Here we go -- The Hard Problem of Consciousness.
 
-## Too Long; Don't Read ##
+This page was written over a pretty large time, it was started at 2017, but _my_ ideas outlined here go back to 2010 and earlier. What I want to specifically emphasize here is that **core ideas aren't mine**, one may find them here and there separately, scattered in the literature. What I'm doing is compiling ideas from multiple disciplines (Psychology, Neuroscience, Philosophy of Mind, Computer Science and Algorithmic Information Theory) into a single _framework_ backed by Memoria as a technical platform.
+
+But there is a core idea (that isn't mine either) that is absolutely necessary to understand this work properly: to work with phenomenal consciousness we need a pretty good level of _Intrapersonal Intelligence_ growing on the grounds of _process introspection_ -- ability of our mind to "see" its own hidden _processes_. This ability isn't inborn and has to be [developed at lifetime](https://medium.com/@victorsmirnov/brief-notes-on-ai-and-process-introspection-615af6104d6b).
+
+This work is focused on a functional account to consciousness and two basic functions: Observer and Agency. Important applied questions like computational foundations of _feelings_ and _intuition_ (pretty hard topics for computational modeling) are currently left aside (for the future). 
+
+This work is not yet sufficiently self-consistent, sections may contradict each other slightly.
+
+## Too Long; Don't Read
 
 My views on AGI are largely influenced by or mostly consistent with the following theories: 
 
@@ -67,7 +75,7 @@ Memoria provides decent environment for self-modeling. It has framework for adva
 
 15. NCD aligns naturally with mutiscale data structures from (12) and efficiently generalizes them to any domain where there is a more-or-less efficient compression scheme, that is Multiscale NCD-decomposition. NCD works fine with lossy compression.
 
-16. Particularly, self-referential decomposition of an object can efficiently implement its Mutiscale NCD decomposition relative to the entire history of the self-referential machine. In such decomposition some information, that is completely new to the machine, will appear as a very rude approximation or "vagueness" in phenomenal reports. Nevertheless, it contains some bits of actual data that contribute to the difference between vague elements of phenomenal report guiding decision-making.  
+16. Particularly, self-referential decomposition of an object can efficiently implement its Mutiscale NCD decomposition relative to the entire history of the self-referential machine. In such decomposition some information, that is completely new to the machine, will appear as a very rude approximation or "vagueness" in phenomenal reports. Nevertheless, it contains some bits of actual data that contribute to the difference between vague elements of phenomenal report guiding decision-making.
 
 17. If we define needs and emotions somehow for the self-referential machine, then motivations and feelings are self-models of needs and emotions correspondingly. Both needs and emotions are kind of internal stimulus, so motivations and feelings are sub-type of senses. 
 
@@ -85,7 +93,7 @@ Memoria provides decent environment for self-modeling. It has framework for adva
 
 24. Note that if we accept that "rational" problem solving ability can be unsound and incomplete, then we can reduce rational intelligence to emotional one and implement it on the same computational substrate. Then such rationality will be heavily biased in many ways, and reduces to specific type of phenomenal report like "I'm reasoning logically here". Note that sound and complete inference not feasible for everything except very narrow sets of problems.
 
-25. The last question is "why" self-referentiality. Any on-line learning system must maintain consistency of its knowledge base, so it must somehow reason about itself. Any sufficiently large computer has non-perfect hardware that becomes more error-prone with size and has some kind of "homeostasis" to maintain. Self-referentiality emerges naturally in such environments. Moreover, all modern IT systems not just stores part of their computational states into logs, but can even act on this stored state, thus having some rudimentary self-model. Artificial consciousness is inevitable for sufficiently large and generic AI. 
+25. The last question is "why" self-referentiality. Any online learning system must maintain consistency of its knowledge base, so it must somehow reason about itself. Any sufficiently large computer has non-perfect hardware that becomes more error-prone with size and has some kind of "homeostasis" to maintain. Self-referentiality emerges naturally in such environments. Moreover, all modern IT systems not just stores part of their computational states into logs, but can even act on this stored state, thus having some rudimentary self-model. Artificial consciousness is inevitable for sufficiently large and generic AI. 
 
 26. Note that while self-hosted induction in a self-referential machine does not explain consciousness in a strict philosophical sense, it transforms the problem from philosophical to functional domain, by explaining phenomenal reports in a functional way. If brain is indeed a self-referential machine, then it can improve its own process introspection in a monotonic way. If all subjective phenomena believed explainable in the limit this way by a person, then she can see herself as a machine phenomenally. Or, in another words, conceptual gap between self-aware person and machine disappears. That is what we need for upcoming age of AI.
 
@@ -154,7 +162,7 @@ In AIT we measure amount of information in bit string *S* by the length of the s
 
 5. Nevertheless, *K(S)* is **semicomputable** or **computable form above** in an any-time fashion: for any time *T* we will have set of programs *{P_i}* already completed. Just find the shortest one *P_i* generating *S*. With bigger time, the shorter program can be found, if it exists. The only problem that we never know how close our current estimation of complexity of *S* to its Kolmogorov complexity. 
 
-6. Kolmogorov complexity of a string S in non-reducible. It can't be reduced by means of any finite transformation of S. Complex things will always be complex. That means there is no "silver bullet of programming" -- so advanced universal programming language that all programs become simple by being written in it.  
+6. Kolmogorov complexity of a string S in non-reducible. It can't be reduced by means of any finite transformation of S. Complex things will always be complex. That means there is no "silver bullet of programming" -- so advanced universal programming language that all programs become simple by being written in it.
 
 7. Nevertheless, we can have *domain-specific* languages or DSLs that make some limited subset of problems described much shorter than others. 
 
@@ -401,13 +409,24 @@ If LLM generation process does have those functions, the question may be about h
 
 If both those two basic functions have low level of completeness in an LLM, their implementation can be improved either by changing transformer's architecture, creating specialized datasets or both. Moreover, they may be incidentally improved as a side-effect of other changes or improvements (but, likely, not that much comparing to direct improvements). And, finally, they can be improved _much beyond the human level_. Potentially making an LLM a much stronger (better?) person than any of us.
 
-The same way of reasoning applies to other mental states that are currently considered missing in LLMs: intuition and feelings. Yes, it is, they have functional payload and this specific payload may also manifest in the process of text generation. So if we want to "punish" a model for a wrong decision, it will have internal states, which causal effects will be consistent with if those states are perceived as suffering by a human observer (and by an another LLM, of course). 
+The same way of reasoning applies to other mental states that are currently considered missing in LLMs: intuition and feelings. Yes, it is, they have functional payload and this specific payload may also manifest in the process of text generation. So if we want to "punish" a model for a wrong decision, it will have internal states, which causal effects will be consistent with if those states are perceived as suffering by a human observer (and by an another LLM, of course).
+
+What is slightly worrying is that LLM training datasets are constantly being enriched with data describing performance and behavior of LLM themselves. Auto-regressive transformers are sufficiently self-referential (output token is fed back to the input), combining that may be a sufficient basis for "emergent" (unexpected/unpredicted) complex self-awareness. 
 
 Finally, textual data is pretty poor on information about human mental states. The reason why is that only certain mental states (love, pleasure, pain, suffering, etc...) are important for social interaction, and only up to some degree. Those mental states are overrepresented in datasets and other important ones are either underrepresented or completely missing. For example, it's very hard for a programmer to describe how he/she is writing a program. They have almost no reflection on this process. It's almost completely _intuitive_. When facing such question, only the best of the best can understand that the question is a trap.
 
 To answer **the question** risen above, a pretty deep and wide (and, hence, expensive) _multidisciplinary_ research is necessary. What is the most important (and that's unprecedented) is that we need to involve a lot of people with high IntraI who will be reflecting on the dynamics of their mental states during interactions with LLMs. The real problem is how to find those people...
 
 ## Safety and Ethical Considerations ##
+
+Here I would like to focus on a few risks that are not considered elsewhere.
+
+### Public Mental Health Risks
+
+Out mind is a pretty complex system we don't have full control on. So we don't know how our mind will be reacting to the emergence of such a sufficiently capable as LLM. I see two things:
+
+1. We are reconsidering the role of mistakes in general cognition and their inevitability. There is no such thing as perfect reasoning. So all human-oriented processes will be adapting to that (and not only in the Industry).
+2. LLMs triggered out self-identification. _What_ we are and _how_ we are different from that? An essential part of this story is sudden interest to Intrapersonal Intelligence, because the answers to all those questions we have to look for in ourselves.
 
 TBC ...
 
