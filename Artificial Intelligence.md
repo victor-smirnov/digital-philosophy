@@ -17,19 +17,12 @@ This work is not yet sufficiently self-consistent, sections may contradict each 
 This work is largely influenced by or mostly consistent with the following theories: 
 
 1. Graziano's Attention Schema Theory (AST), explaining how self-referentiality contributes to phenomenal reports.
-
 2. Damasio's Somatic Markers Theory (SMT) explaining basics of emotional intelligence: guiding function of emotions in decision making.
-
 3. Jean-Louis Dessalles' [Simplicity Theory](https://perso.telecom-paristech.fr/jld/papiers/simplicity.html) explaining subjective attractiveness in a fundamental way.
-
 4. Tononi's Integrated Information Theory (IIT), linking conscious states with descriptional complexity.
-
 5. Daniel Dennett's Cartesian Theater and Multiple Drafts. Consciousness is not an illusion in a strict sense. But traditional first-person view on it is heavily biased, that leads to various paradoxes. 
-
 6. Ray Solomonoff's theory of Universal Induction (UI). This theory explains theoretical and practical limits of problem solving. 
-
 7. Jurgen Schmidhuber's [Artificial Curiosity (AC)](https://arxiv.org/abs/0812.4360) and his theory of intrinsic reward, explaining highest emotions in a mathematically universal way.
-
 8. Schmidhuber's Goedel Machine, explaining limits of recursive self-improvements. 
 
 AST gives clever insights into how certain important subjective phenomena emerges in a self-referential structures like "attention schemes" but it leaves some important questions unexplored. In this page I introduce a semi-formal self-referential machine, self-referential algorithms and self-referential data structures constituting self-models. There is nothing special about them from mathematical perspective, but they have certain properties by turning computational phenomena into descriptions. For example, how gradual incompleteness of self-referentiality leads to the lack of "process introspection" and, by that, leads to "inexplicable" elements in phenomenal reports, like qualia, which are 
