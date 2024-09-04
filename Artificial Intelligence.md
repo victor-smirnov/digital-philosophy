@@ -6,7 +6,7 @@ This is a currently a scratchpad where I'm (Victor Smirnov) condensing my though
 
 This page was written over a pretty large time, it was started at 2017, but _my_ ideas outlined here go back to 2010 and earlier. What I want to specifically emphasize here is that **core ideas aren't mine**, one may find them here and there separately, scattered in the literature. What I'm doing is compiling ideas from multiple disciplines (Psychology, Neuroscience, Philosophy of Mind, Computer Science and Algorithmic Information Theory) into a single _framework_ backed by Memoria as a technical platform.
 
-But there is a core idea (that isn't mine either) that is absolutely necessary to understand this work properly: to work with phenomenal consciousness we need a pretty good level of _Intrapersonal Intelligence_ growing on the grounds of _process introspection_ -- ability of our mind to "see" its own hidden _processes_. This ability isn't inborn and has to be [developed at lifetime](https://medium.com/@victorsmirnov/brief-notes-on-ai-and-process-introspection-615af6104d6b).
+But there is a _foundational_ idea (that isn't mine either) that is absolutely necessary to understand this work properly: to work with phenomenal consciousness we need a pretty good level of _Intrapersonal Intelligence_ (IntraI) growing on the grounds of _process introspection_ -- ability of our mind to "see" its own hidden _processes_. This ability isn't inborn and has to be [developed at lifetime](https://medium.com/@victorsmirnov/brief-notes-on-ai-and-process-introspection-615af6104d6b). Lack IntraI isn't noticeable but results in _intraspective blindness_: not only mental processes is unaccessible, the person isn't aware about it. At best, mind is experienced as a pure holistic structure-less entity, at worst -- as a non-physical _miracle_.
 
 This work is focused on a functional account to consciousness and two basic functions: Observer and Agency. Important applied questions like computational foundations of _feelings_ and _intuition_ (pretty hard topics for computational modeling) are currently left aside (for the future). 
 
@@ -14,13 +14,13 @@ This work is not yet sufficiently self-consistent, sections may contradict each 
 
 ## Too Long; Don't Read
 
-My views on AGI are largely influenced by or mostly consistent with the following theories: 
+This work is largely influenced by or mostly consistent with the following theories: 
 
 1. Graziano's Attention Schema Theory (AST), explaining how self-referentiality contributes to phenomenal reports.
 
 2. Damasio's Somatic Markers Theory (SMT) explaining basics of emotional intelligence: guiding function of emotions in decision making.
 
-3. Jean-Louis Dessalles' Simplicity Theory explaining subjective attractiveness in a fundamental way.
+3. Jean-Louis Dessalles' [Simplicity Theory](https://perso.telecom-paristech.fr/jld/papiers/simplicity.html) explaining subjective attractiveness in a fundamental way.
 
 4. Tononi's Integrated Information Theory (IIT), linking conscious states with descriptional complexity.
 
@@ -28,7 +28,7 @@ My views on AGI are largely influenced by or mostly consistent with the followin
 
 6. Ray Solomonoff's theory of Universal Induction (UI). This theory explains theoretical and practical limits of problem solving. 
 
-7. Jurgen Schmidhuber's Artificial Curiosity (AC) and his theory of intrinsic reward, explaining highest emotions in a mathematically universal way.
+7. Jurgen Schmidhuber's [Artificial Curiosity (AC)](https://arxiv.org/abs/0812.4360) and his theory of intrinsic reward, explaining highest emotions in a mathematically universal way.
 
 8. Schmidhuber's Goedel Machine, explaining limits of recursive self-improvements. 
 
