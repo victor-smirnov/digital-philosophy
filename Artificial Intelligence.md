@@ -10,9 +10,11 @@ But there is a _foundational_ idea (that isn't mine either) that is absolutely n
 
 This work is focused on a functional account to consciousness and two basic functions: Observer and Agency. Important applied questions like computational foundations of _feelings_ and _intuition_ (pretty hard topics for computational modeling) are currently left aside (for the future). 
 
+The main contribution of this work (besides multi-disciplinary compilation) is the concept of _higher-order computational phenomena_ in self-referential systems, when space-time properties of a computation over some object may become a part of _description_ of this object. See [the main ideas](#higher-order) section.
+
 This work is not yet sufficiently self-consistent, sections may contradict each other slightly.
 
-## Too Long; Don't Read
+## Introduction
 
 This work is largely influenced by or mostly consistent with the following theories: 
 
@@ -58,7 +60,7 @@ Memoria provides decent environment for self-modeling. It has framework for adva
 
 10. From emotion to feeling. Self-referential machines have a "dualistic" property of representing computations as data and vise versa. They can build self-model allowing them to act on the stored log of their own previous states in the way increasing global and local utility functions. Entire universal Turing machine can be implemented this way, performing self-referential operations on self-referential data structures. See [Observer and Agency](#observer-problem).
 
-11. Particularly, this type of machine can catch certain fundamental computational phenomena and use them as descriptions. For example, inherent incompleteness of self-referentiality (infeasibility to build a complete self-model) results in simplified self-models systematically lacking some causality links. Everything systematic (even if this systematicy is stochastic) can be turned into description. 
+11. Particularly, this type of machines can catch certain fundamental computational phenomena <a name="higher-order">(here: _higher-order computational phenomena_)</a> and use them as descriptions. For example, inherent incompleteness of self-referentiality (infeasibility to build a complete self-model) results in simplified self-models systematically lacking some causality links. Everything systematic (even if this systematicy is stochastic) can be turned into description. 
 
 12. For example, if we can somehow arrange this lack of causal structure in self-descriptions in a multi-scale way, we can turn corresponding records in memory logs into multiscale data structures, analogous to [compressed multidimensional quad tree](https://memoria-framework.dev/docs/data-zoo/associative-memory-2/), instantly enabling many sophisticated algorithms on top of such data structures. 
 
@@ -72,21 +74,21 @@ Memoria provides decent environment for self-modeling. It has framework for adva
 
 17. If we define needs and emotions somehow for the self-referential machine, then motivations and feelings are self-models of needs and emotions correspondingly. Both needs and emotions are kind of internal stimulus, so motivations and feelings are sub-type of senses. 
 
-18. All senses have "motivational" component that is a manifestation of guiding function of emotions to decision making reflected in phenomenal reports. It looks similar an attractor in non-linear dynamics, or gravity in physics. So, "something" happens behind the scene, at the level that is not accessible, and at the accessible level we have results of this hidden process.
+18. All senses have "motivational" component that is a manifestation of guiding function of emotions to decision making reflected in phenomenal reports. It looks similar to an attractor in non-linear dynamics, or to gravity in physics. So, "something" happens behind the scene, at the level that is not accessible, and at the accessible level we have _results_ of this hidden process.
 
-19. If needful portrait codes the set of agent's goals, and emotional portrait codes some stimulus relatively to the needful portrait, then sentiment is a self-model of emotional portrait of the stimulus.
+19. If needful portrait encodes the set of an agent's goals, and emotional portrait encodes some stimulus relatively to the needful portrait, then _sentiment_ is a self-model of emotional portrait of the stimulus.
 
 20. Until this moment it was not implied that self-referential machine has any special properties enabling it to learn like a human just because it resembles our core cognitive abilities. Nothing special is about such machine relative to learning. It's implied that self-models are learned separately from self-referentiality with some kind of approximated program induction mentioned above: (1) - (7). 
 
 21. But if a self-referential machine is expressive enough, it can host such inductive learning partially or entirely, resembling not just cognition as thinking but also cognition as obtaining new knowledge in a unified way. By separating cognition to self-referentiality and induction over it we are making entire problem much simpler to tackle.
 
-22. The idea of self-referential machine's solution to problem of qualia in AI is that there is no such thing as "red color", the minimal element of memory log of such machine is "I see the red color", that is not static structure encoded in memory, but also a dynamic computation (in another context). In other words, some form of observer is always implied, and it is finally the machine itself. Note that this is a form of pan-proto-experientalism but in the "software" when higher-level experience is composed from lower-level ones in a computable way. Note also that this "experience" is also physical, because both the machine and information processing on it are physical.
+22. The idea of self-referential machine's solution to problem of qualia in AI is that there is no such thing as "red color", the minimal element of memory log of such machine is "I see the red color", that is not a static structure encoded in memory, but also a dynamic computation (in another context). In other words, some form of an _Observer_ is always implied, and it is finally the machine itself. Note that this is a form of pan-proto-experientalism but in the "software" when higher-level experience is composed from lower-level ones in a computable way. Note also that this "experience" is also _physical_, because both the machine and information processing on it are physical.
 
-23. From the functional perspective, qualia are soft bounds in building self-model of stimulus. Self-model developing is a computationally very hard task, but this complexity is not evenly distributed. Some elements of phenomenal report emerges faster than others. Some elements will remain underdeveloped forever and, because of their stable hardness, may become descriptions themselves, like qualia.
+23. From a functional perspective, qualia are soft bounds in building the self-model of a stimulus. Developing a self-model is computationally very hard task, but this complexity is not evenly distributed. Some elements of phenomenal report emerges faster than others. Some elements will remain underdeveloped forever and, because of their stable hardness, may become descriptions themselves, like qualia.
 
 24. Note that if we accept that "rational" problem solving ability can be unsound and incomplete, then we can reduce rational intelligence to emotional one and implement it on the same computational substrate. Then such rationality will be heavily biased in many ways, and reduces to specific type of phenomenal report like "I'm reasoning logically here". Note that sound and complete inference not feasible for everything except very narrow sets of problems.
 
-25. The last question is "why" self-referentiality. Any online learning system must maintain consistency of its knowledge base, so it must somehow reason about itself. Any sufficiently large computer has non-perfect hardware that becomes more error-prone with size and has some kind of "homeostasis" to maintain. Self-referentiality emerges naturally in such environments. Moreover, all modern IT systems not just stores part of their computational states into logs, but can even act on this stored state, thus having some rudimentary self-model. Artificial consciousness is inevitable for sufficiently large and generic AI. 
+25. The last question is "why" self-referentiality. Any online learning system must maintain consistency of its knowledge base, so it must somehow reason about itself. Any sufficiently large computer has non-perfect hardware that becomes more error-prone with size and has some kind of "homeostasis" to maintain over time. Self-referentiality emerges naturally in such environments. Moreover, all modern IT systems not just stores part of their computational states into logs, but can even act on this stored state, thus having some rudimentary self-model. Artificial consciousness is inevitable for sufficiently large and generic AI. 
 
 26. Note that while self-hosted induction in a self-referential machine does not explain consciousness in a strict philosophical sense, it transforms the problem from philosophical to functional domain, by explaining phenomenal reports in a functional way. If brain is indeed a self-referential machine, then it can improve its own process introspection in a monotonic way. If all subjective phenomena believed explainable in the limit this way by a person, then she can see herself as a machine phenomenally. Or, in another words, conceptual gap between self-aware person and machine disappears. That is what we need for upcoming age of AI.
 
@@ -108,9 +110,9 @@ Memoria provides decent environment for self-modeling. It has framework for adva
 
 35. But unlike other AI-related platforms, Memoria does not specialize only on A[G]I, allowing to solve wide range of practical tasks currently common to BigData.
 
-36. Memoria's design follows bottom-up evolutionary path to AGI. Instead of building "AGI-in-a-box", Memoria's approach consists in decomposing such complex thing as human-level metacognition into well-manageable building blocks that can be used together or independently, to bring new qualities into existing applications.
+36. [Memoria](https://memoria-framework.dev/)'s design follows bottom-up evolutionary path to AGI. Instead of building "AGI-in-a-box", Memoria's approach consists in decomposing such complex thing as human-level metacognition into well-manageable building blocks that can be used together or independently, to bring new qualities into existing applications.
 
-## Types of AI ##
+## Types of AI 
 
 There are many types of AI, and traditionally what we call Artificial Intelligence is a **Good Old-Fashioned AI** or **GOFAI**, or catching human ways of reasoning during *problem solving* in special notations, which for those times were logic languages and frames theory. The ultimate AI of this kind is an emotion-less "pure mind" or Expert System augmenting human reasoning through question-answering.
 
