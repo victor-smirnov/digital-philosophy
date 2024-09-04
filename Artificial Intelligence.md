@@ -104,13 +104,13 @@ Memoria provides decent environment for self-modeling. It has framework for adva
 
 32. As it has been already said, universal induction can be approximated by trading time for memory, via restricting the program search space. This system of restrictions will be poorly compressible, so the only way to encode it is direct description in a form of a database. If, for some subset of tasks, such system is compressible then it's reducing to a finite system of heuristics. 
 
-33. Memoria has long-term goals in hosting applications targeted these two problems. It's an integrated data engineering framework providing (A) vertically integrated Asynchronous IO engine, starting from raw block storage to networking and visualization, (B) C++-based heterogeneous computing, merging CPU cores, GPUs and ASICs in a single data flow framework, and (C) confluently-persistent decentralized data structures, both basic ones like arrays, maps, sets, vectors, tables, trees, graphs, and advanced ones like mutiary wavelet trees. 
+33. [Memoria](https://memoria-framework.dev/) has long-term goals in hosting applications targeted these two problems. It's an integrated data engineering framework providing (A) vertically integrated Asynchronous IO engine, starting from raw block storage to networking and visualization, (B) C++-based heterogeneous computing, merging CPU cores, GPUs and ASICs in a single data flow framework, and (C) confluently-persistent decentralized data structures, both basic ones like arrays, maps, sets, vectors, tables, trees, graphs, and advanced ones like mutiary wavelet trees. 
 
 34. Memoria seamlessly integrates IO- and Compute-intensive tasks by making data as close as possible to computational resources. 
 
 35. But unlike other AI-related platforms, Memoria does not specialize only on A[G]I, allowing to solve wide range of practical tasks currently common to BigData.
 
-36. [Memoria](https://memoria-framework.dev/)'s design follows bottom-up evolutionary path to AGI. Instead of building "AGI-in-a-box", Memoria's approach consists in decomposing such complex thing as human-level metacognition into well-manageable building blocks that can be used together or independently, to bring new qualities into existing applications.
+36. Memoria's design follows bottom-up evolutionary path to AGI. Instead of building "AGI-in-a-box", Memoria's approach consists in decomposing such complex thing as human-level metacognition into well-manageable building blocks that can be used together or independently, to bring new qualities into existing applications.
 
 ## Types of AI 
 
