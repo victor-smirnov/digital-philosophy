@@ -412,6 +412,17 @@ Finally, textual data is pretty poor on information about human mental states. T
 
 To answer **the question** risen above, a pretty deep and wide (and, hence, expensive) _multidisciplinary_ research is necessary. What is the most important (and that's unprecedented) is that we need to involve a lot of people with high IntraI who will be reflecting on the dynamics of their mental states during interactions with LLMs. The real problem is how to find those people...
 
+## Why "hallucinations" of LLMs Aren't a Substantial Problem for Strong Agency
+
+I will not be explaining why LLMs "hallucinate". There are many publications about that. There are two main points I want to emphasize here:
+
+1. Hallucinations are inevitable, because they are rooted in physical limits to computations and combintorial nature of many intellectual tasks. _Exact_ solutions are impossible to get, we should be happy with _approximate_ solutions. And for many practical cases -- very _crude_ approximations.
+2. LLM hallucinations are _curable_ (up to the extent limited by (1)). The solutions will not be easy, and as it's [outlined here](https://memoria-framework.dev/docs/applications/aiml) will require the change of the current paradigm ("scaling is all you need"). But there is at least theoretical path to getting to the state, where we can manage hallucinations _selectively_ by configuring specific resource limitations (mode CPU & memory -> better result). So the issue _will be_ resolved, sooner than later.
+
+Let we imagine that we have a pretty capable Hybrid AI system (according (1-2) it's realistic) that, according to typical informed human observer, can be considered a "adult-level human-like AI". So the "hallucination" argument does not hold us back any more (AI does not appear mode dysfunctional than a human being).
+
+Now, when nothing substantial is holding us back, let's apply arguments from the section about ["functional consciousness of LLM"](#case-3-consciousness-of-llms-implicit-srm) to this _functionally_ sufficient capable AI.
+
 ## Safety and Ethical Considerations ##
 
 Here I would like to focus on a few risks that are not considered elsewhere.
