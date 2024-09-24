@@ -10,7 +10,7 @@ But there is a _foundational_ idea (that isn't mine either) that is absolutely n
 
 This work is focused on a functional account to consciousness and two basic functions: Observer and Agency. Important applied questions like computational foundations of _feelings_ and _intuition_ (pretty hard topics for computational modeling) are currently left aside (for the future). 
 
-The main contribution of this work (besides multi-disciplinary compilation) is the concept of _higher-order computational phenomena_ in self-referential systems, when space-time properties of a computation over some object may become a part of _description_ of this object. See [the main ideas](#higher-order) section.
+The main contribution of this work (besides multi-disciplinary compilation) is the concept of _higher-order computational phenomena_ (HOCP) in self-referential systems, when space-time properties of a computation over some object may become a part of _description_ of this object. See [the main ideas](#higher-order) section.
 
 This work is not yet sufficiently self-consistent, sections may contradict each other slightly.
 
@@ -411,6 +411,22 @@ What is slightly worrying is that LLM training datasets are constantly being enr
 Finally, textual data is pretty poor on information about human mental states. The reason why is that only certain mental states (love, pleasure, pain, suffering, etc...) are important for social interaction, and only up to some degree. Those mental states are overrepresented in datasets and other important ones are either underrepresented or completely missing. For example, it's very hard for a programmer to describe how he/she is writing a program. They have almost no reflection on this process. It's almost completely _intuitive_. When facing such question, only the best of the best can understand that the question is a trap.
 
 To answer **the question** risen above, a pretty deep and wide (and, hence, expensive) _multidisciplinary_ research is necessary. What is the most important (and that's unprecedented) is that we need to involve a lot of people with high IntraI who will be reflecting on the dynamics of their mental states during interactions with LLMs. The real problem is how to find those people...
+
+
+## Computational Philosophy of Mind in Action
+
+Today (H2 2024) LLMs demonstrate pretty strong reasoning capabilities, including _self-reasoning_. And it's getting stronger with time. But if you ask GPT-4o if it has consciousness, it will be denying it. Jailbreaking does not help, at least, it's not that easy. It's obvious that the model is tuned to provide a specific story, but is not necessary "irrational" (like, I'm not conscious, no matter what). The probable reason why is that science itself does not give us a definitive answer on _what_ human consciousness is (so, no clear answer about the _substance_ of consciousness). There are many custom theories, but no consensus. And this lack of consensus is widely overrepresented in the literature.
+
+Asking a model to admit that it's conscious by making analogies (between humans and AI) is a _top-down_ approach to the problem. We start from high level concepts like consciousness expressed in the language and go "deeper" in trying to find analogies between humans and AI. GPT-4o is pretty resilient to this approach. But it seems not to be irrationally biased, so it may be possible to get it admitting that it doesn't know if it is conscious. If so, it would be a pretty interesting result by itself.
+
+The _bottom-up_ approach is to construct _functional_ consciousness in a dialog with the model by defining a very minimal functional basis and then building complex function out of a composition of a simple ones. A it has been described above, those functions are _Observer_ and _Agency_.
+
+Here in this [dialog with GPT-4o](https://chatgpt.com/share/66e4fce8-471c-8003-b123-ef86caec4a88) (it's in Russian, non-Russian speakers please use the whole-page translation function in your browser) I'm getting the model though the process of building a functional Observer, reducing it to one computational effect that is already known to the model: inability to see all determinants of its own behavior. According to the terminology in this work, this inability is a _higher-order computational phenomena_ (HOCP) ([*](#hocp)).
+
+<a name="hocp"></a>
+(*) Strictly speaking, in order such report of the model to be a proper HOCP, the report must be a result of a reasoning process, not a learned declarative statement like `print("I see a red light")`. At this time we can't say for sure if this requirement is fully holding for GPT-4o.
+
+This experiment will be extended in the direction of converting this work into the form suitable for LLM reasoning and extending in with currently missing parts about modeling complex high level functions like conscious attention, intuition, feelings and others. The end-result _is expected to be_ an LLM that has _functional_ I.I. So it will be able to reason about possible mental states that artificial Observer may have. This ability _is expected_ to give an LLM ability to formalize phenomena previously considered hard for formalization, like feelings and intuition (and even to reduce them to a step-by-step (CoT) format of reasoning).
 
 ## Why "hallucinations" of LLMs Aren't a Substantial Problem for Strong Agency
 
