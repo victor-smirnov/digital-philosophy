@@ -368,11 +368,15 @@ LLSRM can be programmed manually, but better it can be _induced_ (ML-ed) using i
 
 There is no expectations that such _minimalistic_ LLSRM combined with GP can achieve human level complexity of functional consciousness. The main purpose is to explore and research phenomena while it's small -- is a toy-like setting. It's also may be considered safe (see below) from many unwanted social effects, because it's really hard if ever possible to achieve sufficiently complex behavior this way.
 
-### Case 2: High-level SR-Machine (HLSRM)
+### Case 2(1): High-level SR-Machine (HLSRM)
 
 HL SRM is similar to LL SRM but the implementation is now human-optimized to allow rich _manual_ programming. It may/will be based on [DSLEngine](https://memoria-framework.dev/docs/overview/vm/) and its forward/backward chaining rule engine (FCRE/BCRE). FCRE is based on the RETE algorithm and is a general purpose _event-driven_ programming system functionally similar to [Drools](https://www.drools.org/). It's pretty easy to express even very complex self-referential scenarios with FCRE. And BCRE extends it's abilities to work with large data sets.
 
 Again, the main purpose of HLSRM is to _explore_ and research self-referential functions, but now much closer to the real-life problems. In the context of research purposes, HLSRM may be used for implementing complex agents supposing to demonstrate functions of [strong Agency](#agency-types).
+
+### Case 2(2): High-level Neural SR-Machine (HLNSRM)
+
+We can use ['tiny' variants of large LMs in a well-controllable environments](https://www.youtube.com/watch?v=yBL7J0kgldU): the order of 100M parameters, synthetic datasets and 1 day training cycle on an accessible hardware. This case is similar to 2(1) but now we can use neural networks for ML with a pretty clear path to scaling.
 
 ### Case 3: Consciousness of LLMs (Implicit SRM)
 
