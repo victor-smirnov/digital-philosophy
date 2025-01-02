@@ -47,16 +47,28 @@ Notable example of an HOCP is Schmidhuber's [Artificial Curiosity](https://peopl
 
 Finally, [Metacognition](https://en.wikipedia.org/wiki/Metacognition) (awareness of one's thought processes and an understanding of the deep patterns behind them) is a entire multy-disciplinary research focusing at self-referential processes in human mind.
 
-%% Self-referential computer. Minimal, FC Rule-based, Transformers. 
+No special hardware or computational model is needed for HOCP. HOCP require process/state duality: what is _process_ in one context, is a state (some data structure describing the entire state change history of the process) in another one and vice versa. But if this functionality isn't provided "out-of-the-box", efforts to add it aren't expected to be substantial. Two existing algorithmic environment are currently available for experimenting with HOCP:
 
-No special hardware or computational model is needed for HOCP. HOCP require process/state duality: what is _process_ in one context, is a state (some data structure describing the entire state change history of the process) in another one and vice versa. But if this functionality isn't provided "out-of-the-box", efforts to add it aren't expected to be substantial. Two existing algorithmic environment are currently available for experiementing with HOCP:
-
-1. Forward-Chaining Rule Systems (FCRS), specifically based on the RETE algorithms (Excample: [Drools](https://www.drools.org)). With FCRS computation is represented as a stream of events in _working memory_. Each new event is triggers rule evaluation (pattern matching) that may result in new events, an so on. HOCP in this model are just metrics over working memory (and it's _history_) resulting in new events. Very good for manual exploration of HOCP, but rather hard for ML (genetic programming is welcome, but no specialized hardware exist to accelerate it).
-2. Transformers. Self-referentiality is _implicit_ (auto-regression + self-attention) and existing LLM demonstrate very good level of _self-reasoning_. Are trained with ML is a self-superwized way, but hard to interpret. So if something doesn't work as expected, there is no obvious way how to fix it/
+1. Forward-Chaining Rule Systems (FCRS), specifically based on the RETE algorithms (Example: [Drools](https://www.drools.org)). With FCRS computation is represented as a stream of events in _working memory_. Each new event is triggers rule evaluation (pattern matching) that may result in new events, an so on. HOCP in this model are just metrics over working memory (and it's _history_) resulting in new events. Very good for manual exploration of HOCP, but rather hard for ML (genetic programming is welcome, but no specialized hardware exist to accelerate it).
+2. Transformers. Self-referentiality is _implicit_ (auto-regression + self-attention) and existing LLM demonstrate very good level of _self-reasoning_. Are trained with ML is a self-superwized way, but hard to interpret. So if something doesn't work as expected, there is no obvious way how to fix it.
 
 ## Transformers
 
+[Transformers](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)) are a little-bit bizarre, but they aren't special. They are [nearly Turing-complete](https://jmlr.org/papers/v22/20-302.html), although this is really not that important in practice, unless we are programming it manually. If we are using ML for inductive learning, Turing-completeness is useless unless our learning algorithms can generalize in a large enough subset of the programs space. It's an open question how really generic ANN training methods are in this respect, but one should not _rely_ on that. Despite sufficiently large LMs demonstrating very good procedural capabilities, these capabilities rely more on _memoization_ than on _generalization_. Memoization is an essential part of intellect (in a general sense), but it directly depends on the quality (diversity, consistency etc) of training data. 
 
+Generalization (correct prediction of strings it didn't see at training time) achievable by transformers is also very impressive, but it's not sufficient to rely on them as on general programmers: they aren't that good at _inventing_ new things. So one should not expect that transformers can sample from the entire space of programs (Turing Machines) during inference. If we want some specific behavior to be learned by a transformer, we need to provide sufficiently representative training data, and _maybe_ it will be generalized enough by the specific transformer architecture (to cover functionality not in the training data).
+
+Transformers, unlike other types of neural networks, they are essentially a _hybrid_ designs, combining elements of classical _rule-based systems_ and neural networks. Transformer is a "vectorized" FCRS with the following assumption:
+
+1. Rules are implicit and learned as attention patters in the space of "linguistic features".
+2. Self-attention (in the Encoder) is a [_self-join_](https://www.w3schools.com/sql/sql_join_self.asp). It builds [Cartesian product](https://en.wikipedia.org/wiki/Cartesian_product) of the set of semantically enriched tokens with subsequent filtering and transformation in feed-forward layer.
+3. Cross-attention is a [cross-join](https://www.w3schools.com/mysql/mysql_join_cross.asp) between Encoder and Decoder.
+4. Causal self-attention in the Decoder has no direct correspondence in relational algebra, but can also be viewed as a restricted form of self-join.
+5. Context window is a _working memory_ where all persistent state is stored in the _symbolic_ and interpretable form. Every token generation, one rules application step is performed, resulting in new element is added to the working memory until the stop condition is reached. 
+
+There are two works helping to understand transformers this way. First, [Thinking like Transformer](https://arxiv.org/abs/2106.06981) explains Encoder-only transformer architecture as a sequence of [Map/Reduce](https://en.wikipedia.org/wiki/MapReduce) steps (attention) followed by by-item transformation steps (FFN). 
+
+Second, [Transformer circuits](https://transformer-circuits.pub/2021/framework/index.html) article explains how different types information are encoded and processes in multidimensional vectors.
 
 ## Mindware -- Software 3.0 and Programming 3.0
 
