@@ -62,7 +62,7 @@ No special hardware or computational model is needed for HOCP. HOCP require proc
 
 Generalization (correct prediction of strings it didn't see at training time) achievable by transformers is also very impressive, but it's not sufficient to rely on them as on general programmers: they aren't that good at _inventing_ new things. So one should not expect that transformers can sample from the entire space of programs (Turing Machines) during inference. If we want some specific behavior to be learned by a transformer, we need to provide sufficiently representative training data, and _maybe_ it will be generalized enough by the specific transformer architecture (to cover functionality not in the training data).
 
-Transformers, unlike other types of neural networks, they are essentially a _hybrid_ designs, combining elements of classical _rule-based systems_ and neural networks. Transformer is a "vectorized" FCRS with the following assumption:
+Transformers, unlike other types of neural networks, they are essentially a _hybrid_ designs, combining elements of classical _rules-based systems_ and neural networks. Transformer is a "vectorized" FCRS with the following assumption:
 
 1. Rules are implicit and learned as attention patterns in the space of "linguistic features". While those features may be interpretable, their connection with generalization transformer is demonstrating 
 2. Self-attention (in the Encoder) is a [_self-join_](https://www.w3schools.com/sql/sql_join_self.asp). It builds [Cartesian product](https://en.wikipedia.org/wiki/Cartesian_product) of the set of semantically enriched tokens with subsequent filtering and transformation in feed-forward layer.
@@ -77,6 +77,8 @@ Second, [Transformer circuits](https://transformer-circuits.pub/2021/framework/i
 For developers coming to the modern AI with GOFAI and data engineering background, this view at how transformers work may say a lot. Attention layers extract complex "linguistic features" from tokens of text and _regroup_ them with tokens themselves, effectively _semantically enriching_ them. This enrichment information is accumulated in "vacant" dimensions of token embeddings. So it's very similar to extending a semantic micro-graph of some fact or feature, or putting new information into JSON object related to the fact/feature. The "real magic" is in the _last layer_ of Decoder converting all this "linguistic information" accumulated in the last token's vector into the _next token prediction_. Transformations in attention layers can be understood in a "symbolic" way (as a set of rules -- see the [RASP DSL](https://arxiv.org/abs/2106.06981) above), but the last layer can hardly be represented this way. It's just a rather large function mapping enriched token embeddings back to token probabilities.
 
 ### It's [not] Just a Stochastic Parrot
+
+Transformer isn't that bizarre internally. It's a chain for Map/Reduce-like transformations of multidimensional vectors, that can be understood in a symbolic/composable way. So why it's so effective relative to other AI technologies before it? Because transformers generalize much better than previous technologies. _Expressiveness_ of attention layers is comparable to expressiveness of SQL joins. [Llama 3.1](https://en.wikipedia.org/wiki/Llama_(language_model)) 70B has 80 layers and 64 attention heads, that is (80 - 1) * 64 = 5056 possible pretty complex (expressive) queries or rules to process for each new token. That's _a lot_ even for a classical rules-based GOFAI.
 
 TBC...
 
