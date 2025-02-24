@@ -2,7 +2,7 @@
 
 This document describes the ongoing activity inside and around the Digital Philosophy project. It's assumed that the reader is familiar enough both with philosophical, psychological and technical aspects of the topic. For in-depth introduction please refer to the [following document](Artificial%20Intelligence.md).
 
-**!DRAFT VERSION!: Further elaboration if technical and philosophical details may follow.**
+**!DRAFT VERSION!: Further elaboration of technical and philosophical details may follow.**
 
 ## Self-Referential Systems
 
@@ -38,7 +38,7 @@ Even if some quale is an illusion, it may be used as description of internal and
 
 Qualitative aspect of self-reporting (set of qualia) is called _Phenomenal Consciousness_ (PConsc). PConsc is hardly reduced to some lower level functions. Form the other side, easily reducible properties are called _Access Consciousness_ (AConsc). In "I see a red light" the proposition itself is AConsc, but _redness_ in the proposition is PConsc. 
 
-Given these preliminaries, we can now define what we mean _in this project_ by Consciousness:
+Given these preliminaries, we can now **define** what we mean in this project by **Consciousness**:
 <a name="consc-defn"></a>
 > Given a self-referential agent acting in an an environment and capable of self-reasoning in an explicit or an indirect/implicit form, Consciousness of the agent is the part of its self-reasoning process describing its _subjective reality_ and _properties_ of that reality, including the agent itself as a part of its reality.
 
