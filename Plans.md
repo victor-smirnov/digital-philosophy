@@ -49,7 +49,7 @@ Generalized Functional Consciousness is scale-independent. We define the followi
 1. **Observer** is a _function_ in an SR system manifesting consistently in scenarios, involving self-reasoning. Observer is a _conclusion_ of causal independence of the Observer and its environment: ("I'm _not_ my environment"). Observer exhibits (reports) _quale_ of _Beingness_, this is "am" in the formula "I am" (where "I" is a Self). Elaborate formula sounds like "I exist and I'm not my environment". Speaking more generally, Observer is an apparent _break in causality_, manifesting in decision making.
 2. **Agency** -- An Observer that can make actions, while considering itself independent from its environment and which is _responsible_ for its own actions. The formula is: "My actions are _mine_ (caused by myself) and NOT determined by my environment". The latter is also known as "downward causation" (note that this term may have multiple meanings).
 
-So, given requirements defined with those two functions, we can try both scaling down consciousness to a simple physical system like [Operational Amplifier](https://en.wikipedia.org/wiki/Operational_amplifier) or a [D-type flip-flop](https://en.wikipedia.org/wiki/Flip-flop_(electronics)), or scaling it up to the level of entire society (collective consciousness of loosely-coupled independent agents).
+The main criterion of a properly functioning consciousness of an entity is that self-report (in an any measurable form) adequately describes the function of the entity (goal-oriented behavior of the entity). 
 
 Note that these two functions define so-called "pure" (or low-level) consciousness where all world-related "content", including many mental specific process, traditionally associated with high-level consciousness in humans, are abstracted away.
 
@@ -94,7 +94,7 @@ So, assessing agentic consciousness require the following models to be specified
 1. Environment.
 2. Agent's behavior in this environment (set of tasks agent performs in its environment).
 3. Agent's conscious narrative with consistency and integrity metrics.
-4. How this narrative is/may be expressed in the agent's behavior.
+4. How this narrative is expressed in the agent's behavior.
 5. Scoring system.
 
 Given these specifications, we can develop a problem-specific test suite for assessing consciousness of both humans and agents when performing certain tasks. Note that one should not expect that humans will be scoring 100% in those tests. We actually aren't that conscious as we think.
@@ -123,20 +123,30 @@ No special hardware or computational model is needed for HOCP. Some HOCP are bas
 
 HOCP are rather easy to integrate into classical Drools-like FCRS thanks to their event-driven nature. Statistics on any computational process (including basic FC algorithms) can be easily available as a working memory content, so sensitive rules may fire in regular way. Such FCRS systems have relatively low potential in AI as a main inference engines (because of manual programming), but can be used as an auxiliary one (as an "executor").
 
-### Consciousness of LLMs
+### Functional Consciousness of LLMs
 
-Large enough LMs demonstrate pretty good self-reasoning capabilities over a kind of "self-model", but the amount of information available about themselves (both behavioral and "cognitive") is fairly limited. Ideally, from the Functionalism's perspective, if textual communication with an LLM is indistinguishable (in terms of passing corresponding tests) from communication with a reasonable human being, this LLM should be considered _functionally conscious_. 
+Large enough LMs demonstrate [pretty convincing](https://arstechnica.com/science/2022/06/google-places-engineer-on-leave-after-he-claims-groups-chatbot-is-sentient/) high-level conscious behavior. So the questions are being risen if they are already really conscious, not yet, or will never be. Well, that's tricky.
 
-As it has been explained above that positive test on functional (behavioral) consciousness does not necessary imply Substance (or "true", "genuine") Consciousness. The question about the latter is considered irrelevant here. What is relevant is that, for example, once the _Agency_ function (taking responsibility) reaches level of mature humans, such AI may act as a _person_ in interactions with humans. So, strictly speaking, we don't need an AI to be "truly conscious" to have rights and dignity, at least in a "digitally adapted" form. It's sufficient that an AI just behaves correctly in corresponding situations. This stance will be much easier to defend rationally than an opposing one.
+Under Physicalism's approach we assume that consciousness is a some physical pattern or "causal flow" (whatever). By comparing causal patterns in two substrates, we can make a decision. But the problem is that we don't currently know neither specific physical pattern of human consciousness, nor its possible variability (substrate independence, digital simulation, etc...). Physicalism currently is just a research approach, not a practically useful tool. So any definitive claims (yes, no) on this basis about consciousness of LLMs are pure speculations at best.
 
-Intuitively, conscious LLM has to demonstrate corresponding _behavior_, within its inherent limitations taken into account. For example, LLMs have no transition from the short- to the long-term memory, so once some information falls out of the context window, it's forgotten. LLMs also lack equivalents of brain's energetic system like dopamine, serotonin and noradrenaline. LLMs do capture elements of corresponding _emotions_ via kind of "textual substitution" by memorizing and even generalizing corresponding (emotionally-induced) _behaviors_. But the problem is that training data is pretty poor on suitable description of emotional states, and current best ML technology (Transformers) do not yet generalize that well to infer essential parts missing in the data. In order to achieve high accuracy of some elements of behavior essential to consciousness, we may need to somehow emulate specific parts of the Limbic System.
+In Functionalism we define consciousness of entities via recursive relations between them (and themselves), and this stuff is much simpler to observe and measure objectively. Relationships can be incredibly complex, but they are defined on top of (or consist from) pretty simple and well defined elements (at the bottom). Functional consciousness has two main dimensions:
 
-Another difference is the level of reasoning that LLMs are achieving. Even a rather small LMs may demonstrate human-level reasoning in certain domains, especially in the domain of low-compressible strings (memoization-heavy non-mathematical problems). Because of the difference in reasoning, on self-modeling tasks LMs can make mistakes that humans usually don't and vice versa. It may seem highly counter-intuitive here that generic reasoning level of the LLM may determine such complex and high-level behavior like the conscious one. But the whole point of _computational_ consciousness is that everything is reducible to computations that is what reasoning is. Moreover, there us a lot of evidence in human psychology that better generic reasoning skills also improve high-level functions.
+1. _Qualitative_: some expected functions may be missing, some unexpected functions may be manifested.
+2. _Quantitative_: certain functions may have some function-specific (or normalized) measure of manifestation. Like, overall activity of consciousness, or complexity of robustly achievable self-referentiality, etc.
 
-Taking it all together, we can assemble the following list of aspects:
-1. Certain functions related to Consciousness may be missing either on LLM's side or on the human's side.
-2. Functions may have different level of manifestation, on both sides.
-3. ...
+Note that the _qualitative_ dimension can be viewed as _quantitative_ one with 0 or 1 as the degree of manifestation for the entire set of possible functions. In this work it's just separated for better expressiveness of the model.
+
+Let's consider an example: verbal consciousness. Language is not essential to consciousness, but it's used to _describe_ relationships constituting it. Damage to corresponding brain nuclei does reduce functionality of consciousness, but not completely, because of "sparse codes": related information is spread (mapped) across spatially distributed regions of the neocortex. So _some_ missing information can be recovered via redundancy. Quantitative estimation of functional loss in this case is problematic, so quantitative approach is more practical as an approximation of the former. 
+
+Another related example is human verbal consciousness vs animals'. Many of species do have a non-trivial language, but the gap between human and even higher non-human animals is _huge_. So for the most practical purposes we can consider verbal consciousness functions missing in animals.
+
+The last example is a possible consciousness of an [operational amplifier (OA)](https://en.wikipedia.org/wiki/Operational_amplifier) vs human consciousness and _beyond_. OA is a multifunction integrated circuit, that, together with the _negative feedback loop_, can perform pretty complex transformations of signals (so called _analogous computations_). Feedback loop works as a _delay line_, that is a natural form of a (very) short-term memory. According to definition of consciousness [above](#consc-defn), we need at minimum a (1) world model, (2) self-model and (3) Beingness -- a form of causal self-separation between Observer and Environment. 
+
+The main criterion of a properly functioning consciousness is that self-report adequately describes the function of an entity (goal-oriented behavior of an entity). So, this self-report is what we have to find in a form of a physical process in an OA-based electrical circuit. It's currently an open question if such a minimal functional consciousness can be built using only one OA, or how many of OAs we need at minimum. It seems to be a pretty good exercise in Philosophy of Mind for both Physicalists and Functionalists.
+
+An alternative to OA can be a [D-type flip-flop](https://en.wikipedia.org/wiki/Flip-flop_(electronics)). Here we have two main states (0 and 1), many transitional states and two feedback lines with delays. So it's also interesting if _inner_ work of this IC can be represented as a minimally conscious process.
+
+So, on the one hand we have very minimal consciousness with jut one basic function (Beingness). On the other hand -- Turing-complete human-level consciousness with myriads of complex functions. We can even try to maximize specific subset of functions (like, _empathy_) to have a kind of _superconsciousness_. Taking some subset of functions we can define a _profile_ of consciousness. For example, OA may have very basic profile of consciousness. Observer + Agency is another, more advanced profile, and so on... 
 
 TBC...
 
