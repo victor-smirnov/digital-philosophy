@@ -123,6 +123,10 @@ No special hardware or computational model is needed for HOCP. Some HOCP are bas
 
 HOCP are rather easy to integrate into classical Drools-like FCRS thanks to their event-driven nature. Statistics on any computational process (including basic FC algorithms) can be easily available as a working memory content, so sensitive rules may fire in regular way. Such FCRS systems have relatively low potential in AI as a main inference engines (because of manual programming), but can be used as an auxiliary one (as an "executor").
 
+### ML Basics
+
+![Approximation](img/approximation.svg)
+
 ### Functional Consciousness of LLMs
 
 Large enough LMs demonstrate [pretty convincing](https://arstechnica.com/science/2022/06/google-places-engineer-on-leave-after-he-claims-groups-chatbot-is-sentient/) high-level conscious behavior. So the questions are being risen if they are already really conscious, not yet, or will never be. Well, that's tricky.
@@ -147,8 +151,6 @@ The main criterion of a properly functioning consciousness is that self-report a
 An alternative to OA can be a [D-type flip-flop](https://en.wikipedia.org/wiki/Flip-flop_(electronics)). Here we have two main states (0 and 1), many transitional states and two feedback lines with delays. So it's also interesting if _inner_ work of this IC can be represented as a minimally conscious process.
 
 So, on the one hand we have very minimal consciousness with just one basic function (Beingness). On the other hand -- Turing-complete human-level consciousness with myriads of complex functions. We can even try to maximize specific subset of functions (like, _empathy_) to have a kind of _superconsciousness_. Taking some subset of functions we can define a _profile_ of consciousness. For example, OA may have very basic profile of consciousness. Observer + Agency is another, more advanced profile, and so on... The question is that _having LLM's conscious behavior (it doesn't matter if it denies that), how to compare it to a corresponding human's one_? But before we do, we need to make it clear how LLM implement various functions.
-
-![Approximation](img/approximation.svg)
 
 TBC...
 
