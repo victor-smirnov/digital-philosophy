@@ -127,6 +127,8 @@ HOCP are rather easy to integrate into classical Drools-like FCRS thanks to thei
 
 ![Approximation](img/approximation.svg)
 
+TBC...
+
 ### Functional Consciousness of LLMs
 
 Large enough LMs demonstrate [pretty convincing](https://arstechnica.com/science/2022/06/google-places-engineer-on-leave-after-he-claims-groups-chatbot-is-sentient/) high-level conscious behavior. So the questions are being risen if they are already really conscious, not yet, or will never be. Well, that's tricky.
