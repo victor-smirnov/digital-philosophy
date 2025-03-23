@@ -148,6 +148,8 @@ An alternative to OA can be a [D-type flip-flop](https://en.wikipedia.org/wiki/F
 
 So, on the one hand we have very minimal consciousness with just one basic function (Beingness). On the other hand -- Turing-complete human-level consciousness with myriads of complex functions. We can even try to maximize specific subset of functions (like, _empathy_) to have a kind of _superconsciousness_. Taking some subset of functions we can define a _profile_ of consciousness. For example, OA may have very basic profile of consciousness. Observer + Agency is another, more advanced profile, and so on... The question is that _having LLM's conscious behavior (it doesn't matter if it denies that), how to compare it to a corresponding human's one_? But before we do, we need to make it clear how LLM implement various functions.
 
+![Approximation](img/approximation.svg)
+
 TBC...
 
 ## Transformers
