@@ -125,6 +125,24 @@ HOCP are rather easy to integrate into classical Drools-like FCRS thanks to thei
 
 ### ML Basics
 
+Before we can consider consciousness of LLMs, we need to refresh how complex functions are computationally approximated in AI via ML. Actually, it doesn't matter if function are "simple" or "complex", the principles are the same. The former just have more custom cases than latter. 
+
+In mathematics, a function is a _bijection_ between two sets, _X_ and _Y_, that can be _the same_ set. It can be the set of all _Real_ numbers (_R_) or set of all finite-length strings _S_. Mathematical functions can be built by a _composition_ of _primitive functions_ and by the [Church-Turing thesis](https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis) it's claimed that all computable functions can be represented this way. So, _Turing Machine_ (and all _equivalent_ formalisms) is an ultimate form of such functional composition. 
+
+The same function _F_ or computable object _X_ can be an output of (can be computed by) many different Turing machines, with different _static-time_ (program _length_) and _run-time_ (running time, memory space) characteristics. In the course of [Algorithmic Information Theory (AIT)](https://en.wikipedia.org/wiki/Algorithmic_information_theory) it's proven that Turing Machine is the _best mathematical description_ of objects (strings, numbers etc) and the _shortest program_ (_P_) generating a strings _S_ is at the same time the best _generative model_ of _S_. The best model for a string _S_ will contain _all_ mathematically expressible regularities containing in _S_ in an explicit form (in the form of a program structures).
+
+There is an algorithm to look for the shortest program _P_ generating a string _S_, [Levin Search](http://www.scholarpedia.org/article/Universal_search), and it's an asymptotically the best way to do it. But the problem is that this process is most of the time is computationally intractable. So we have to be happy with not-so-short programs. For a case of finite strings, the longest program generating a string will be the program, _printing_ this string stored in a verbatim form: `print("Hello World!")`. For infinite strings or functions over infinite sets (like integers) it's just physically impossible to store in memory all the necessary data to compute the function. We do need to find a better way of _describing_ our functions algorithmically, even if looking for the best descriptions is computationally intractable. 
+
+When we store more function's representation in memory in a "verbatim" (uncompressed) form, it's called **memorization**. Otherwise, when we tend to find hidden patterns in the function description and use them represent the function in a more compressed way, it's called **generalization**. We usually prefer better generalization but only unless it's not computationally expensive. 
+
+**Example.** Let we have a very simple function _F(x, y) = x * y_ over natural numbers. Multiplication _(. * .)_ is an elementary function and there are known algorithms defined for any possible argument. Known algorithms are pretty short so the they can be considered very well generalized (not that much can be improved).
+
+But what if the majority of arguments we operate with are in the range, say, [0, 255]? We can improve our function runtime properties by using a table of 256*256=65536 entries, so we can use a fast memory lookup for arguments in this range, falling back to using generic algorithm otherwise. 
+
+What we did is _partial materialization_ of _z = F(x, y) for specific arguments _x_ and _y_. But what if all we know about function _F()_ is a finite set of points _D = {(x, y, z)}_? We can try guessing missing values _z_ by using techniques like [K-nearest neighbors (KNN)](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm). So we _generalize_ over _D_ with the _KNN_ agorithm. For some functions it works pretty well. The more data points we have, the better better approximations of _F()_ we may get with using _KNN_. 
+
+
+
 ![Approximation](img/approximation.svg)
 
 TBC...
