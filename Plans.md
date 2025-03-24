@@ -141,9 +141,15 @@ But what if the majority of arguments we operate with are in the range, say, [0,
 
 What we did is _partial materialization_ of _z = F(x, y) for specific arguments _x_ and _y_. But what if all we know about function _F()_ is a finite set of points _D = {(x, y, z)}_? We can try guessing missing values _z_ by using techniques like [K-nearest neighbors (KNN)](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm). So we _generalize_ over _D_ with the _KNN_ agorithm. For some functions it works pretty well. The more data points we have, the better better approximations of _F()_ we may get with using _KNN_. 
 
+Instead of KNN, we can use any function approximation technique, for instance, artificial neural networks. Every function approximation method is characterized by the (a) number of parameters defining its _complexity_. And (b) some class of functions this method is good in generalization on. Function approximation methods produce _models_ of functions they are approximating. The larger the number of parameters is, the more model tends to _memorize_ dataset instead of generalizing it. In the machine learning community this effect is also called _overfitting_. If the number of parameters is insufficient, the model will tend to _misgeneralize_ the data, that is also called _underfitting_.
 
+Memorization is _explicit_ if there is a dedicated function (memory) to store data points. Like, KNN implies that there is a database of points. Otherwise, memoization is implicit. In general case we say that function approximation method memorizes it training data if it can reproduce it fully or partially.
+
+The following diagram demonstrates how those concepts relate to each other in a typical use case:
 
 ![Approximation](img/approximation.svg)
+
+
 
 TBC...
 
