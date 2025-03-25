@@ -155,7 +155,7 @@ Unfortunately, generic approximation methods used in Machine Learning aren't tha
 
 By the functional equivalence principle, it doesn't matter how function is implemented, if the final result does not depend on an implementation. In case of function approximation when result of the model may differ from the corresponding result of the function, the equivalence principle still apply but with need to consider practical significance of the difference. Real-life functions are probabilistic anyway, there will be always some stochastic discrepancy between identical function runs. 
 
-> What is important here is that arguments against machine consciousness based on architectural difference are philosophically unsound. Function implemented differently is still the same function even if implementation is radically different (e.g. full memorization vs full generalization). It may sound deeply counter-intuitive and go against ethical narratives, but even _partial functional equivalence_ has to be considered seriously. 
+> What is important here is that arguments against machine consciousness based on architectural differences of implementations are philosophically unsound. Function implemented differently is still the same function even if implementation is radically different (e.g. full memorization vs full generalization). It may sound deeply counter-intuitive and go against ethical narratives, but even _partial functional equivalence_ has to be considered seriously. 
 
 ### Functional Consciousness of LLMs
 
