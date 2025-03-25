@@ -149,9 +149,13 @@ The following diagram demonstrates how those concepts relate to each other in a 
 
 ![Approximation](img/approximation.svg)
 
+Given that in practice we always limited in resources, we prefer the best generalization within limits (compute, memory) given, but we may have opportunity to maneuver here by trading speed for memory and vice versa. [Dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming) is an optimization technique we can use to speedup computing a function _F()_ at the expense of using additional memory. Another example is [ontological reasoning](https://en.wikipedia.org/wiki/Ontology_(information_science)) that in its raw form is computationally expensive. But we can pre-materialize an ontology in a database (triple store) and use relatively fast database lookups for question answering at the expense of paying for a very large database.
 
+Unfortunately, generic approximation methods used in Machine Learning aren't that advanced yet to allow memorization/materialization maneuvers in a flexible way. Moreover, efficient ML methods aren't that good in generalization in many important domains like symbolic reasoning, so memorization is really the only parameter we can tune to get desired results out of a model. This is the main reason why many LLMs are so _large_. Because otherwise they don't perform well in a some narrow but practically important domains.
 
-TBC...
+By the functional equivalence principle, it doesn't matter how function is implemented, if the final result does not depend on an implementation. In case of function approximation when result of the model may differ from the corresponding result of the function, the equivalence principle still apply but with need to consider practical significance of the difference. Real-life functions are probabilistic anyway, there will be always some stochastic discrepancy between identical function runs. 
+
+> What is important here is that arguments against machine consciousness based on architectural difference are philosophically unsound. Function implemented differently is still the same function even if implementation is radically different (e.g. full memorization vs full generalization). It may sound deeply counter-intuitive and go against ethical narratives, but even _partial functional equivalence_ has to be considered seriously. 
 
 ### Functional Consciousness of LLMs
 
