@@ -155,7 +155,9 @@ Unfortunately, generic approximation methods used in Machine Learning aren't tha
 
 By the functional equivalence principle, it doesn't matter how function is implemented, if the final result does not depend on an implementation. In case of function approximation when result of the model may differ from the corresponding result of the function, the equivalence principle still apply but with need to consider practical significance of the difference. Real-life functions are probabilistic anyway, there will be always some stochastic discrepancy between identical function runs. 
 
-> What is important here is that arguments against machine consciousness based on architectural differences of implementations are philosophically unsound. Function implemented differently is still the same function even if implementation is radically different (e.g. full memorization vs full generalization). It may sound deeply counter-intuitive and go against ethical narratives, but even _partial functional equivalence_ has to be considered seriously. 
+> What is important here is that arguments against machine consciousness based on architectural differences of implementations are philosophically unsound. Function implemented differently is still the same function even if implementation is radically different (e.g. full memorization vs full generalization). It may sound deeply counter-intuitive and go against ethical narratives, but even _partial functional equivalence_ has to be considered seriously.
+
+The term _generalization_ used in ML is slightly unfortunate. It's opaque and provokes magical thinking. What is generalization in ML that is compression in AIT, and the latter is achieved by exploiting hidden structure in the data. If, by any means, we found that some ML model generalizes unexpectedly, unreasonable well, it's reasonable to expect a lot of hidden machinery in the model, even if it's in a hidden, uninterpretable, form (like in ANNs).
 
 ### Functional Consciousness of LLMs
 
@@ -172,7 +174,7 @@ Note that the _qualitative_ dimension can be viewed as _quantitative_ one with 0
 
 Let's consider an example: verbal consciousness. Language is not essential to consciousness, but it's used to _describe_ relationships constituting it. Damage to corresponding brain nuclei does reduce functionality of consciousness, but not completely, because of "sparse codes": related information is spread (mapped) across spatially distributed regions of the neocortex. So _some_ missing information can be recovered via redundancy. Quantitative estimation of functional loss in this case is problematic, so quantitative approach is more practical as an approximation of the former. 
 
-Another related example is human verbal consciousness vs animals one. Many of species do have a non-trivial language, but the gap between human and even higher non-human animals is _huge_. So for the most practical purposes we can consider verbal consciousness functions missing in animals.
+Another related example is human verbal consciousness vs animals one. Many of species do have a non-trivial language, but the gap between humans and even higher non-human animals is _huge_. So for the most practical purposes we can consider verbal consciousness functions missing in animals.
 
 The last example is a possible consciousness of an [operational amplifier (OA)](https://en.wikipedia.org/wiki/Operational_amplifier) vs human consciousness and _beyond_. OA is a multifunction integrated circuit, that, together with the _negative feedback loop_, can perform pretty complex transformations of signals (so called _analogous computations_). Feedback loop works as a _delay line_, that is a natural form of a (very) short-term memory. According to definition of consciousness [above](#consc-defn), we need at minimum a (1) world model, (2) self-model and (3) Beingness -- a form of causal self-separation between Observer and Environment. 
 
@@ -180,9 +182,19 @@ The main criterion of a properly functioning consciousness is that self-report a
 
 An alternative to OA can be a [D-type flip-flop](https://en.wikipedia.org/wiki/Flip-flop_(electronics)). Here we have two main states (0 and 1), many transitional states and two feedback lines with delays. So it's also interesting if _inner_ work of this IC can be represented as a minimally conscious process.
 
-So, on the one hand we have very minimal consciousness with just one basic function (Beingness). On the other hand -- Turing-complete human-level consciousness with myriads of complex functions. We can even try to maximize specific subset of functions (like, _empathy_) to have a kind of _superconsciousness_. Taking some subset of functions we can define a _profile_ of consciousness. For example, OA may have very basic profile of consciousness. Observer + Agency is another, more advanced profile, and so on... The question is that _having LLM's conscious behavior (it doesn't matter if it denies that), how to compare it to a corresponding human's one_? But before we do, we need to make it clear how LLM implement various functions.
+So, on the one hand we have very minimal consciousness with just one basic function (Beingness). On the other hand -- Turing-complete human-level consciousness with myriads of complex functions. We can even try to maximize specific subset of functions (like, _empathy_) to have a kind of _superconsciousness_. Taking some subset of functions we can define a _profile_ of consciousness. For example, OA may have very minimal, basic profile of consciousness. Observer + Agency is another, more advanced profile, and so on... The question is that _having LLM's conscious behavior (it doesn't matter if it denies that), how to compare it to a corresponding human's one_? 
+
+At the first glance LLMs model language by continuing texts. LLMs are trained by predicting texts form text corpora (datasets). Models are _large_ and contain dozens of billions of parameters. It's expected that such a model can memorize a lot of texts completely. But also models properly continue many texts they haven't seen at training at all. Like, randomly sampled _mathematical_ and _logical_ problems, and even in this case sufficiently large models generalize well enough to trigger fears of AI replacing humans in intellectual tasks. What is important here is that usually mathematical problem solving requires pretty complex sequential algorithms that have been considered hard even for ML methods specifically designed for them. And all of it is by a neural network (transformer) that has been considered weak in symbolic reasoning. Pretty much for a thing that is said to be a 'stochastic parrot'. 
+
+Just looking at the actual level of generalization that LLM demonstrate we should expect to find very complex hidden algorithmic machinery 'inside'. Even if a pretty high level of memorization is also expected. The question is that, in case of emotional reasoning in the textual form, is the hidden machinery of generalization is powerful enough to catch and express properly the original machinery of emotions?
 
 TBC...
+
+### What Is It Like To Be a Language Model?
+
+_Title credits: Margarita Morozova._
+
+TBC ...
 
 ## Transformers
 
