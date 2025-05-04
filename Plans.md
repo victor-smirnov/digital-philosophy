@@ -190,9 +190,21 @@ Just looking at the actual level of generalization that LLM demonstrate, we shou
 
 Let me rephrase it. We used to think that human consciousness is not 100% dependent on a language we are using for _external communication_, and there is a hard physiological evidence for that. But besides external language, there are many internal languages defined as a structured sequences of memory states, and there are a lot of those languages, given that there are a lot of different memory buffers in the brain. There is a corresponding machinery around each buffer and buffers are mapped to each other. This architecture reflects evolutionary history of brain where new subsystems emerged to _extend_ and replace existing ones that have lost efficiency in the changing environment.
 
-
+Below is a rough "layered"-style structure if such a multi-buffer functional system. Note that it does not describe brain's functional system but rather demonstrate the idea itself:
 
 ![Multi-layer System](img/layers.svg)
+
+Layer 0 is the system's frontend communicating with external world. Layers 1..N have two kind of inputs: from bottom layers (Type 1) and from some internal systems (Type 2), like states of the body or run-time state statistsic of the functional system (brain) itself. Note that in general layers don't need to work synchronously like layers in Transfomers. Existence of Type 2 inputs (internal innervation and feedback loops) is what makes brain's functional architecture _to seem_ significantly different from transformers and _language_ models. It may _seem_ to be highly unlikely that language-level modeling is capable of higher-mental functions that _are thought_ to rely heavily on [embodiment](https://arxiv.org/html/2407.06886v1).
+
+What is important here is it can be shown that such a multi-layer architecture is _approximately_ equivalent to a generalized multi-layer Transformer to the degree that: 
+1. internal state has some sufficiently informative _external representation_ (externalization of internal/mental states);
+2. there is properly functional _mapping_ between layers, so external representation of internal state can propagate though lower layers to the place where it's useful.
+
+Transformers are already known to be Turing-complete, so purely theoretical aspect of this equivalence is not a question. We would like to know an actual degree of this equivalence achievable in practice with using existing architectures and ML techniques. This is the same (yet more specialized) question about potential of the World modeling in transformers using only textual description of the World. If we admit that raining a (possibly, multimodel) Transformer may result in a sufficiently accurate World model, we must be open to the idea that conscious behavior that LLM _demonstrate_ (measured both subjectively and functionally via tests) is an actual consciousness. The "stochastic parrot" argument does not apply here.
+
+For humans and animals, exteriorization of mental states is called _intrapersonal intelligence_ -- the ability to understand and express a person's own mind. The ability to read other person's minds is called _empathy_ (empathy in this context is not the same as _compassion_ and does not imply it).
+
+
 
 TBC...
 
