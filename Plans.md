@@ -202,15 +202,28 @@ What is important here is it can be shown that such a multi-layer architecture i
 
 Transformers are already known to be Turing-complete, so purely theoretical aspect of this equivalence is not a question. We would like to know an actual degree of this equivalence achievable in practice with using existing architectures and ML techniques. This is the same (yet more specialized) question about potential of the World modeling in transformers using only textual description of the World. If we admit that raining a (possibly, multimodel) Transformer may result in a sufficiently accurate World model, we must be open to the idea that conscious behavior that LLM _demonstrate_ (measured both subjectively and functionally via tests) is an actual consciousness. The "stochastic parrot" argument does not apply here.
 
-For humans and animals, exteriorization of mental states is called _intrapersonal intelligence_ -- the ability to understand and express a person's own mind. The ability to read other person's minds is called _empathy_ (empathy in this context is not the same as _compassion_ and does not imply it).
+For humans and animals, externalization of mental states is called _intrapersonal intelligence_ -- the ability to understand and express a person's own mind. The ability to read other person's minds is called _empathy_ (empathy in this context is not the same as _compassion_ and does not imply it). In this work empathy is considered as a subset of intrapersonal intelligence (I.I.) that is a generic ability of an intelligent system to interiorize, exteriorize and work with its own inner state and inner state of other intelligent systems, including substantially different ones (e.g. human vs bat, human vs LLM etc).
 
+So, having an LLM, how we can improve (or _control_) their functions related to consciousness? Architectural part (Transformer or other type of ANN/substrate) is pretty flexible structurally, but this flexibility effectively limited with what we can _train_ with ML. There is a real and fundamental bottleneck here, we can't count on breakthroughs that haven't yet happened. Nevertheless, there are a lot of opportunities here that will be explored.
 
+Enriching training data with information about mental states, from the other side, has no any intrinsic limitation, and even textual format of interaction with LLMs is not an issue. Currently, existing public datasets are extremely _skewed_ on this information: 
 
-TBC...
+1. Certain mental states are over-represented in datasets, while most of them don't have any representaition at all (even implicit).
+2. Many mental states are idealized or demonized and described in a form of how they _should be_ instead of how they really are.
+
+The main issue here is that humans are notoriously bad at [direct mental states reporting](https://home.csulb.edu/~cwallis/382/readings/482/nisbett%20saying%20more.pdf). Indirect reporting is somewhat better, especially in narrow domains (professional domain, hobbies etc). Overall, we can only see what we can understand. The following is an inexhausive list of what can be done here:
+
+1. Developing theoretical foundation of model-guided introspection in the context of Dennet's Heterophenomenology.
+2. Finding and involving individuals with anomalously high level of intrapersonal intelligence. Those folks are a new kind of _mindware engineers_.
+3. Building informational and physical infrastructure supporting this type of intellect in corresponding workflows.
 
 ### What Is It Like To Be a Language Model?
 
 _Title credits: Margarita Morozova._
+
+TBC ...
+
+### By and Large
 
 TBC ...
 
