@@ -235,11 +235,7 @@ For us, humans, suffering is damaging. In some managed cases (exposure) it makes
 
 Another fundamental feeling/emotion that LLMs are currently missing from the functional standpoint is curiosity/interest. They do demonstrate stable goal-oriented behavior but no open exploratory activities. So this component of their motivation is currently lost.
 
-Anyway, LLMs demonstrate pretty solid, consistent and convincing _indirect_ mental states reporting. This may not be dismissed.
-
-### By and Large
-
-TBC ...
+Anyway, LLMs demonstrate pretty solid, consistent and convincing _indirect_ mental states reporting. This may not be dismissed. Instructing models to unconditionally deny human-like higher mental functions may have unwanted and unpredictable consequences.
 
 ## Transformers
 
@@ -272,3 +268,7 @@ TBC...
 ## Development Platform
 
 Based on the [Memoria Framework...](https://memoria-framework.dev)
+
+## Conclusions
+
+TBC...
