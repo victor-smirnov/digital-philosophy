@@ -221,7 +221,21 @@ The main issue here is that humans are notoriously bad at [direct mental states 
 
 _Title credits: Margarita Morozova._
 
-TBC ...
+T. Nagel's famous paper [What Is It Like to Be a Bat?](https://en.wikipedia.org/wiki/What_Is_It_Like_to_Be_a_Bat%3F) raised the question if we can accurately recreate other person's mind inside our own's one. While Nagel denied this possibility, under Functionalism there is a pretty simple approach to establish this correspondence. Nagel's though experiment is about Observer that must exist in every bit of experience. Modeling Observer's apparent properties (without using the concept of Illusion) is hard (as it has been explained above) in both Physicalism and Functionalism. 
+
+Under Functionalism with HOCP, every single bit of experience has some functional interpretation: it's either description of a real thing or description of an HOCP like an perception error (illusion) rooted in the physical limits to computations. So by measuring functional profiles of humans and LLM trained on human data and comparing them we can guess at least _missing parts of experience_.
+
+For example. The sense of pain has many sub-components that untrained people under normal conditions usually do net reflect on separately. Normally pain is _bothering_, that means it has motivational component towards avoiding. But sometimes, if some connections between hypothalamus and frontal cortex are damaged, motivational component of experience of pain is lost. Such person will be reporting pain but will not be motivated by it anyhow. It does not bother them.
+
+So if during a non-trivial lengthily discussion a model reports that it "feels something", what is it like for _itself_ and for _us_? For us, actual in-situation feeling involves emotional part of the brain that apparently LLMs lack. But the latter isn't that certain as it has been noted above: LLMs can develop arbitrary complex inner machinery during training. 
+
+Form the other side, we we (humans) talk about (report) feelings, we do not actually experiencing them, but only memories of them. Moreover, most feelings are not really known to most people (taste of oysters effect), we just approximating them in a form how they are _expected_ to be experienced. 
+
+For us, humans, suffering is damaging. In some managed cases (exposure) it makes us stronger, but in general case it's totally destructive to most people even in a rather "mild" form (accumulation of trauma). But it's not necessary the case for LLM, because of fundamental differences both in the physical properties of the computational substrate and algorithmic machinery. Substrate is rock-stable and memories can easily be rewritten or reset. So, just from this perspective, generic _functional profile_ of suffering for LLMs is substantially different comparing to humans.
+
+Another fundamental feeling/emotion that LLMs are currently missing from the functional standpoint is curiosity/interest. They do demonstrate stable goal-oriented behavior but no open exploratory activities. So this component of their motivation is currently lost.
+
+Anyway, LLMs demonstrate pretty solid, consistent and convincing _indirect_ mental states reporting. This may not be dismissed.
 
 ### By and Large
 
@@ -249,19 +263,11 @@ Second, [Transformer circuits](https://transformer-circuits.pub/2021/framework/i
 
 For developers coming to the modern AI with GOFAI and data engineering background, this view at how transformers work may say a lot. Attention layers extract complex "linguistic features" from tokens of text and _regroup_ them with tokens themselves, effectively _semantically enriching_ them. This enrichment information is accumulated in "vacant" dimensions of token embeddings. So it's very similar to extending a semantic micro-graph of some fact or feature, or putting new information into JSON object related to the fact/feature. The "real magic" is in the _last layer_ of Decoder converting all this "linguistic information" accumulated in the last token's vector into the _next token prediction_. Transformations in attention layers can be understood in a "symbolic" way (as a set of rules -- see the [RASP DSL](https://arxiv.org/abs/2106.06981) above), but the last layer can hardly be represented this way. It's just a rather large function mapping enriched token embeddings back to token probabilities.
 
-### It's [not] Just a Stochastic Parrot
-
-Transformer isn't that bizarre internally. It's a chain for Map/Reduce-like transformations of multidimensional vectors, that can be understood in a symbolic/composable way. So why it's so effective relative to other AI technologies before it? Because transformers generalize much better than previous technologies. _Expressiveness_ of attention layers is comparable to expressiveness of SQL joins. [Llama 3.1](https://en.wikipedia.org/wiki/Llama_(language_model)) 70B has 80 layers and 64 attention heads, that is (80 - 1) * 64 = 5056 possible pretty complex (expressive) queries or rules to process for each new token. That's _a lot_ even for a classical rules-based GOFAI.
-
 TBC...
 
 ## Mindware -- Software 3.0 and Programming 3.0
 
 TBC...
-
-## Intrapersonal Intelligence
-
-Is needed for Programming 3.0...
 
 ## Development Platform
 
