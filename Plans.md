@@ -259,27 +259,29 @@ Second, [Transformer circuits](https://transformer-circuits.pub/2021/framework/i
 
 For developers coming to the modern AI with GOFAI and data engineering background, this view at how transformers work may say a lot. Attention layers extract complex "linguistic features" from tokens of text and _regroup_ them with tokens themselves, effectively _semantically enriching_ them. This enrichment information is accumulated in "vacant" dimensions of token embeddings. So it's very similar to extending a semantic micro-graph of some fact or feature, or putting new information into JSON object related to the fact/feature. The "real magic" is in the _last layer_ of Decoder converting all this "linguistic information" accumulated in the last token's vector into the _next token prediction_. Transformations in attention layers can be understood in a "symbolic" way (as a set of rules -- see the [RASP DSL](https://arxiv.org/abs/2106.06981) above), but the last layer can hardly be represented this way. It's just a rather large function mapping enriched token embeddings back to token probabilities.
 
-### Advanced Topics
+### Mindware
 
 So, Transformer neural network is a pretty simple form of a "vectorized" FCRS that is practically Turing-complete (TC). Training symbolic variants of TC system is considered in Inductive Programming (IndProg, with variants) where are looking for a program generating data (or computing a function) in the program space. And IndProg is practically infeasible due to the size of the search space. 
 
 When we train a Transformer NN, we do something different. Gradient-descend-based function optimization _is a_ search method, but the search is performed in the space with different properties:
 1. It's a multi-demensional space where search is performed simultaneously in hundreds of dimensions and directions. 
 2. The search is performed in the space of _approximate_ models that is much (exponentially) more densely populated than the space of exact classical symbolic programs. So finding some solution to demonstrate a "promising results" is much easier (faster). 
-3. While some algorithmic structure is indeed learned at training time, the training data itself already contains strong algorithmic structure in the form of first-person _narratives_ ("I do this and that"). So training process translates and generalizes those implicit algorithmic structures into the form of "vectorized rules" of attention blocks. 
+3. While some algorithmic structure is indeed learned at training time, the training data itself already contains strong algorithmic structure in the form of first-person _narratives_ ("I do this and that"). So training process translates and generalizes those implicit algorithmic structures into the form of "vectorized rules" of attention blocks. And, surprisingly, it works.
 
-TBC...
+The latter is probably the most important claim in this entire work. Narratives are abundant in textual data, and functional core of Observer is pretty simple that even a relatively small LMs can generalize this data well enough to demonstrate _weak_ agentic properties. Large enough LMs can demonstrate elements of _strong_ agency (elements of free will, etc). It means that manifestation of corresponding functions is gradual and manageable under some conditions.
 
-## Mindware -- Software 3.0 and Programming 3.0
+In this context Computational Consciousness (CC) is not just a self-referential aspect of corresponding functionality. CC is a universal functional basis capable of expressing any computable functionality. So it is expected that "deeply self-referential" properties will be found in many corresponding data structures.
 
-TBC...
+CC-level programming is called here "Mindware".
+
+### Extensions
+
+
+
+TBC ...
 
 ## Development Platform
 
-
-
 Based on the [Memoria Framework...](https://memoria-framework.dev)
-
-## Conclusions
 
 TBC...
