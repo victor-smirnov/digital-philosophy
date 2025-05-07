@@ -299,6 +299,7 @@ Mindware is a set of _theories of mind_ (ToM) in a form of _self-reports_ explai
 3. Algorithmic Information Theory basics and related concepts.
 4. Dataset of Mind states-level reasoning cases.
 5. Benchmarks (public and private). 
+6. Integrations with agentic frameworks.
 
 Basically, this list is an elaborate version of this work, structured into a self-report of an LLM-based self-referential agent.
 
