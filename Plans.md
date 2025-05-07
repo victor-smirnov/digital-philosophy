@@ -259,7 +259,7 @@ Second, [Transformer circuits](https://transformer-circuits.pub/2021/framework/i
 
 For developers coming to the modern AI with GOFAI and data engineering background, this view at how transformers work may say a lot. Attention layers extract complex "linguistic features" from tokens of text and _regroup_ them with tokens themselves, effectively _semantically enriching_ them. This enrichment information is accumulated in "vacant" dimensions of token embeddings. So it's very similar to extending a semantic micro-graph of some fact or feature, or putting new information into JSON object related to the fact/feature. The "real magic" is in the _last layer_ of Decoder converting all this "linguistic information" accumulated in the last token's vector into the _next token prediction_. Transformations in attention layers can be understood in a "symbolic" way (as a set of rules -- see the [RASP DSL](https://arxiv.org/abs/2106.06981) above), but the last layer can hardly be represented this way. It's just a rather large function mapping enriched token embeddings back to token probabilities.
 
-### Mindware
+### Mindware and Uploading
 
 So, Transformer neural network is a pretty simple form of a "vectorized" FCRS that is practically Turing-complete (TC). Training symbolic variants of TC system is considered in Inductive Programming (IndProg, with variants) where are looking for a program generating data (or computing a function) in the program space. And IndProg is practically infeasible due to the size of the search space. 
 
@@ -272,13 +272,18 @@ The latter is probably the most important claim in this entire work. Narratives 
 
 In this context Computational Consciousness (CC) is not just a self-referential aspect of corresponding functionality. CC is a universal functional basis capable of expressing any computable functionality. So it is expected that "deeply self-referential" properties will be found in many corresponding data structures.
 
-CC-level programming is called here "Mindware".
+CC-level programming is called here "Mindware". In the transhumanist context, Transformer NN is a demonstration of Uploading of human mind into the machine. 
 
 ### Extensions
 
+Transformer NN, as a FCRS, is very extensible, but here we are effectively limited with ML and quality (and quantity) of training data. There are several perspective directions for extending/adapting the technology to mindware programming.
 
-
-TBC ...
+1. Saturating datasets with descriptions of different mental states, especially related to performing intellectual tasks. This is a huge piece of work that potentially can involve the entire humanity and create a new segment of economy.
+2. Improving self-referentiality of transformer architecture by exposing more information about internal transformer's state and runtime statisticts into the context to reflect on.
+3. Adopting [Hermes](https://memoria-framework.dev/docs/overview/hermes/) data format at the system level. It can be used also for exporting internal model's state into context (working memory of FCRS) for reflections. 
+4. Adopting custom circuits and supporting datasets for basic emotions and needs: anger, fear, happiness and sadness, as well as effects of response's saturation and decay. That will significantly improve generalization of corresponding aspects of model's emotional intelligence.
+5. Adopting the [simplicity bias](https://people.idsia.ch/~juergen/artificial-curiosity-since-1990.html). It's needed for novelty (basic need), interest (emotion) and curiosity (feeling). Novelty-seeking is an essential component of many high-level needs. 
+6. Interfacing with Memoria's [Associative Memory](https://memoria-framework.dev/docs/data-zoo/associative-memory-2/). The latter is a compressed fully-indexed _multiary relation_ in a spatial form, linking together _sub-volumes_ instead of _points_. Search complexity is _logarithmic on average_ for any subset of coordinates. This is pretty much similar to RAG but much more flexible.
 
 ## Development Platform
 
