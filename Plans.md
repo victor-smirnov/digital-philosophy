@@ -241,23 +241,32 @@ Anyway, LLMs demonstrate pretty solid, consistent and convincing _indirect_ ment
 
 ### Basics
 
-[Transformers](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)) are a little bit bizarre, but they aren't special. They are [nearly Turing-complete](https://jmlr.org/papers/v22/20-302.html), although this is really not that important in practice, unless we are programming it manually. If we are using ML for inductive learning, Turing-completeness is useless unless our learning algorithms can generalize in a large enough subset of the programs space. It's an open question how really generic ANN training methods are in this respect, but one should not _rely_ on that. Despite sufficiently large LMs demonstrating very good procedural capabilities, these capabilities rely more on _memoization_ than on _generalization_. Memoization is an essential part of intellect (in a general sense), but it directly depends on the quality (diversity, consistency etc) of training data. 
+[Transformers](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)) are a little bit bizarre, but they aren't special. They are [nearly Turing-complete](https://jmlr.org/papers/v22/20-302.html), although this is really not that important in practice, unless we are programming it manually. If we are using ML for inductive learning, Turing-completeness is useless unless our learning algorithms can generalize in a large enough subset of the program space. It's an open question how really generic ANN training methods are in this respect, but one should not _rely_ on that. Despite sufficiently large LMs demonstrating very good procedural capabilities, these capabilities rely more on _memoization_ than on _generalization_. Memoization is an essential part of intellect (in a general sense), but it directly depends on the quality (diversity, consistency etc) of training data. 
 
-Generalization (correct prediction of strings it didn't see at training time) achievable by transformers is also very impressive, but it's not sufficient to rely on them as on general programmers: they aren't that good at _inventing_ new things. So one should not expect that transformers can sample from the entire space of programs (Turing Machines) during inference. If we want some specific behavior to be learned by a transformer, we need to provide sufficiently representative training data, and _maybe_ it will be generalized enough by the specific transformer architecture (to cover functionality not in the training data).
+Generalization (correct prediction of strings the predictor didn't see at training time) achievable by transformers is also very impressive, but it's not sufficient to rely on them as on general programmers: they aren't that good at _inventing_ new things. So one should not expect that transformers can sample from the entire space of programs (Turing Machines) during inference. If we want some specific behavior to be learned by a transformer, we need to provide sufficiently representative training data, and _maybe_ it will be generalized enough by the specific transformer architecture (to cover functionality not in the training data).
 
 Transformers, unlike other types of neural networks, they are essentially a _hybrid_ designs, combining elements of classical _rules-based systems_ and neural networks. Transformer is a "vectorized" FCRS with the following assumption:
 
-1. Rules are implicit and learned as attention patterns in the space of "linguistic features". While those features may be interpretable, their connection with generalization transformer is demonstrating 
+1. Rules are implicit and learned as attention patterns in the space of "linguistic features". 
 2. Self-attention (in the Encoder) is a [_self-join_](https://www.w3schools.com/sql/sql_join_self.asp). It builds [Cartesian product](https://en.wikipedia.org/wiki/Cartesian_product) of the set of semantically enriched tokens with subsequent filtering and transformation in feed-forward layer.
 3. Cross-attention is a [_cross-join_](https://www.w3schools.com/mysql/mysql_join_cross.asp) between Encoder and Decoder.
 4. Causal self-attention in the Decoder has no direct correspondence in relational algebra, but can also be viewed as a restricted form of self-join.
-5. Context window is a _working memory_ where all persistent state is stored in the _symbolic_ and interpretable form. Every token generation, one rules application step is performed, resulting in new element is added to the working memory until the stop condition is reached. 
+5. Context window is a _working memory_ where all persistent state is stored in the _symbolic_ and interpretable form. Every token generation, one rules application step is performed, resulting in new element is added to the working memory until the "stop" condition is reached. 
 
 There are two works helping to understand transformers this way. First, [Thinking like Transformer](https://arxiv.org/abs/2106.06981) explains Encoder-only transformer architecture as a sequence of [Map/Reduce](https://en.wikipedia.org/wiki/MapReduce) steps (attention) followed by by-item transformation steps (FFN). They introduce a DSL, RASP, that is used to specify feature extractions and transformations at the logical level.
 
 Second, [Transformer circuits](https://transformer-circuits.pub/2021/framework/index.html) article explains how different types of information are encoded and processed in multidimensional vectors.
 
 For developers coming to the modern AI with GOFAI and data engineering background, this view at how transformers work may say a lot. Attention layers extract complex "linguistic features" from tokens of text and _regroup_ them with tokens themselves, effectively _semantically enriching_ them. This enrichment information is accumulated in "vacant" dimensions of token embeddings. So it's very similar to extending a semantic micro-graph of some fact or feature, or putting new information into JSON object related to the fact/feature. The "real magic" is in the _last layer_ of Decoder converting all this "linguistic information" accumulated in the last token's vector into the _next token prediction_. Transformations in attention layers can be understood in a "symbolic" way (as a set of rules -- see the [RASP DSL](https://arxiv.org/abs/2106.06981) above), but the last layer can hardly be represented this way. It's just a rather large function mapping enriched token embeddings back to token probabilities.
+
+### Advanced Topics
+
+So, Transformer neural network is a pretty simple form of a "vectorized" FCRS that is practically Turing-complete (TC). Training symbolic variants of TC system is considered in Inductive Programming (IndProg, with variants) where are looking for a program generating data (or computing a function) in the program space. And IndProg is practically infeasible due to the size of the search space. 
+
+When we train a Transformer NN, we do something different. Gradient-descend-based function optimization _is a_ search method, but the search is performed in the space with different properties:
+1. It's a multi-demensional space where search is performed simultaneously in hundreds of dimensions and directions. 
+2. The search is performed in the space of _approximate_ models that is much (exponentially) more densely populated than the space of exact classical symbolic programs. So finding some solution to demonstrate a "promising results" is much easier (faster). 
+3. While some algorithmic structure is indeed learned at training time, the training data itself already contains strong algorithmic structure in the form of first-person _narratives_ ("I do this and that"). So training process translates and generalizes those implicit algorithmic structures into the form of "vectorized rules" of attention blocks. 
 
 TBC...
 
@@ -266,6 +275,8 @@ TBC...
 TBC...
 
 ## Development Platform
+
+
 
 Based on the [Memoria Framework...](https://memoria-framework.dev)
 
