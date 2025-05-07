@@ -287,6 +287,21 @@ Transformer NN, as a FCRS, is very extensible, but here we are effectively limit
 
 ## Development Platform
 
+There are two rather independent aspects of the Computation Consciousness platform: Mindware and Software/Hardware.
+
+The whole point of intrapersonal intelligence (I.I.) theory is to improve efficiency of intellect by improving self-referentiality and self-control. I.I. improves externalization of mental states so more internal state can be offloaded into external memory, resulting in much better memory-related reasoning performance. This performance can be assessed with corresponding benchmarks. _The main hypothesis is that the same thing will also improve generic performance of LLM inference (and training)._ This hypothesis is falsifiable.
+
+As a special case of improved performance, I.I.-extended models can start reason about problems that previously were out of reach for them, opening new areas of automation: psychology, philosophy, sociology, arts, etc.
+
+Mindware is a set of _theories of mind_ (ToM) in a form of _self-reports_ explaining the following topics to an LLM like it was a real person:
+1. Philosophy of Mind basics. Philosophical conceptions of ToM with navigation between Dualism/Panpsychism and Physicalism/Functionalism.
+2. Psychological conceptions supporting philosophical ToM (in Psychology, ToM has different meaning).
+3. Algorithmic Information Theory basics and related concepts.
+4. Dataset of Mind states-level reasoning cases.
+5. Benchmarks (public and private). 
+
+Basically, this list is an elaborate version of this work, structured into a self-report of an LLM-based self-referential agent.
+
 Based on the [Memoria Framework...](https://memoria-framework.dev)
 
 TBC...
