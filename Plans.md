@@ -4,6 +4,7 @@ This document describes the ongoing activity inside and around the Digital Philo
 
 **STATUS: !DRAFT VERSION!**
 **STATUS: Main ideas have been outlined but the text needs readout, fixes and making it more self-consistent.**
+**NEXT: Read-out.**
 
 ## Self-Referential Systems
 
