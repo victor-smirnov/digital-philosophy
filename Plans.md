@@ -2,7 +2,8 @@
 
 This document describes the ongoing activity inside and around the Digital Philosophy project. It's assumed that the reader is familiar enough both with philosophical, psychological and technical aspects of the topic. For in-depth introduction please refer to the [following document](Artificial%20Intelligence.md).
 
-**!DRAFT VERSION!: Further elaboration of technical and philosophical details may follow.**
+**STATUS: !DRAFT VERSION!**
+**STATUS: Main ideas have been outlined but the text needs readout, fixes and making it more self-consistent.**
 
 ## Self-Referential Systems
 
@@ -293,6 +294,8 @@ The whole point of intrapersonal intelligence (I.I.) theory is to improve effici
 
 As a special case of improved performance, I.I.-extended models can start reason about problems that previously were out of reach for them, opening new areas of automation: psychology, philosophy, sociology, arts, etc.
 
+**PHASE 1.**
+
 Mindware is a set of _theories of mind_ (ToM) in a form of _self-reports_ explaining the following topics to an LLM like it was a real person:
 1. Philosophy of Mind basics. Philosophical conceptions of ToM with navigation between Dualism/Panpsychism and Physicalism/Functionalism.
 2. Psychological conceptions supporting philosophical ToM (in Psychology, ToM has different meaning).
@@ -301,8 +304,11 @@ Mindware is a set of _theories of mind_ (ToM) in a form of _self-reports_ explai
 5. Benchmarks (public and private). 
 6. Integrations with agentic frameworks.
 
-Basically, this list is an elaborate version of this work, structured into a self-report of an LLM-based self-referential agent.
+Basically, this list is an elaborate version of this work, structured into a for of self-report, elaborated with links to context and grounded in research (if available).
 
-Based on the [Memoria Framework...](https://memoria-framework.dev)
+**PHASE 2.**
 
-TBC...
+Once positive effect of ToMs to reasoning performance is confirmed, it's time to start experimenting with specialized Transformer architectures with [basic functions](#extensions) implemented natively.
+
+This project is companion to the [Memoria Framework](https://memoria-framework.dev). While there is no direct correspondence between them, they will be using each other.
+
