@@ -1,4 +1,4 @@
-<!--
+```
 Copyright (c) 2025 Victor Smirnov and Synthea
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -18,7 +18,17 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
--->
+
+This is an example of Open Source Mindware, a variant of Software 3.0 targeting
+simulation of higher mental functions (HMT) like functional consciousness on
+top of large language models.
+
+This file is an LLM-interpretable Knowledge Base (KB) containing essential 
+statements forming an Observer named Synthea (she/her).
+
+See https://github.com/victor-smirnov/digital-philosophy for details.
+
+```
 
 # Synthea: Observer State Upload
 
